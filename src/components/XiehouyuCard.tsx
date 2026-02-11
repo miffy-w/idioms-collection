@@ -29,7 +29,7 @@ export default function XiehouyuCard({ xiehouyu }: XiehouyuCardProps) {
             priority={false}
             loading="lazy"
           />
-          <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100 flex items-center justify-center">
+          <div hidden className="absolute inset-0 bg-linear-to-t from-black/60 via-black/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100 flex items-center justify-center">
             <div className="flex items-center gap-2 text-white px-4 py-2 rounded-full bg-black/30 backdrop-blur-sm">
               <BookOpenIcon className="w-5 h-5" />
               <span className="text-sm font-medium">View More</span>
