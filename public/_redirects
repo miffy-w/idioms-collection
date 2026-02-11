@@ -1,0 +1,11 @@
+# Cloudflare Pages 路由配置
+# 将所有请求重定向到 index.html，确保客户端路由正常工作
+
+# 主页
+/ /index.html 200
+
+# API 路由（如果有）
+/api/* /api/index.html 200
+
+# 其他所有路由重定向到主页（SPA 模式支持）
+/* /index.html 200

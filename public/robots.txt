@@ -1,0 +1,15 @@
+# robots.txt for Chinese Idioms Collection
+
+User-agent: *
+Allow: /
+
+# Block common bot paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+
+# Sitemap
+Sitemap: https://idioms-collection.vaste.top/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
