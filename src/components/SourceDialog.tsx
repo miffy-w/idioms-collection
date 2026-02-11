@@ -28,7 +28,7 @@ export default function SourceDialog({
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="max-w-4xl max-h-[85vh] flex flex-col overflow-hidden p-0">
         {/* Image Preview */}
-        <div className="relative w-full max-h-[40vh] bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900 shrink-0">
+        <div className="relative w-full max-h-[40vh] bg-linear-to-br from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900 shrink-0">
           <Image
             src={xiehouyu.imageUrl}
             alt={xiehouyu.chinese}
@@ -51,7 +51,7 @@ export default function SourceDialog({
           <ScrollArea className="h-full px-6 py-4">
             <div className="space-y-5">
               {/* Idiom Review */}
-              <div className="bg-gradient-to-r from-rose-50 via-purple-50 to-blue-50 dark:from-slate-900 dark:via-purple-950 dark:to-slate-900 rounded-lg p-5 border">
+              <div className="bg-linear-to-r from-rose-50 via-purple-50 to-blue-50 dark:from-slate-900 dark:via-purple-950 dark:to-slate-900 rounded-lg p-5 border">
                 <div className="space-y-2.5">
                   <div className="flex items-center gap-2">
                     <span className="text-xs font-medium text-muted-foreground uppercase tracking-wide">
@@ -84,7 +84,7 @@ export default function SourceDialog({
               {/* Origin & Story */}
               <div className="space-y-2.5">
                 <h3 className="text-lg font-semibold flex items-center gap-2">
-                  <span className="inline-block w-1 h-6 bg-gradient-to-b from-rose-500 via-purple-500 to-blue-500 rounded-full" />
+                  <span className="inline-block w-1 h-6 bg-linear-to-b from-rose-500 via-purple-500 to-blue-500 rounded-full" />
                   Origin & Story
                 </h3>
                 <div className="bg-muted/50 rounded-lg p-5 leading-relaxed text-base">

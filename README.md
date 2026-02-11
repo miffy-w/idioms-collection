@@ -30,24 +30,12 @@ pnpm install
 ### 启动开发服务器
 
 ```bash
-coze dev
-```
-
-或
-
-```bash
 pnpm dev
 ```
 
 访问 `http://localhost:5000` 查看网站
 
 ### 构建生产版本
-
-```bash
-coze build
-```
-
-或
 
 ```bash
 pnpm build
@@ -119,7 +107,6 @@ pnpm build
 │       └── utils.ts          # 工具函数
 ├── public/                   # 静态资源
 ├── next.config.ts           # Next.js 配置
-├── .coze                    # Coze CLI 配置
 └── package.json             # 项目依赖
 ```
 
