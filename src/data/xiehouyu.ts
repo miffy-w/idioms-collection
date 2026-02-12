@@ -11,6 +11,36 @@ export interface Xiehouyu {
 
 export const xiehouyuData: Xiehouyu[] = [
   {
+    id: '29',
+    chinese: '千里送鹅毛',
+    chineseMeaning: '礼轻情意重',
+    english: 'Sending a goose feather from a thousand miles away',
+    englishMeaning: 'The gift is light but the sentiment is heavy',
+    imageUrl: '/2026-02-12_21-37-20.webp',
+    source: 'From Chinese folklore. During the Tang Dynasty, a retainer of General Mian Bogao brought a white goose feather as a gift to the Emperor from thousands of miles away. When questioned about the meager gift, he explained that it represented the general\'s sincere heart despite its small value. The Emperor was moved by the sentiment. It metaphorically describes how a small gift, when sent from afar with sincere intentions, carries great emotional value.',
+    meaning: 'This idiom teaches us about the importance of sincerity and intention over material value in gift-giving and relationships. It reminds us that what matters most is the thought and effort behind a gesture, not its monetary worth. It encourages us to value emotional connections and thoughtful gestures over expensive presents.\n\nUsage: Use this idiom when someone gives a small gift with deep sentimental value, or when acknowledging that a small gesture carries great emotional significance. For example, a handmade card from a distant friend, a small souvenir brought from a faraway trip, or a token of appreciation that may be inexpensive but heartfelt.'
+  },
+  {
+    id: '30',
+    chinese: '秀才遇到兵',
+    chineseMeaning: '有理讲不清',
+    english: 'Scholar meets soldier',
+    englishMeaning: 'Cannot reason with unreasonable people',
+    imageUrl: '/2026-02-12_21-09-14.jpg',
+    source: 'This idiom originates from traditional Chinese culture. A xiucai (scholar who passed the imperial examination) represents intellect, logic, and civilized discourse, while a soldier represents brute force and authority. When a scholar tries to reason with a soldier who only responds to orders or force, his logical arguments have no effect. It metaphorically describes the frustration of trying to use reason with someone who doesn\'t value it or operates by different rules.',
+    meaning: 'This idiom teaches us about the futility of trying to reason with those who don\'t value logic or intellectual discourse. It reminds us that different people operate by different value systems, and sometimes logic simply won\'t work. It encourages us to recognize when communication styles are incompatible and adapt our approach accordingly, rather than wasting effort on futile reasoning.\n\nUsage: Use this idiom when someone tries to use logic and reason with someone who responds only with force or refuses to listen, or when describing the frustration of dealing with unreasonable people. For example, trying to explain technical details to a manager who only cares about results, or trying to reason with an angry customer who refuses to listen.'
+  },
+  {
+    id: '31',
+    chinese: '泼出去的水',
+    chineseMeaning: '收不回',
+    english: 'Spilled water',
+    englishMeaning: 'Irreversible, cannot be taken back',
+    imageUrl: '/2026-02-12_21-09-11.webp',
+    source: 'This idiom originates from Chinese proverbs. Once water is splashed onto the ground, it spreads and is absorbed by the earth, making it impossible to collect back. It metaphorically describes actions, decisions, or words that, once done or said, cannot be reversed or taken back.',
+    meaning: 'This idiom teaches us about the permanence of our actions and the importance of thinking before acting or speaking. It reminds us that some decisions are irreversible and that we must accept the consequences of our choices. It encourages us to be thoughtful and deliberate in our words and actions, recognizing that we cannot undo the past.\n\nUsage: Use this idiom when describing something that cannot be reversed or taken back, or when warning about the irreversibility of certain actions. For example, harsh words spoken in anger that cannot be unsaid, a resignation letter submitted that cannot be withdrawn, or a decision made that has lasting consequences.'
+  },
+  {
     id: '27',
     chinese: '猪八戒照镜子',
     chineseMeaning: '里外不是人',
@@ -19,6 +49,36 @@ export const xiehouyuData: Xiehouyu[] = [
     imageUrl: '/2026-02-12_17-13-26.webp',
     source: 'From "Journey to the West," one of China\'s Four Great Classical Novels. Zhu Bajie (Pig Bajie), one of the main characters, is a pig demon who looks in the mirror and sees his pig face. It metaphorically describes someone who ends up offending both sides and being criticized by everyone, no matter what they do.',
     meaning: 'This idiom teaches us about the difficulty of trying to please everyone and the consequences of being caught between conflicting sides. It reminds us that when we try to accommodate everyone, we often end up satisfying no one. It encourages us to take a clear stance rather than trying to be all things to all people.\n\nUsage: Use this idiom when someone tries to mediate between two parties but ends up being criticized by both, or when someone\'s efforts to please everyone backfire. For example, a manager trying to satisfy both employees and upper management but being criticized by both, or a person caught between two friends\' conflicts who is blamed by both.'
+  },
+  {
+    id: '23',
+    chinese: '鹬蚌相争',
+    chineseMeaning: '渔翁得利',
+    english: 'Sandpiper and clam, fisherman gains',
+    englishMeaning: 'Third party benefits from conflict',
+    imageUrl: '/2026-02-12_14-12-23.jpg',
+    source: 'From "Strategies of the Warring States: Yan Strategy II." A sandpiper tried to eat a clam\'s meat, but the clam clamped shut on its beak. They struggled together, refusing to let go. A fisherman came by and caught them both. It metaphorically describes how two parties in conflict both lose, allowing a third party to benefit.',
+    meaning: 'This idiom warns against the dangers of prolonged conflict and the wisdom of compromise. It teaches us that fighting with others often leads to mutual destruction, while those who stand aside can take advantage. It encourages seeking peaceful resolution and avoiding unnecessary conflicts.\n\nUsage: Use this idiom when two parties are in conflict and a third party benefits, or when warning against engaging in prolonged disputes. For example, two companies competing so fiercely that a third competitor takes their market share, or two siblings fighting over a toy while another child plays with it.'
+  },
+  {
+    id: '22',
+    chinese: '铁杵磨成针',
+    chineseMeaning: '功到自然成',
+    english: 'Grinding an iron pestle into a needle',
+    englishMeaning: 'Perseverance leads to success',
+    imageUrl: '/2026-02-12_14-12-20.jpg',
+    source: 'The story of Li Bai, one of China\'s greatest poets, meeting an old woman grinding a large iron pestle into a needle by a river. When asked why she was doing something so difficult, she replied that with enough time and patience, anything can be accomplished. This inspired Li Bai to study harder.',
+    meaning: 'This idiom teaches the power of persistence and dedication. It reminds us that with enough time, patience, and consistent effort, even the most difficult goals can be achieved. It encourages us to stay committed to our goals despite obstacles and setbacks.\n\nUsage: Use this idiom when someone needs encouragement to keep working on a long-term goal, or when celebrating someone who has achieved success through persistent effort. For example, a student preparing for exams over many months, or an entrepreneur building a business from scratch.'
+  },
+  {
+    id: '24',
+    chinese: '塞翁失马',
+    chineseMeaning: '焉知非福',
+    english: 'Old man lost his horse',
+    englishMeaning: 'A blessing in disguise',
+    imageUrl: '/2026-02-12_14-12-22.webp',
+    source: 'From "Huainanzi: Ren Jian Xun." An old man living near the frontier lost his horse. His neighbors sympathized, but he said, "Who knows if this is not a blessing?" Later, the horse returned with another fine horse. Then his son fell riding the horse and broke his leg. Again, the old man said, "Who knows if this is not a blessing?" When war came, all young men were drafted except his son due to his injury.',
+    meaning: 'This idiom teaches the wisdom of perspective and acceptance. It reminds us that good and bad fortune are intertwined, and what appears to be misfortune may lead to good outcomes, and vice versa. It encourages maintaining a balanced attitude toward life\'s ups and downs.\n\nUsage: Use this idiom when something bad happens but leads to unexpected good results, or when trying to console someone who has suffered a loss. For example, losing a job but finding a better career path, or missing a train but avoiding an accident.'
   },
   {
     id: '28',
