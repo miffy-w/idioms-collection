@@ -11,6 +11,26 @@ export interface Xiehouyu {
 
 export const xiehouyuData: Xiehouyu[] = [
   {
+    id: '26',
+    chinese: '虎落平阳',
+    chineseMeaning: '被犬欺',
+    english: 'Tiger in flat land',
+    englishMeaning: 'Powerful in wrong place, bullied by weak',
+    imageUrl: '/2026-02-12_14-18-14.webp',
+    source: 'This idiom originates from Chinese proverbs. A tiger is powerful and feared in the mountains, but when it descends to flat lands (平阳 - Pingyang, meaning flat terrain), it loses its natural advantage and can even be bullied by dogs. It metaphorically describes powerful people who, when out of their favorable environment, become vulnerable and can be oppressed by those they would normally dominate.',
+    meaning: 'This idiom teaches us about the importance of environment and context in determining one\'s power and influence. It reminds us that strength is relative and depends on being in the right circumstances. It also serves as a warning to powerful people to be humble and recognize their vulnerability when outside their domain.\n\nUsage: Use this idiom when a powerful person is in a difficult situation where they lose their advantage and are oppressed by those they would normally dominate, or when warning against the consequences of losing one\'s advantageous position. For example, a CEO losing power and being mistreated by subordinates, or a military general defeated and captured by ordinary soldiers.'
+  },
+  {
+    id: '25',
+    chinese: '泥菩萨过河',
+    chineseMeaning: '自身难保',
+    english: 'Clay Buddha crosses the river',
+    englishMeaning: 'Cannot save itself',
+    imageUrl: '/2026-02-12_14-12-27.webp',
+    source: 'This idiom originates from Chinese folklore. A clay Buddha statue, made of mud and earth, when placed in water, would gradually dissolve and fall apart. It metaphorically describes someone who is in such a precarious situation that they cannot even protect themselves, let alone help others.',
+    meaning: 'This idiom teaches us about self-preservation and the importance of securing one\'s own position before attempting to help others. It reminds us that we must first ensure our own stability and safety before we can effectively assist others. It also highlights the reality that people in vulnerable positions often lack the capacity to help others.\n\nUsage: Use this idiom when someone is in such a difficult situation that they cannot help anyone else, or when warning against relying on someone who is themselves in trouble. For example, a person struggling financially cannot lend money to others, or someone facing their own crisis cannot assist with someone else\'s problems.'
+  },
+  {
     id: "2026-02-11 20:03",
     chinese: "狗拿耗子",
     chineseMeaning: "多管闲事",
@@ -18,9 +38,9 @@ export const xiehouyuData: Xiehouyu[] = [
     englishMeaning: "Too meddlesome",
     imageUrl: "/dog.webp",
     source:
-      "This idiom originates from the Qing Dynasty novel \"The Story of Heroic Sons and Daughters\" (儿女英雄传) by Wen Kang, specifically chapter 34. It metaphorically describes meddling in affairs that are outside one’s responsibility or expertise. Traditionally, a dog's duty is to guard the house, while catching mice is the cat's job; thus, a dog attempting to catch mice is seen as overstepping its bounds.",
+      "This idiom originates from the Qing Dynasty novel \"The Story of Heroic Sons and Daughters\" (儿女英雄传) by Wen Kang, specifically chapter 34. It metaphorically describes meddling in affairs that are outside one's responsibility or expertise. Traditionally, a dog's duty is to guard the house, while catching mice is the cat's job; thus, a dog attempting to catch mice is seen as overstepping its bounds.",
     meaning:
-      "This idiom cautions against interfering in matters that do not concern you or are beyond your role. It highlights the importance of respecting boundaries and focusing on one’s own responsibilities rather than unnecessarily involving oneself in others’ affairs. It serves as a reminder that even with good intentions, meddling can be unwelcome and counterproductive.\n\nUsage: Use this idiom when someone interferes in a situation that is none of their business, or when they try to take on a task that is clearly someone else’s responsibility. For example, giving unsolicited advice on a colleague’s project, or getting involved in a family dispute that doesn’t involve you.",
+      "This idiom cautions against interfering in matters that do not concern you or are beyond your role. It highlights the importance of respecting boundaries and focusing on one's own responsibilities rather than unnecessarily involving oneself in others' affairs. It serves as a reminder that even with good intentions, meddling can be unwelcome and counterproductive.\n\nUsage: Use this idiom when someone interferes in a situation that is none of their business, or when they try to take on a task that is clearly someone else's responsibility. For example, giving unsolicited advice on a colleague's project, or getting involved in a family dispute that doesn't involve you.",
   },
   {
     id: "1",
