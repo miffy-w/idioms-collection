@@ -4,7 +4,7 @@ import { useState } from "react"
 import Image from "next/image"
 import { Xiehouyu } from '@/data/xiehouyu'
 import SourceDialog from './SourceDialog'
-import { BookOpenIcon, Loader2 } from 'lucide-react'
+import { BookOpenIcon, Loader2, AlertCircle } from 'lucide-react'
 
 interface XiehouyuCardProps {
   xiehouyu: Xiehouyu;
@@ -13,6 +13,7 @@ interface XiehouyuCardProps {
 export default function XiehouyuCard({ xiehouyu }: XiehouyuCardProps) {
   const [isDialogOpen, setIsDialogOpen] = useState(false)
   const [imageLoaded, setImageLoaded] = useState(false)
+  const [imageError, setImageError] = useState(false)
 
   return (
     <>
@@ -32,14 +33,21 @@ export default function XiehouyuCard({ xiehouyu }: XiehouyuCardProps) {
             priority={false}
             loading="lazy"
             onLoad={() => setImageLoaded(true)}
+            onError={() => setImageError(true)}
           />
           {/* Loading State */}
-          {!imageLoaded && (
+          {!imageLoaded && !imageError && (
             <div className="absolute inset-0 flex items-center justify-center bg-linear-to-br from-rose-50 via-purple-50 to-blue-50 dark:from-slate-900 dark:via-purple-950 dark:to-slate-900">
               <Loader2 className="w-8 h-8 text-muted-foreground/50 animate-spin" />
             </div>
           )}
-          <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100 flex items-center justify-center">
+          {imageError && (
+            <div className="absolute inset-0 flex flex-col items-center justify-center bg-linear-to-br from-rose-50 via-purple-50 to-blue-50 dark:from-slate-900 dark:via-purple-950 dark:to-slate-900 gap-2">
+              <AlertCircle className="w-10 h-10 text-rose-500/70" />
+              <span className="text-sm text-muted-foreground">Image failed to load</span>
+            </div>
+          )}
+          <div hidden className="absolute inset-0 bg-linear-to-t from-black/60 via-black/20 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100 flex items-center justify-center">
             <div className="flex items-center gap-2 text-white px-4 py-2 rounded-full bg-black/30 backdrop-blur-sm">
               <BookOpenIcon className="w-5 h-5" />
               <span className="text-sm font-medium">View More</span>

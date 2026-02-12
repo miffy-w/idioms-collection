@@ -11,6 +11,26 @@ export interface Xiehouyu {
 
 export const xiehouyuData: Xiehouyu[] = [
   {
+    id: '27',
+    chinese: '猪八戒照镜子',
+    chineseMeaning: '里外不是人',
+    english: 'Pig Bajie looks in the mirror',
+    englishMeaning: 'Neither inside nor outside a person',
+    imageUrl: '/2026-02-12_17-13-26.webp',
+    source: 'From "Journey to the West," one of China\'s Four Great Classical Novels. Zhu Bajie (Pig Bajie), one of the main characters, is a pig demon who looks in the mirror and sees his pig face. It metaphorically describes someone who ends up offending both sides and being criticized by everyone, no matter what they do.',
+    meaning: 'This idiom teaches us about the difficulty of trying to please everyone and the consequences of being caught between conflicting sides. It reminds us that when we try to accommodate everyone, we often end up satisfying no one. It encourages us to take a clear stance rather than trying to be all things to all people.\n\nUsage: Use this idiom when someone tries to mediate between two parties but ends up being criticized by both, or when someone\'s efforts to please everyone backfire. For example, a manager trying to satisfy both employees and upper management but being criticized by both, or a person caught between two friends\' conflicts who is blamed by both.'
+  },
+  {
+    id: '28',
+    chinese: '八仙过海',
+    chineseMeaning: '各显神通',
+    english: 'Eight Immortals cross the sea',
+    englishMeaning: 'Each showing their special abilities',
+    imageUrl: '/2026-02-12_17-13-27.jpg',
+    source: 'From Chinese mythology and folklore. The Eight Immortals (八仙) - eight legendary figures in Chinese Taoism - needed to cross the sea to attend a conference. Instead of taking a boat, each immortal used their unique magical powers and tools to cross the ocean. Some rode on lotus flowers, others used bamboo tubes, swords, or their own abilities. It metaphorically describes people using their unique skills and methods to achieve the same goal.',
+    meaning: 'This idiom celebrates diversity of skills and encourages creative problem-solving. It teaches us that there are many paths to the same destination and that everyone has unique strengths they can contribute. It encourages us to value different approaches and recognize that success can be achieved through various methods.\n\nUsage: Use this idiom when a group of people all achieve the same goal but through different methods, or when encouraging people to use their unique talents. For example, team members each using their different skills to solve a problem, or different countries taking different approaches to tackle climate change.'
+  },
+  {
     id: '26',
     chinese: '虎落平阳',
     chineseMeaning: '被犬欺',
