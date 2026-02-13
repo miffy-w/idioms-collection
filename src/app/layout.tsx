@@ -1,75 +1,31 @@
-import type { Metadata } from 'next';
-import { Inspector } from 'react-dev-inspector';
-import ThemeProvider from '@/components/ThemeProvider';
-import './globals.css';
+import { METADATA } from "@/shared/metadata";
+import PageLayout, { PageLayoutProps } from "@/components/PageLayout";
+import "./globals.css";
 
-export const metadata: Metadata = {
-  title: {
-    default: 'Chinese Idioms Collection | 歇后语英文译解',
-    template: '%s | Chinese Idioms Collection',
+export const metadata = { ...METADATA };
+
+const layoutProps: Omit<PageLayoutProps, "children"> = {
+  footerProps: {
+    name: "Idioms Collection",
+    description: "Preserving cultural heritage",
+    extra: "Bilingual Experience",
+    contactTip: "If you have any suggestions or ideas, please contact me:",
   },
-  description:
-    'Explore traditional Chinese two-part allegorical sayings (歇后语) with English translations and cultural insights. Discover the wisdom behind classic Chinese idioms, complete with their historical origins and meanings.',
-  keywords: [
-    'Chinese idioms',
-    'Xiehouyu',
-    'Chinese proverbs',
-    'Chinese sayings',
-    'cultural translations',
-    'bilingual',
-    'Chinese culture',
-    'traditional wisdom',
-    'Chinese language learning',
-    'allegorical sayings',
-  ],
-  authors: [{ name: 'Chinese Culture Team' }],
-  creator: 'Chinese Idioms Collection',
-  publisher: 'Chinese Idioms Collection',
-  icons: {
-    icon: '/favicon.png',
-    shortcut: '/favicon.png',
-    apple: '/favicon.png',
-  },
-  openGraph: {
-    title: 'Chinese Idioms Collection | Explore Traditional Wisdom',
-    description:
-      'Discover classic Chinese two-part allegorical sayings (歇后语) with beautiful illustrations and English translations. Learn about their origins, meanings, and cultural significance.',
-    url: 'https://idioms-collection.vaste.top',
-    siteName: 'Chinese Idioms Collection',
-    locale: 'en_US',
-    type: 'website',
-    images: [
-      {
-        url: '/favicon.png',
-        width: 1200,
-        height: 630,
-        alt: 'Chinese Idioms Collection - Explore Traditional Wisdom',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Chinese Idioms Collection | Explore Traditional Wisdom',
-    description:
-      'Discover classic Chinese two-part allegorical sayings (歇后语) with beautiful illustrations and English translations. Learn about their origins, meanings, and cultural significance.',
-    images: ['/favicon.png'],
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
-  verification: {
-    google: 'your-google-verification-code',
-  },
-  alternates: {
-    canonical: 'https://idioms-collection.vaste.top',
+  noticeBtnText: "Continuously Updating...",
+  description: `
+    Xiehouyu (歇后语) is a unique form of Chinese linguistic art,
+    consisting of two parts: the first part is a vivid metaphor, and the
+    second part is the explanation, clarification, or complement to the
+    first. These statements, imbued with traditional Chinese culture and
+    wisdom, are paired with exquisite illustrations and English
+    translations to help you better understand their deeper meanings.
+  `,
+  idiomCardContext: {
+    maxLength: 2,
+    baseUrl: "/en_US",
+    imageErrorText: "Image failed to load",
+    meaningTitle: "Meaning & Usage",
+    culturalBackground: "Origin & Story",
   },
 };
 
@@ -78,20 +34,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const isDev = process.env.NODE_ENV === 'development';
-
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`antialiased`}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {isDev && <Inspector />}
-          {children}
-        </ThemeProvider>
+        <PageLayout {...layoutProps}>{children}</PageLayout>
       </body>
     </html>
   );
