@@ -1,0 +1,23 @@
+import IdiomCard from "@/components/IdiomCard";
+import { IdiomItem } from "@/types";
+
+export const DATA: IdiomItem = {
+  id: 19,
+  original: "刻舟求剑",
+  originalMeaning: "不知变通",
+  originalCountry: "China",
+  translation: "Carving a mark on a boat to find a sword",
+  translationMeaning: "Rigid thinking",
+  imageUrl: "/idiom-8.webp",
+  source: "From \"Lüshi Chunqiu: Observing the Present.\" A man from Chu was crossing the river when his sword fell into the water. He immediately carved a mark on the boat, saying: \"This is where my sword fell.\" When the boat stopped, he dove into the water from the mark to find his sword, but of course could not find it. It metaphorically describes being rigid and inflexible, unable to adapt to changing circumstances.",
+  meaning: "This idiom illustrates the danger of rigid thinking in a changing world. It teaches us that solutions must adapt to changing circumstances rather than relying on fixed patterns. It encourages flexibility and adaptability in our approach to problems, reminding us that what worked once may not work again.",
+  usage: "Use this idiom when someone stubbornly applies outdated methods to new situations, or when someone cannot adapt to changes in their environment. For example, a business that refuses to adopt new technologies while competitors modernize, or a teacher who uses the same lesson plan year after year despite changing student needs.",
+}
+
+export default function Home() {
+  return (
+    <IdiomCard
+      data={DATA}
+    />
+  );
+}

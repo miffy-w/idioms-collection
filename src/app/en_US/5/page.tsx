@@ -1,0 +1,23 @@
+import IdiomCard from "@/components/IdiomCard";
+import { IdiomItem } from "@/types";
+
+export const DATA: IdiomItem = {
+  id: 5,
+  original: "鹬蚌相争",
+  originalMeaning: "渔翁得利",
+  originalCountry: "China",
+  translation: "Sandpiper and clam, fisherman gains",
+  translationMeaning: "Third party benefits from conflict",
+  imageUrl: "/2026-02-12_14-12-23.jpg",
+  source: "From \"Strategies of the Warring States: Yan Strategy II.\" A sandpiper tried to eat a clam's meat, but the clam clamped shut on its beak. They struggled together, refusing to let go. A fisherman came by and caught them both. It metaphorically describes how two parties in conflict both lose, allowing a third party to benefit.",
+  meaning: "This idiom warns against the dangers of prolonged conflict and the wisdom of compromise. It teaches us that fighting with others often leads to mutual destruction, while those who stand aside can take advantage. It encourages seeking peaceful resolution and avoiding unnecessary conflicts.",
+  usage: "Use this idiom when two parties are in conflict and a third party benefits, or when warning against engaging in prolonged disputes. For example, two companies competing so fiercely that a third competitor takes their market share, or two siblings fighting over a toy while another child plays with it.",
+}
+
+export default function Home() {
+  return (
+    <IdiomCard
+      data={DATA}
+    />
+  );
+}

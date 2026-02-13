@@ -1,5 +1,6 @@
 import { METADATA } from "@/shared/metadata";
 import PageLayout, { PageLayoutProps } from "@/components/PageLayout";
+import idiomList from './en_US/idiomList.json';
 import "./globals.css";
 
 export const metadata = { ...METADATA };
@@ -21,8 +22,8 @@ const layoutProps: Omit<PageLayoutProps, "children"> = {
     translations to help you better understand their deeper meanings.
   `,
   idiomCardContext: {
-    maxLength: 2,
     baseUrl: "/en_US",
+    maxLength: idiomList.length,
     imageErrorText: "Image failed to load",
     meaningTitle: "Meaning & Usage",
     culturalBackground: "Origin & Story",

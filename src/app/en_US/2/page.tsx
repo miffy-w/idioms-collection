@@ -1,7 +1,7 @@
 import IdiomCard from "@/components/IdiomCard";
 import { IdiomItem } from "@/types";
 
-const DATA: IdiomItem = {
+export const DATA: IdiomItem = {
   id: 2,
   original: "泼出去的水",
   originalMeaning: '收不回',

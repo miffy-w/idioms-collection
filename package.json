@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "serve out"
+    "start": "serve out",
+    "gen:idioms": "node scripts/generate_list.cjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",

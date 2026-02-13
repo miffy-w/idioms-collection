@@ -19,3 +19,11 @@ export interface IdiomItem {
   /** 图片 URL */
   imageUrl: string;
 }
+
+export interface SimpleIdiomItem {
+  id: number;
+  original: string;
+  translation: string;
+  originalMeaning?: string;
+  translationMeaning?: string;
+}

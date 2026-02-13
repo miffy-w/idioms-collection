@@ -1,21 +1,32 @@
 "use client"
 
+import { SimpleIdiomItem } from '@/types'
 import { Search } from 'lucide-react'
-import { useState } from 'react'
+import { useMemo, useState, useTransition } from 'react'
 
 interface SearchBarProps {
-  onSearch: (query: string) => void
   placeholder?: string
+  simpleData?: SimpleIdiomItem[]; // 可选的简化数据列表
 }
 
-export default function SearchBar({ onSearch, placeholder }: SearchBarProps) {
-  const [query, setQuery] = useState('')
+export default function SearchBar({ placeholder, simpleData }: SearchBarProps) {
+  const [searchQuery, setSearchQuery] = useState("");
+  const [isPending, startTransition] = useTransition();
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value
-    setQuery(value)
-    onSearch(value)
-  }
+  // 搜索过滤逻辑
+  const filteredData = useMemo(() => {
+    if (!searchQuery.trim()) return []; // 如果搜索查询为空，返回原始数据
+
+    const query = searchQuery.toLowerCase().trim();
+    return simpleData?.filter((xiehouyu) => {
+      return (
+        xiehouyu.original.toLowerCase().includes(query) ||
+        xiehouyu.originalMeaning?.toLowerCase().includes(query) ||
+        xiehouyu.translation.toLowerCase().includes(query) ||
+        xiehouyu.translationMeaning?.toLowerCase().includes(query)
+      ); // 根据需要添加更多字段
+    }) || [];
+  }, [searchQuery]);
 
   return (
     <div className="relative w-full md:w-80 lg:w-96">
@@ -24,9 +35,9 @@ export default function SearchBar({ onSearch, placeholder }: SearchBarProps) {
       </div>
       <input
         type="text"
-        value={query}
-        onChange={handleChange}
-        placeholder={placeholder || "Search idioms (中英文搜索)..."}
+        value={searchQuery}
+        placeholder={placeholder}
+        onChange={(e) => startTransition(() => setSearchQuery(e.target.value))}
         className="w-full pl-10 pr-3 py-2 rounded-lg border border-border/50 bg-background/50 backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-rose-500/50 focus:border-transparent transition-all shadow-sm hover:shadow-md text-sm"
       />
     </div>

@@ -1,0 +1,23 @@
+import IdiomCard from "@/components/IdiomCard";
+import { IdiomItem } from "@/types";
+
+export const DATA: IdiomItem = {
+  id: 27,
+  original: "雪中送炭",
+  originalMeaning: "及时雨",
+  originalCountry: "China",
+  translation: "Sending charcoal in snow",
+  translationMeaning: "Timely help in time of need",
+  imageUrl: "/idiom-16.webp",
+  source: "From \"Fan Wang Shi\" by Fan Zhongyan of the Song dynasty. The phrase originated from the practice of wealthy people distributing charcoal to the poor during severe winters. It metaphorically describes providing timely help when someone is in desperate need, making a crucial difference in their situation.",
+  meaning: "This idiom celebrates the virtue of timely generosity and empathy. It teaches us that the most valuable help is often provided when it is most needed. It reminds us to be aware of others' suffering and to act when our help can make the greatest impact. It encourages compassion and the courage to help even when it may be inconvenient.",
+  usage: "Use this idiom when someone provides help exactly when it is most needed, or when timely assistance makes a significant difference. For example, neighbors helping a family whose house burned down, or a teacher staying late to help a struggling student before an important exam.",
+}
+
+export default function Home() {
+  return (
+    <IdiomCard
+      data={DATA}
+    />
+  );
+}

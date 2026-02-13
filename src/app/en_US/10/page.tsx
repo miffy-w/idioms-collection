@@ -1,0 +1,23 @@
+import IdiomCard from "@/components/IdiomCard";
+import { IdiomItem } from "@/types";
+
+export const DATA: IdiomItem = {
+  id: 10,
+  original: "泥菩萨过河",
+  originalMeaning: "自身难保",
+  originalCountry: "China",
+  translation: "Clay Buddha crosses the river",
+  translationMeaning: "Cannot save itself",
+  imageUrl: "/2026-02-12_14-12-27.webp",
+  source: "This idiom originates from Chinese folklore. A clay Buddha statue, made of mud and earth, when placed in water, would gradually dissolve and fall apart. It metaphorically describes someone who is in such a precarious situation that they cannot even protect themselves, let alone help others.",
+  meaning: "This idiom teaches us about self-preservation and the importance of securing one's own position before attempting to help others. It reminds us that we must first ensure our own stability and safety before we can effectively assist others. It also highlights the reality that people in vulnerable positions often lack the capacity to help others.",
+  usage: "Use this idiom when someone is in such a difficult situation that they cannot help anyone else, or when warning against relying on someone who is themselves in trouble. For example, a person struggling financially cannot lend money to others, or someone facing their own crisis cannot assist with someone else's problems.",
+}
+
+export default function Home() {
+  return (
+    <IdiomCard
+      data={DATA}
+    />
+  );
+}

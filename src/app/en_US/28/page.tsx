@@ -1,0 +1,23 @@
+import IdiomCard from "@/components/IdiomCard";
+import { IdiomItem } from "@/types";
+
+export const DATA: IdiomItem = {
+  id: 28,
+  original: "锦上添花",
+  originalMeaning: "好上加好",
+  originalCountry: "China",
+  translation: "Adding flowers to brocade",
+  translationMeaning: "Making something good even better",
+  imageUrl: "/idiom-17.webp",
+  source: "From Wang Anshi's poem \"Mei Hua\" of the Song dynasty. The phrase describes the beauty of adding embroidered flowers to already beautiful brocade fabric. It metaphorically describes adding something excellent to something already good, enhancing its value further.",
+  meaning: "This idiom celebrates the pursuit of excellence and continuous improvement. It teaches us that we should not rest when we achieve something good, but continue to enhance and perfect it. It reminds us that there is always room for improvement and that attention to detail can elevate quality from good to extraordinary.",
+  usage: "Use this idiom when someone adds excellent improvements to something already good, or when good things are made even better. For example, adding a beautiful garden to a well-designed house, or including excellent illustrations in an already well-written book.",
+}
+
+export default function Home() {
+  return (
+    <IdiomCard
+      data={DATA}
+    />
+  );
+}

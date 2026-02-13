@@ -1,0 +1,23 @@
+import IdiomCard from "@/components/IdiomCard";
+import { IdiomItem } from "@/types";
+
+export const DATA: IdiomItem = {
+  id: 14,
+  original: "哑巴吃黄连",
+  originalMeaning: "有苦说不出",
+  originalCountry: "China",
+  translation: "A mute eating bitter herbs",
+  translationMeaning: "Suffering in silence",
+  imageUrl: "/idiom-3.webp",
+  source: "Originates from Chinese folk sayings. Coptis chinensis is an extremely bitter medicinal herb. A mute eating bitter herbs feels the pain but cannot express it. It metaphorically describes someone who suffers grievances but cannot express them.",
+  meaning: "This idiom reflects the complexity of human emotions when we are unable to express our suffering. It reminds us that sometimes pain and injustice must be endured in silence due to circumstances beyond our control. It teaches empathy for those who carry hidden burdens.",
+  usage: "Use this idiom when someone suffers injustice but cannot speak out due to fear of consequences, or when someone endures hardship silently because they have no one to turn to. For example, an employee who is mistreated by their boss but cannot complain because they need the job, or someone who is wronged but cannot prove their innocence.",
+}
+
+export default function Home() {
+  return (
+    <IdiomCard
+      data={DATA}
+    />
+  );
+}

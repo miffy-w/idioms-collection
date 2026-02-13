@@ -1,7 +1,7 @@
 import IdiomCard from "@/components/IdiomCard";
 import { IdiomItem } from "@/types";
 
-const DATA: IdiomItem = {
+export const DATA: IdiomItem = {
   id: 1,
   original: "秀才遇到兵",
   originalMeaning: '有理讲不清',

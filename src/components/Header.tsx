@@ -1,31 +1,13 @@
-'use client';
-
 import { BookOpen, Zap } from "lucide-react";
 import ThemeToggle from "@/components/ThemeToggle";
 import SearchBar from "./SearchBar";
-import { useMemo, useState, useTransition } from "react";
-import { xiehouyuData } from "@/data/xiehouyu";
+import { SimpleIdiomItem } from "@/types";
 
-function Header() {
-  const [searchQuery, setSearchQuery] = useState("");
-  const [isPending, startTransition] = useTransition();
+interface HeaderProps {
+  simpleData?: SimpleIdiomItem[]; // 可选的简化数据列表
+}
 
-  // 搜索过滤逻辑
-  const filteredData = useMemo(() => {
-    if (!searchQuery.trim()) return xiehouyuData;
-
-    const query = searchQuery.toLowerCase().trim();
-    return xiehouyuData.filter((xiehouyu) => {
-      return (
-        xiehouyu.chinese.toLowerCase().includes(query) ||
-        xiehouyu.chineseMeaning.toLowerCase().includes(query) ||
-        xiehouyu.english.toLowerCase().includes(query) ||
-        xiehouyu.englishMeaning.toLowerCase().includes(query) ||
-        xiehouyu.meaning.toLowerCase().includes(query)
-      );
-    });
-  }, [searchQuery]);
-
+function Header({ simpleData }: HeaderProps) {
   return (
     <header className="border-b bg-white/50 dark:bg-slate-900/50 backdrop-blur-sm sticky top-0 z-50">
       <div className="container mx-auto px-4 py-3">
@@ -47,7 +29,7 @@ function Header() {
               Chinese Two-Part Allegorical Sayings
             </p>
             <SearchBar
-              onSearch={(q) => startTransition(() => setSearchQuery(q))}
+              simpleData={simpleData}
               placeholder="Search idioms in Chinese and English..."
             />
           </div>
