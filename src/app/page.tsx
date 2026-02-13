@@ -7,12 +7,17 @@ import StructuredData from '@/components/StructuredData'
 import SearchBar from '@/components/SearchBar'
 import ThemeToggle from '@/components/ThemeToggle'
 import { BookOpen, Zap } from 'lucide-react'
+import { useLocale } from '@/data'
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState('')
   const deferredQuery = useDeferredValue(searchQuery);
   const [isPending, startTransition] = useTransition()
   const hasQuery = deferredQuery.trim() !== ''
+
+  const data = useLocale();
+  console.log("🚀 ~ Home ~ data:", data)
+  
 
   // 搜索过滤逻辑
   const filteredData = useMemo(() => {
