@@ -107,9 +107,9 @@ export default function SearchBar({
                 href={`${baseUrl}/${item.id}`}
                 onClick={clearSearch}
               >
-                <li className="cursor-pointer px-3 py-2 hover:bg-rose-500/10">
-                  <div className="text-sm font-medium">{item.o}</div>
-                  <div className="text-xs text-muted-foreground">{item.t}</div>
+                <li className="cursor-pointer px-3 py-2 hover:bg-fuchsia-500/30">
+                  <div className="text-sm font-medium truncate">{item.t}</div>
+                  <div className="text-xs text-muted-foreground truncate">{item.o}</div>
                 </li>
               </Link>
             ))}

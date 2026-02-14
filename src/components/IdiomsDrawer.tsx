@@ -107,7 +107,7 @@ export function VirtualList({
               key={it.id}
               className={clsx(
                 "flex items-center gap-3 border-b px-3 cursor-pointer",
-                !!selected && "text-purple-600",
+                !!selected && "text-fuchsia-500",
               )}
               onClick={() => {
                 if (!selected) {
@@ -118,7 +118,7 @@ export function VirtualList({
               <div
                 className={clsx(
                   "w-11 text-sm",
-                  !!selected ? "text-purple-400" : "text-muted-foreground",
+                  !!selected ? "text-fuchsia-400" : "text-muted-foreground",
                 )}
               >
                 {it.id}
@@ -129,7 +129,7 @@ export function VirtualList({
               <div
                 className={clsx(
                   "text-sm",
-                  !!selected ? "text-purple-400" : "text-muted-foreground",
+                  !!selected ? "text-fuchsia-400" : "text-muted-foreground",
                 )}
               >
                 {it.o}

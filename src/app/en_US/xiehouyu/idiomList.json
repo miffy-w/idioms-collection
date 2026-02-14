@@ -7,11 +7,60 @@
     "tm": "The gift is light but the sentiment is heavy"
   },
   {
-    "id": 32,
-    "o": "秀才遇到兵",
-    "om": "有理讲不清",
-    "t": "Scholar meets soldier",
-    "tm": "Cannot reason with unreasonable people"
+    "id": 2,
+    "o": "泼出去的水",
+    "om": "收不回",
+    "t": "Spilled water",
+    "tm": "Irreversible, cannot be taken back"
+  },
+  {
+    "id": 3,
+    "o": "水中捞月",
+    "om": "一场空",
+    "t": "Fishing for the moon in the water",
+    "tm": "All in vain, futile effort"
+  },
+  {
+    "id": 4,
+    "o": "猪八戒照镜子",
+    "om": "里外不是人",
+    "t": "Pig Bajie looks in the mirror",
+    "tm": "Neither inside nor outside a person"
+  },
+  {
+    "id": 5,
+    "o": "鹬蚌相争",
+    "om": "渔翁得利",
+    "t": "Sandpiper and clam, fisherman gains",
+    "tm": "Third party benefits from conflict"
+  },
+  {
+    "id": 6,
+    "o": "铁杵磨成针",
+    "om": "功到自然成",
+    "t": "Grinding an iron pestle into a needle",
+    "tm": "Perseverance leads to success"
+  },
+  {
+    "id": 7,
+    "o": "塞翁失马",
+    "om": "焉知非福",
+    "t": "Old man lost his horse",
+    "tm": "A blessing in disguise"
+  },
+  {
+    "id": 8,
+    "o": "八仙过海",
+    "om": "各显神通",
+    "t": "Eight Immortals cross the sea",
+    "tm": "Each showing their special abilities"
+  },
+  {
+    "id": 9,
+    "o": "虎落平阳",
+    "om": "被犬欺",
+    "t": "Tiger in flat land",
+    "tm": "Powerful in wrong place, bullied by weak"
   },
   {
     "id": 10,
@@ -84,13 +133,6 @@
     "tm": "Rigid thinking"
   },
   {
-    "id": 2,
-    "o": "泼出去的水",
-    "om": "收不回",
-    "t": "Spilled water",
-    "tm": "Irreversible, cannot be taken back"
-  },
-  {
     "id": 20,
     "o": "守株待兔",
     "om": "墨守成规",
@@ -161,13 +203,6 @@
     "tm": "Detached observation without getting involved"
   },
   {
-    "id": 3,
-    "o": "水中捞月",
-    "om": "一场空",
-    "t": "Fishing for the moon in the water",
-    "tm": "All in vain, futile effort"
-  },
-  {
     "id": 30,
     "o": "滥竽充数",
     "om": "冒充内行",
@@ -182,45 +217,10 @@
     "tm": "Haste makes waste"
   },
   {
-    "id": 4,
-    "o": "猪八戒照镜子",
-    "om": "里外不是人",
-    "t": "Pig Bajie looks in the mirror",
-    "tm": "Neither inside nor outside a person"
-  },
-  {
-    "id": 5,
-    "o": "鹬蚌相争",
-    "om": "渔翁得利",
-    "t": "Sandpiper and clam, fisherman gains",
-    "tm": "Third party benefits from conflict"
-  },
-  {
-    "id": 6,
-    "o": "铁杵磨成针",
-    "om": "功到自然成",
-    "t": "Grinding an iron pestle into a needle",
-    "tm": "Perseverance leads to success"
-  },
-  {
-    "id": 7,
-    "o": "塞翁失马",
-    "om": "焉知非福",
-    "t": "Old man lost his horse",
-    "tm": "A blessing in disguise"
-  },
-  {
-    "id": 8,
-    "o": "八仙过海",
-    "om": "各显神通",
-    "t": "Eight Immortals cross the sea",
-    "tm": "Each showing their special abilities"
-  },
-  {
-    "id": 9,
-    "o": "虎落平阳",
-    "om": "被犬欺",
-    "t": "Tiger in flat land",
-    "tm": "Powerful in wrong place, bullied by weak"
+    "id": 32,
+    "o": "秀才遇到兵",
+    "om": "有理讲不清",
+    "t": "Scholar meets soldier",
+    "tm": "Cannot reason with unreasonable people"
   }
 ]
