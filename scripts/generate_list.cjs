@@ -80,14 +80,15 @@ function main() {
     }
     const picked = {
       id: obj.id,
-      original: obj.original,
-      originalMeaning: obj.originalMeaning,
-      translation: obj.translation,
-      translationMeaning: obj.translationMeaning,
+      o: obj.original,
+      om: obj.originalMeaning,
+      t: obj.translation,
+      tm: obj.translationMeaning,
     };
     items.push(picked);
   }
 
+  items.sort((a, b) => a.id - b.id);    // sort by id
   const outPath = path.join(appDir, 'idiomList.json');
   fs.writeFileSync(outPath, JSON.stringify(items, null, 2), 'utf8');
   console.log('Wrote', outPath, 'with', items.length, 'items');

@@ -22,8 +22,8 @@ export interface IdiomItem {
 
 export interface SimpleIdiomItem {
   id: number;
-  original: string;
-  translation: string;
-  originalMeaning?: string;
-  translationMeaning?: string;
+  o: string;
+  t: string;
+  om?: string;
+  tm?: string;
 }

@@ -1,32 +1,35 @@
 import { METADATA } from "@/shared/metadata";
 import PageLayout, { PageLayoutProps } from "@/components/PageLayout";
-import idiomList from './en_US/idiomList.json';
+import idiomList from './en_US/xiehouyu/idiomList.json';
 import "./globals.css";
 
 export const metadata = { ...METADATA };
 
+export const BaseUrl = "/en_US/xiehouyu"; // 定义基础 URL，方便后续使用和维护
+
 const layoutProps: Omit<PageLayoutProps, "children"> = {
   footerProps: {
-    name: "Idioms Collection",
+    name: "Chinese Idioms Collection",
     description: "Preserving cultural heritage",
     extra: "Bilingual Experience",
     contactTip: "If you have any suggestions or ideas, please contact me:",
   },
   noticeBtnText: "Continuously Updating...",
-  description: `
-    Xiehouyu (歇后语) is a unique form of Chinese linguistic art,
-    consisting of two parts: the first part is a vivid metaphor, and the
-    second part is the explanation, clarification, or complement to the
-    first. These statements, imbued with traditional Chinese culture and
-    wisdom, are paired with exquisite illustrations and English
-    translations to help you better understand their deeper meanings.
-  `,
   idiomCardContext: {
-    baseUrl: "/en_US",
+    idiomList,
+    baseUrl: BaseUrl,
     maxLength: idiomList.length,
     imageErrorText: "Image failed to load",
     meaningTitle: "Meaning & Usage",
     culturalBackground: "Origin & Story",
+  },
+  headerProps: {
+    baseUrl: BaseUrl,
+    simpleData: idiomList,
+    title: '歇后语英文译解',
+    subTitle: 'Chinese Two-Part Allegorical Sayings',
+    noResultsText: "No matching idioms found",
+    searchPlaceholder: "Search idioms in Chinese and English...",
   },
 };
 

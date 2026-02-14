@@ -1,7 +1,6 @@
 "use client";
-import { IdiomItem } from "@/types";
+import { IdiomItem, SimpleIdiomItem } from "@/types";
 import Image from "next/image";
-import { Button } from "./ui/button";
 import { createContext, useContext, useState } from "react";
 import {
   Loader2,
@@ -11,6 +10,9 @@ import {
   ArrowLeft,
 } from "lucide-react";
 import Link from "next/link";
+import IdiomsDrawer from "./IdiomsDrawer";
+import { useIsMobile } from "@/hooks/use-mobile";
+import clsx from "clsx";
 
 export interface IdiomCardProps {
   data: IdiomItem;
@@ -21,10 +23,12 @@ export interface CardContextType {
   baseUrl: string;
   imageErrorText?: string;
   meaningTitle?: string;
+  idiomList: SimpleIdiomItem[];
   culturalBackground?: string;
 }
 
 export const CardContext = createContext<CardContextType>({
+  idiomList: [],
   baseUrl: "/en_US",
   imageErrorText: "",
   meaningTitle: "",
@@ -32,10 +36,12 @@ export const CardContext = createContext<CardContextType>({
 });
 
 function IdiomCard({ data }: IdiomCardProps) {
+  const isMobile = useIsMobile();
   const [imageLoaded, setImageLoaded] = useState(false);
   const [imageError, setImageError] = useState(false);
   const {
     baseUrl,
+    idiomList,
     maxLength = Infinity,
     imageErrorText = "",
     meaningTitle = "",
@@ -83,7 +89,9 @@ function IdiomCard({ data }: IdiomCardProps) {
                 {data.original}
               </h2>
               <p className="text-lg text-muted-foreground">
-                <span className="blur-xs hover:blur-none transition-all duration-300 cursor-help">
+                <span className={clsx(
+                  !isMobile && "blur-xs hover:blur-none transition-all duration-300 cursor-help"
+                )}>
                   {data.originalMeaning}
                 </span>
               </p>
@@ -98,7 +106,9 @@ function IdiomCard({ data }: IdiomCardProps) {
                 {data.translation}
               </p>
               <p className="text-base text-muted-foreground italic">
-                <span className="blur-xs hover:blur-none transition-all duration-300 cursor-help">
+                <span className={clsx(
+                  !isMobile && "blur-xs hover:blur-none transition-all duration-300 cursor-help"
+                )}>
                   {data.translationMeaning}
                 </span>
               </p>
@@ -138,14 +148,15 @@ function IdiomCard({ data }: IdiomCardProps) {
       {/* Navigation Buttons */}
       <div className="mt-8 flex items-center justify-center gap-6">
         {data.id > 0 && (
-          <Link href={`${baseUrl}/${data.id === 1 ? "" : data.id - 1}`}>
+          <Link replace href={`${baseUrl}/${data.id === 1 ? "" : data.id - 1}`}>
             <button className="flex cursor-pointer items-center gap-2 px-6 py-3 rounded-xl bg-linear-to-r from-rose-500 to-purple-500 text-white font-medium hover:from-rose-600 hover:to-purple-600 transition-all shadow-lg hover:shadow-xl hover:scale-105">
               <ArrowLeft className="w-5 h-5" />
             </button>
           </Link>
         )}
+        <IdiomsDrawer baseUrl={baseUrl} idiomList={idiomList} />
         {data.id < maxLength && (
-          <Link href={`${baseUrl}/${data.id + 1}`}>
+          <Link replace href={`${baseUrl}/${data.id + 1}`}>
             <button className="flex cursor-pointer items-center gap-2 px-6 py-3 rounded-xl bg-linear-to-r from-purple-500 to-blue-500 text-white font-medium hover:from-purple-600 hover:to-blue-600 transition-all shadow-lg hover:shadow-xl hover:scale-105">
               <ArrowRight className="w-5 h-5" />
             </button>

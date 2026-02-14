@@ -23,7 +23,7 @@ export default function ThemeToggle() {
   }
 
   return (
-    <div className="relative group">
+    <div className="relative group z-50">
       <Button
         variant="ghost"
         size="icon"

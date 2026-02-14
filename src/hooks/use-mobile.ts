@@ -1,19 +1,28 @@
-import * as React from "react"
-
-const MOBILE_BREAKPOINT = 768
+import { useEffect, useMemo, useState } from "react";
 
 export function useIsMobile() {
-  const [isMobile, setIsMobile] = React.useState<boolean | undefined>(undefined)
+  const [isMobile, setIsMobile] = useState(false);
 
-  React.useEffect(() => {
-    const mql = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT - 1}px)`)
-    const onChange = () => {
-      setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)
+  useEffect(() => {
+    if (typeof window === "undefined") {
+      return setIsMobile(false);
     }
-    mql.addEventListener("change", onChange)
-    setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)
-    return () => mql.removeEventListener("change", onChange)
-  }, [])
 
-  return !!isMobile
+    const ua = window.navigator.userAgent;
+    const mobileKeywords =
+      /android|iphone|ipad|ipod|blackberry|iemobile|opera mini/i;
+
+    if (mobileKeywords.test(ua)) {
+      setIsMobile(true);
+    }
+
+    // 再看屏幕尺寸（兜底）
+    else if (window.innerWidth <= 768) {
+      setIsMobile(true);
+    } else {
+      setIsMobile(false);
+    }
+  }, []);
+
+  return isMobile;
 }
