@@ -2,11 +2,11 @@ export interface IdiomItem {
   id: number;
   /** 原始 */
   original: string;
-  /** 原始含义 */
+  /** 解释 */
   originalMeaning?: string;
-  /** 译文 */
+  /** 译文,对应 original */
   translation: string;
-  /** 译文含义 */
+  /** 译文解释，对应 originalMeaning */
   translationMeaning?: string;
   /** 所属国家 */
   originalCountry: string;
