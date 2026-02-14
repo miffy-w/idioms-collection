@@ -222,5 +222,19 @@
     "om": "有理讲不清",
     "t": "Scholar meets soldier",
     "tm": "Cannot reason with unreasonable people"
+  },
+  {
+    "id": 33,
+    "o": "小葱拌豆腐",
+    "om": "一清二白",
+    "t": "Scallion and tofu salad",
+    "tm": "Perfectly clear and white"
+  },
+  {
+    "id": 34,
+    "o": "芝麻开花",
+    "om": "节节高",
+    "t": "Sesame flowers blooming",
+    "tm": "Rising step by step"
   }
 ]
