@@ -2,6 +2,7 @@ import { METADATA } from "@/shared/metadata";
 import PageLayout, { PageLayoutProps } from "@/components/PageLayout";
 import idiomList from './en_US/xiehouyu/idiomList.json';
 import "./globals.css";
+import { Toaster } from "@/components/ui/sonner";
 
 export const metadata = { ...METADATA };
 
@@ -23,6 +24,7 @@ const layoutProps: Omit<PageLayoutProps, "children"> = {
     meaningTitle: "Meaning & Usage",
     culturalBackground: "Origin & Story",
   },
+  confirmText: 'Go directly to the last location you visited?',
   headerProps: {
     baseUrl: BaseUrl,
     simpleData: idiomList,
@@ -42,6 +44,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`antialiased`}>
         <PageLayout {...layoutProps}>{children}</PageLayout>
+        <Toaster />
       </body>
     </html>
   );

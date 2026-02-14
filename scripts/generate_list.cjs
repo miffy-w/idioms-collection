@@ -56,6 +56,7 @@ function safeEvalObject(objText) {
   }
 }
 
+// node ./generate_list.cjs --dir en_US/xiehouyu
 function main() {
   const args = parseArgs();
   const dir = args.dir || args.d || 'en_US';
