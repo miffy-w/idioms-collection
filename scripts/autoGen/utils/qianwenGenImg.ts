@@ -41,7 +41,20 @@ export interface ResponseData {
   request_id: string;
 }
 
-export function generateImage({
+export const getImageUrl = (response: ResponseData) => {
+  return {
+    url: response.output.choices[0].message.content[0].image,
+    width: response.usage.width,
+    height: response.usage.height,
+  };
+};
+
+/**
+ * 千恩AI图像生成函数
+ * @param {GenerateImageOptions} options - 生成图像的配置选项
+ * @returns {Promise<ResponseData>} 返回生成的图像数据
+ */
+export function qianenGenImg({
   apiKey,
   model = "z-image-turbo",
   prompt,
@@ -82,14 +95,6 @@ export function generateImage({
       },
     )
     .then((res) => {
-      return res.data as ResponseData;
+      return getImageUrl(res.data as ResponseData);
     });
 }
-
-export const getImageUrl = (response: ResponseData) => {
-  return {
-    url: response.output.choices[0].message.content[0].image,
-    width: response.usage.width,
-    height: response.usage.height,
-  };
-};

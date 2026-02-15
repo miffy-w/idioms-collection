@@ -28,14 +28,14 @@ export function generateXiehouyuPrompt(firstPart: string, secondPart: string) {
     
     ### 图片提示词要求：
     ${firstPart}的视觉化呈现，即${secondPart}。这是一则中国传统两段式寓言（歇后语）。
+    模型角色是一位专业的歇后语专家，擅长用视觉元素捕捉习语的精髓，并运用艺术手法呈现其背后的深层含义。
 
     场景描述：可视化“${firstPart}”——第一部分，字面意义，艺术诠释
     隐喻意义:通过视觉元素捕捉${secondPart}——第二部分的精髓
 
-    风格:中国传统水彩画与现代极简主义设计的结合
+    风格: 中国传统水彩画与现代极简主义设计的结合
     构图：简洁平衡，留有负空间，适合卡片版式
     配色方案：温暖宜人的色调搭配和谐色彩
-    文化元素：背景中融入了中国传统文化的精妙符号（如水墨笔触、竹子、云彩或书法等）
 
     插图应：
     1. 用视觉方式呈现“${firstPart}”的原场景
@@ -43,6 +43,7 @@ export function generateXiehouyuPrompt(firstPart: string, secondPart: string) {
     3. 运用艺术元素唤起中国文化审美
     4. 保持整洁的排版，合理运用留白
     5. 适用于带有文字叠加的卡片展示
+    6. 图片中尽量不要出现文字，除非与当前的歇后语内容强关联（不用文字不行了）
 
     高质量、细致、艺术化、专业的插图；图片尺寸为 1:1 的比例。
     `;
@@ -108,7 +109,6 @@ export function generateImagePromptByXiehouyu(
   Style: Chinese traditional watercolor painting combined with modern minimalist design
   Composition: Clean and balanced with negative space, suitable for card layout
   Color palette: Warm and inviting tones with harmonious colors
-  Cultural elements: Subtle traditional Chinese symbols (like ink-wash strokes, bamboo, clouds, or calligraphy) in the background
 
   The illustration should:
   1. Visually depict the literal scene of "${original.firstPart}"

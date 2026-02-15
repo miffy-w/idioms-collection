@@ -97,6 +97,13 @@ export class RemoveIdiom {
       } while (startId <= totalSize);
 
       fs.renameSync(nextIdiomDir, idiomDir);
+
+      /** 改写 data.json 中的 id */
+      const jsonPath = path.resolve(idiomDir, "data.json");
+      const json: IdiomItem = require(jsonPath);
+      json.id = id;
+      fs.writeFileSync(jsonPath, JSON.stringify(json, null, 2));
+
       tmpRemovedIds.push(startId);
     }
   }

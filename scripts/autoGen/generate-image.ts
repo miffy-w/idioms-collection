@@ -6,7 +6,7 @@ import axios from "axios";
 import path from "path";
 import dayjs from "dayjs";
 import sharp from "sharp";
-import { generateImage, getImageUrl } from './utils/generationImage';
+import { genImg } from './utils/genImg';
 import { CONFIG, IdiomInput, GeneratedIdiomData } from "./config";
 
 /**
@@ -18,18 +18,16 @@ export async function generateIdiomImage(
   filename: string,
 ) {
   const typeLabel = idiom.type === "chengyu" ? "成语" : "歇后语";
-  console.log(`\n🎨 生成图片 [${typeLabel}]: ${idiom.original}`);
+  console.log(`\n🎨 生成图片 [${typeLabel}]: ${idiom.original} ${idiom.originalMeaning}`);
 
   const prompt = CONFIG.imagePromptTemplate(idiom, data);
 
   try {
-    const response = await generateImage({
+    const image = await genImg({
       prompt,
+      type: 'doubao',
       negative_prompt: data.imgNegativePrompt,
-      apiKey: process.env.ALI_ACCESS_KEY_ID || '',
     });
-
-    const image = getImageUrl(response);
 
     // 下载图片
     const imageData = await axios.get(image.url, {

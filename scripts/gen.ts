@@ -5,7 +5,6 @@ import { SimpleIdiomItem } from "@/types";
 import { IdiomInput, GeneratedIdiomData } from "./autoGen/config";
 import { generateBatchIdiomData } from "./autoGen/generate-data";
 import { generateBatchIdiomImages } from "./autoGen/generate-image";
-import { generateImage } from "./autoGen/utils/generationImage";
 
 dotenv.config({
   path: "../.env.local",
@@ -176,18 +175,8 @@ export class Gen {
         }
         `;
   }
-
-  async txGenImage() {
-    const response = await generateImage({
-      apiKey: process.env.ALI_ACCESS_KEY_ID || "",
-      prompt:
-        "请生成一张关于成语“画蛇添足”的插图，要求画面生动有趣，能够体现出这个成语的寓意。画面中可以有一个人在画蛇，但却多画了两只脚，显得非常滑稽。背景可以是古代的场景，风格可以参考中国传统的水墨画，但要加入一些现代的元素，使其更具吸引力。整体色调可以偏向黑白灰，但要有一些鲜艳的颜色点缀，以突出画面的重点。",
-    });
-
-    console.log(response);
-  }
 }
 
 new Gen().run([
-    '苦海无边——回头是岸'
+    '癞蛤蟆想吃天鹅肉——痴心妄想'
 ]);
