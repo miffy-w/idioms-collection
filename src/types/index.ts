@@ -18,8 +18,10 @@ export interface IdiomItem {
   usage: string;
   /** 图片 URL */
   imageUrl: string;
-  /** 图片提示词 */
-  imgPrompt?: string;
+  /** 图片正面提示词 */
+  imgPositivePrompt?: string;
+  /** 图片负面提示词 */
+  imgNegativePrompt?: string;
 }
 
 export interface SimpleIdiomItem {

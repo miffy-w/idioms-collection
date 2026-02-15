@@ -36,9 +36,10 @@ export class RemoveIdiom {
       }
     }
 
-    this.delIdiomJsonItems(idList, dir);
     // 调整顺序
     this.adjustOrder(type, idList);
+
+    this.delIdiomJsonItems(idList, dir);
   }
 
   delImageFile(imgPath: string) {
@@ -54,9 +55,12 @@ export class RemoveIdiom {
     const numberIds = ids.map((id) => Number(id));
 
     if (fs.existsSync(jsonPath)) {
-      const json = require(jsonPath);
+      const json: SimpleIdiomItem[] = require(jsonPath);
       const newJson = json.filter((item: SimpleIdiomItem) => {
         return !numberIds.includes(item.id);
+      }).map((item, idx) => {
+        item.id = idx + 1;
+        return item;
       });
       fs.writeFileSync(jsonPath, JSON.stringify(newJson, null, 2));
     } else {
@@ -95,22 +99,8 @@ export class RemoveIdiom {
       fs.renameSync(nextIdiomDir, idiomDir);
       tmpRemovedIds.push(startId);
     }
-
-    const jsonPath = path.resolve(dir, this.idiomListJsonPath);
-
-    if (fs.existsSync(jsonPath)) {
-      const json = require(jsonPath);
-      // 更新 id，让 id 连续
-      const newJson = json.map((item: SimpleIdiomItem, index: number) => {
-        item.id = index + 1;
-        return item;
-      });
-      fs.writeFileSync(jsonPath, JSON.stringify(newJson, null, 2));
-    } else {
-      console.log("not found:", jsonPath);
-    }
   }
 }
 
 const rmIdiom = new RemoveIdiom();
-rmIdiom.remove("xiehouyu", [36]);
+rmIdiom.remove("xiehouyu", [38]);

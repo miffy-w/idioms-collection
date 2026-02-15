@@ -89,7 +89,8 @@ export async function generateIdiomData(
       source: jsonData.source,
       meaning: jsonData.meaning,
       usage: jsonData.usage,
-      imgPrompt: jsonData.imgPrompt,
+      imgPositivePrompt: jsonData.imgPositivePrompt,
+      imgNegativePrompt: jsonData.imgNegativePrompt,
       originalCountry: "China", // 默认为中国
     };
 
@@ -130,8 +131,6 @@ export async function generateBatchIdiomData(
       // 继续处理下一个
     }
   }
-
-  fs.writeFileSync('./test-output.json', JSON.stringify(results, null, 2), "utf-8");
 
   return results;
 }

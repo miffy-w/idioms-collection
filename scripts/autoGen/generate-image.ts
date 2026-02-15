@@ -25,6 +25,7 @@ export async function generateIdiomImage(
   try {
     const response = await generateImage({
       prompt,
+      negative_prompt: data.imgNegativePrompt,
       apiKey: process.env.ALI_ACCESS_KEY_ID || '',
     });
 

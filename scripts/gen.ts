@@ -189,5 +189,5 @@ export class Gen {
 }
 
 new Gen().run([
-    '王婆卖瓜——自卖自夸'
+    '苦海无边——回头是岸'
 ]);
