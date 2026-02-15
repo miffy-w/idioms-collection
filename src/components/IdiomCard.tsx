@@ -123,7 +123,7 @@ function IdiomCard({ data }: IdiomCardProps) {
               <BookText className="inline mr-2" />
               {culturalBackground}
             </h3>
-            <p className="text-sm text-muted-foreground leading-relaxed whitespace-pre-line">
+            <p className="text-muted-foreground leading-relaxed whitespace-pre-line">
               {data.source}
             </p>
           </div>

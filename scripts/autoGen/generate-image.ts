@@ -59,17 +59,23 @@ export async function generateBatchIdiomImages(
 ) {
   const date = dayjs();
   const second = date.second();
+  const result: GeneratedIdiomData[] = [];
 
   for (let i = 0; i < idioms.length; i++) {
     const idiom = idioms[i];
     const data = dataList[i];
     const d = dayjs(date.add(second + i, 'second')); // 确保每张图的时间戳不同
     const filename = d.format("YYYY-MM-DD_HH-mm-ss") + '.webp';
-    const outputPath = path.join(saveDir, filename);
+
+    const isChengyu = idiom.type === 'chengyu';
+    const imgDir = isChengyu ? `${saveDir}/chengyu` : saveDir;
+    const outputPath = path.join(imgDir, filename);
 
     try {
       await generateIdiomImage(idiom, data, outputPath);
-      data.imageUrl = `/public/${filename}`; // 更新数据中的图片路径
+      data.imageUrl =  isChengyu ? `/chengyu/${filename}` : `/${filename}`; // 更新数据中的图片路径
+
+      result.push(data);    // 只有生成图片成功的才录入
 
       // 避免请求过快
       if (i < idioms.length - 1) {
@@ -80,5 +86,5 @@ export async function generateBatchIdiomImages(
     }
   }
 
-  return dataList;
+  return result;
 }

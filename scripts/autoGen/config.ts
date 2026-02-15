@@ -35,6 +35,9 @@ export const CONFIG = {
 
   // 图片生成提示词模板
   imagePromptTemplate: (idiom: IdiomInput, generated: IdiomItem): string => {
+    // 如果已经生成了提示词，之间使用AI给的提示词
+    if (generated.imgPrompt) return generated.imgPrompt;
+
     if (idiom.type === 'xiehouyu') {
       return generateImagePromptByXiehouyu({
         firstPart: idiom.original,

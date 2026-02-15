@@ -236,5 +236,26 @@
     "om": "节节高",
     "t": "Sesame flowers blooming",
     "tm": "Rising step by step"
+  },
+  {
+    "id": 35,
+    "o": "骑驴看唱本",
+    "om": "走着瞧",
+    "t": "Reading a libretto while riding a donkey",
+    "tm": "Wait and see / Let's see how things turn out"
+  },
+  {
+    "id": 36,
+    "o": "王婆卖瓜",
+    "om": "自卖自夸",
+    "t": "Old Woman Wang selling melons",
+    "tm": "To blow one's own trumpet; to praise one's own wares"
+  },
+  {
+    "id": 37,
+    "o": "新官上任",
+    "om": "三把火",
+    "t": "New official takes office",
+    "tm": "Three fires of enthusiasm"
   }
 ]

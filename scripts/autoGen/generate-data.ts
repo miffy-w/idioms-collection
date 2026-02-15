@@ -89,6 +89,7 @@ export async function generateIdiomData(
       source: jsonData.source,
       meaning: jsonData.meaning,
       usage: jsonData.usage,
+      imgPrompt: jsonData.imgPrompt,
       originalCountry: "China", // 默认为中国
     };
 
