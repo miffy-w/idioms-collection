@@ -1,18 +1,7 @@
 import IdiomCard from "@/components/IdiomCard";
 import { IdiomItem } from "@/types";
+import DATA from './data.json';
 
-export const DATA: IdiomItem = {
-  id: 24,
-  original: "三个臭皮匠",
-  originalMeaning: "顶个诸葛亮",
-  originalCountry: "China",
-  translation: "Three cobblers equal one Zhuge Liang",
-  translationMeaning: "Two heads are better than one",
-  imageUrl: "/idiom-13.webp",
-  source: "A folk saying that evolved from \"three cobbler chiefs\" (top artisans). Over time, \"cobbler\" became a humble profession representing ordinary people, while Zhuge Liang, the brilliant strategist from the Three Kingdoms period, symbolized supreme wisdom. It metaphorically describes how collective wisdom of ordinary people can match or exceed that of a genius.",
-  meaning: "This idiom celebrates the power of collaboration and collective intelligence. It teaches us that even ordinary individuals, when working together and pooling their knowledge, can achieve remarkable results. It encourages teamwork, discussion, and the recognition that everyone has valuable insights to contribute.",
-  usage: "Use this idiom when a group of ordinary people solve a difficult problem through collaboration, or when teamwork achieves better results than individual effort. For example, a group of colleagues brainstorming to solve a complex technical issue, or a community working together to improve their neighborhood.",
-}
 
 export default function Home() {
   return (

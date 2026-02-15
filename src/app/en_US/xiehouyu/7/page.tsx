@@ -1,18 +1,7 @@
 import IdiomCard from "@/components/IdiomCard";
 import { IdiomItem } from "@/types";
+import DATA from './data.json';
 
-export const DATA: IdiomItem = {
-  id: 7,
-  original: "塞翁失马",
-  originalMeaning: "焉知非福",
-  originalCountry: "China",
-  translation: "Old man lost his horse",
-  translationMeaning: "A blessing in disguise",
-  imageUrl: "/2026-02-12_14-12-22.webp",
-  source: "From \"Huainanzi: Ren Jian Xun.\" An old man living near the frontier lost his horse. His neighbors sympathized, but he said, \"Who knows if this is not a blessing?\" Later, the horse returned with another fine horse. Then his son fell riding the horse and broke his leg. Again, the old man said, \"Who knows if this is not a blessing?\" When war came, all young men were drafted except his son due to his injury.",
-  meaning: "This idiom teaches the wisdom of perspective and acceptance. It reminds us that good and bad fortune are intertwined, and what appears to be misfortune may lead to good outcomes, and vice versa. It encourages maintaining a balanced attitude toward life's ups and downs.",
-  usage: "Use this idiom when something bad happens but leads to unexpected good results, or when trying to console someone who has suffered a loss. For example, losing a job but finding a better career path, or missing a train but avoiding an accident.",
-}
 
 export default function Home() {
   return (

@@ -1,18 +1,7 @@
 import IdiomCard from "@/components/IdiomCard";
 import { IdiomItem } from "@/types";
+import DATA from './data.json';
 
-export const DATA: IdiomItem = {
-  id: 16,
-  original: "井底之蛙",
-  originalMeaning: "目光短浅",
-  originalCountry: "China",
-  translation: "A frog in a well",
-  translationMeaning: "Short-sighted",
-  imageUrl: "/idiom-5.webp",
-  source: "From \"Zhuangzi: Autumn Water.\" A frog living in a shallow well boasted to a giant sea turtle about how happy it was. The turtle told the frog about the vastness of the sea, and the frog was stunned. It metaphorically describes someone with narrow vision and short-sightedness.",
-  meaning: "This idiom warns against intellectual and experiential limitations. It encourages us to step outside our comfort zones and explore the vast world beyond our immediate surroundings. It reminds us that what seems complete and perfect within our limited perspective may be insignificant in the greater scheme of things.",
-  usage: "Use this idiom when someone has narrow views or limited understanding because they rarely leave their familiar environment or interact with diverse people. For example, someone who thinks their local customs are the only correct way, or someone who believes their small community's problems are the most important issues in the world.",
-}
 
 export default function Home() {
   return (

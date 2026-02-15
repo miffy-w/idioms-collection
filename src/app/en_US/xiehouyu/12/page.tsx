@@ -1,18 +1,6 @@
 import IdiomCard from "@/components/IdiomCard";
-import { IdiomItem } from "@/types";
+import DATA from './data.json';
 
-export const DATA: IdiomItem = {
-  id: 12,
-  original: "竹篮打水",
-  originalMeaning: "一场空",
-  originalCountry: "China",
-  translation: "Drawing water with a bamboo basket",
-  translationMeaning: "All in vain",
-  imageUrl: "/idiom-1.webp",
-  source: "This idiom originates from Chinese folklore. It metaphorically describes wasting effort with no result. It vividly illustrates the impossibility of drawing water with a bamboo basket, which cannot hold water due to its woven structure.",
-  meaning: "This idiom teaches us to recognize the futility of using wrong methods or tools for a task. It reminds us that no matter how much effort we invest, if our approach is fundamentally flawed, we will achieve nothing. It encourages practical wisdom and efficiency in our endeavors.",
-  usage: "Use this idiom when someone wastes time and effort on a project with fundamentally wrong methods, or when trying to achieve something through inappropriate means. For example, trying to solve a technical problem without understanding the basics, or attempting to grow tropical plants in a cold climate without proper facilities.",
-}
 
 export default function Home() {
   return (

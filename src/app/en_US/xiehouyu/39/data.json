@@ -1,0 +1,14 @@
+{
+  "id": 39,
+  "original": "十五个吊桶打水",
+  "originalMeaning": "七上八下",
+  "translation": "Fifteen buckets drawing water from a well",
+  "translationMeaning": "Seven up, eight down (in a state of anxiety or unease)",
+  "imageUrl": "/2026-02-15_17-58-42.jpg",
+  "source": "This Chinese two-part allegorical saying, known as a xiehouyu, has its origins in the daily life of ancient China. The phrase vividly describes the literal action of using multiple buckets on a single rope or pulley system to draw water from a deep well. Historically, wells were crucial water sources, and drawing water was a common chore. The imagery of fifteen buckets specifically creates a scene of busy, chaotic, and repetitive motion. Over time, this concrete scene evolved into a metaphorical expression. While no single famous historical event or figure is directly tied to its creation, it emerged from collective folk wisdom, capturing a universal human sensation through a relatable, tangible scenario.",
+  "meaning": "This idiom is used to describe a state of emotional turmoil, anxiety, or nervousness, where one's heart or mind feels unsettled and restless. The core idea is the feeling of being pulled in different directions simultaneously, just like the buckets going up and down erratically. It perfectly captures the sensation of inner conflict, worry before a significant event, or general unease when facing uncertainty. The 'seven up, eight down' part is not meant to be mathematically precise but emphasizes disorder and lack of peace.",
+  "usage": "Use this idiom in informal spoken or written contexts to describe feelings of nervousness, anxiety, or being emotionally unsettled. It's commonly applied when someone is waiting for important news, before a test or job interview, after making a difficult decision, or in any situation causing inner turmoil. The tone is descriptive and slightly vivid, not harsh. It helps convey a shared understanding of a common human experience. For example: 'Waiting for the exam results has me feeling like fifteen buckets drawing water from a well—seven up, eight down.'",
+  "imgPositivePrompt": "中国传统水彩画与现代极简主义风格结合，描绘一口古井，井绳上悬挂着多个（约十五个）样式古朴的木制水桶，正在打水，部分水桶在上行，部分在下行，形成“七上八下”的错落动态。画面构图简洁平衡，大量留白，焦点集中在井口与桶的动态上。色调采用温暖宜人的赭石、浅褐与青蓝色调，笔触带有水彩的晕染感。整体氛围宁静中带着一丝不安的动感，艺术化地诠释“心神不宁”的隐喻。高质量，细致，专业插图。",
+  "imgNegativePrompt": "文字，字母，数字，水印，签名，丑陋，畸形，扭曲的人脸或人体，现代服装，高楼大厦，汽车，照片写实，超现实主义，暗黑风格，血腥，暴力，复杂混乱的背景，过多细节，色彩刺眼不和谐，画面拥挤。",
+  "originalCountry": "China"
+}

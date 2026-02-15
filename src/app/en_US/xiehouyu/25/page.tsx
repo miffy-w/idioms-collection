@@ -1,18 +1,7 @@
 import IdiomCard from "@/components/IdiomCard";
 import { IdiomItem } from "@/types";
+import DATA from './data.json';
 
-export const DATA: IdiomItem = {
-  id: 25,
-  original: "老马识途",
-  originalMeaning: "经验丰富",
-  originalCountry: "China",
-  translation: "Old horses know the way",
-  translationMeaning: "Experience counts",
-  imageUrl: "/idiom-14.webp",
-  source: "From \"Han Feizi: Shuo Lin.\" Duke Huan of Qi led an army to attack Guzhu and got lost in the mountains. His minister Guan Zhong suggested following the old horses from the region. The old horses led them out of the mountains. It metaphorically describes someone with experience who can guide others through difficult situations.",
-  meaning: "This idion honors the value of experience and wisdom gained over time. It teaches us that practical knowledge cannot be replaced by theory or enthusiasm alone. It reminds us to respect and learn from those who have walked the path before us, as their experience can guide us safely through unfamiliar terrain.",
-  usage: "Use this idiom when someone with experience guides others through a difficult situation, or when experienced knowledge proves valuable. For example, a veteran employee mentoring new team members during a challenging project, or an experienced doctor diagnosing a rare disease that stumped younger colleagues.",
-}
 
 export default function Home() {
   return (

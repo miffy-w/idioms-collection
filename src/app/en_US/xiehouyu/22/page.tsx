@@ -1,18 +1,7 @@
 import IdiomCard from "@/components/IdiomCard";
 import { IdiomItem } from "@/types";
+import DATA from './data.json';
 
-export const DATA: IdiomItem = {
-  id: 22,
-  original: "对牛弹琴",
-  originalMeaning: "白费口舌",
-  originalCountry: "China",
-  translation: "Playing lute to a cow",
-  translationMeaning: "Wasting words on an unappreciative audience",
-  imageUrl: "/idiom-11.webp",
-  source: "From \"Mouzi Li Huo Lun\" by Mouzi of the Eastern Han dynasty. A lute player performed for cows, but the cows continued eating grass, uninterested in the music. It metaphorically describes speaking to someone who cannot understand or appreciate what is being said.",
-  meaning: "This idiom teaches us the importance of understanding our audience before communicating. It reminds us that the value of communication depends not just on what we say, but on the receiver's ability and willingness to understand. It encourages us to adapt our message and approach to suit our audience.",
-  usage: "Use this idiom when someone explains complex ideas to people who cannot understand them, or when someone's effort is wasted on an unappreciative audience. For example, a professor trying to explain advanced physics to young children, or an artist presenting their work to people with no appreciation for art.",
-}
 
 export default function Home() {
   return (

@@ -110,4 +110,4 @@ export class RemoveIdiom {
 }
 
 const rmIdiom = new RemoveIdiom();
-rmIdiom.remove("xiehouyu", [38]);
+rmIdiom.remove("xiehouyu", [39]);

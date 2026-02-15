@@ -257,5 +257,19 @@
     "om": "三把火",
     "t": "New official takes office",
     "tm": "Three fires of enthusiasm"
+  },
+  {
+    "id": 38,
+    "o": "癞蛤蟆想吃天鹅肉",
+    "om": "痴心妄想",
+    "t": "A toad lusting after a swan's flesh",
+    "tm": "Wishful thinking; an impossible dream"
+  },
+  {
+    "id": 39,
+    "o": "十五个吊桶打水",
+    "om": "七上八下",
+    "t": "Fifteen buckets drawing water from a well",
+    "tm": "Seven up, eight down (in a state of anxiety or unease)"
   }
 ]

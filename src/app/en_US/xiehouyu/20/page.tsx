@@ -1,18 +1,7 @@
 import IdiomCard from "@/components/IdiomCard";
 import { IdiomItem } from "@/types";
+import DATA from './data.json';
 
-export const DATA: IdiomItem = {
-  id: 20,
-  original: "守株待兔",
-  originalMeaning: "墨守成规",
-  originalCountry: "China",
-  translation: "Waiting by a stump for a rabbit",
-  translationMeaning: "Relying on luck and inflexibility",
-  imageUrl: "/idiom-9.webp",
-  source: "From \"Han Feizi: Five Vermin.\" A farmer from Song had a tree stump in his field. One day, a rabbit ran too fast, hit the stump, and died. The farmer got a free rabbit, so he stopped farming and guarded the stump all day waiting for rabbits to hit it. He never saw another rabbit and was mocked by the people of Song. It metaphorically describes sticking to narrow experience without flexibility, or hoping to gain without effort.",
-  meaning: "This idiom warns against the error of generalizing from rare lucky events. It teaches us that one fortunate occurrence should not become the basis for a strategy. It reminds us that success usually requires consistent effort and adaptation, not passive waiting for luck to repeat itself.",
-  usage: "Use this idiom when someone relies on a one-time lucky experience and expects it to happen again without effort. For example, someone who won money gambling once and now thinks they can make a living from it, or a student who got an easy A on one test and thinks they do not need to study for future exams.",
-}
 
 export default function Home() {
   return (
