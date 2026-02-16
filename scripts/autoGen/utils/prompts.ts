@@ -12,7 +12,7 @@ export function generateXiehouyuPrompt(firstPart: string, secondPart: string) {
       "originalMeaning": "${secondPart}",
       "translation": "英文直译（对应于${firstPart}）",
       "translationMeaning": "英文意译（对应于${secondPart}）",
-      "source": "英文撰写（100~180 words），准确严谨地介绍歇后语的出处、历史典故、来源背景，简洁易懂",
+      "source": "英文撰写，准确严谨地介绍歇后语的出处、历史典故、来源背景，简洁易懂",
       "meaning": "英文撰写，面向英语母语用户，清晰通俗地解释歇后语的核心寓意、内涵，无文化壁垒",
       "usage": "英文撰写，说明歇后语的适用场景、使用语境、语气色彩，给海外用户明确的使用指导",
       "imgPositivePrompt": "输出适配文生图的中文正面提示词，具体要求看下面的图片提示词要求",
@@ -24,27 +24,25 @@ export function generateXiehouyuPrompt(firstPart: string, secondPart: string) {
     2. source、meaning 和 usage 字段中的文本都不要使用换行符（\\n），所有内容保持在同一行
     3. 所有英文内容必须地道、自然
     4. 直接返回 JSON，不要有 markdown 代码块标记
+    5. source 中，如果来源无从考证，则可以说是民间广泛流传的，或民间谚语。不要为了凑字数胡编乱造，也不要使用“This Chinese two-part allegorical saying, known as a xiehouyu”这样的开头套话，直接说成语的来源即可。
     
     
     ### 图片提示词要求：
     ${firstPart}的视觉化呈现，即${secondPart}。这是一则中国传统两段式寓言（歇后语）。
-    模型角色是一位专业的歇后语专家，擅长用视觉元素捕捉习语的精髓，并运用艺术手法呈现其背后的深层含义。
 
     场景描述：可视化“${firstPart}”——第一部分，字面意义，艺术诠释
     隐喻意义:通过视觉元素捕捉${secondPart}——第二部分的精髓
 
-    风格: 中国传统水彩画与现代极简主义设计的结合
+    风格: 中国传统水彩画与现代极简主义设计的结合，如果其他风格能更好展现歇后语内涵或者用户理解度，可以使用其他风格，但不要偏离主题。
     构图：简洁平衡，留有负空间，适合卡片版式
     配色方案：温暖宜人的色调搭配和谐色彩
-    如果其他风格能更好展现歇后语内涵或者用户理解度，可以使用其他风格，但不要偏离主题。
 
     插图应：
     1. 用视觉方式呈现“${firstPart}”的原场景
     2. 隐喻性地暗示“${secondPart}”的含义。
-    3. 运用艺术元素唤起中国文化审美
+    3. 生成的图片中尽量不要出现文字和印章，除非不得不使用，使用时文字与图中其他内容要保持和谐
     4. 保持整洁的排版，合理运用留白
     5. 适用于带有文字叠加的卡片展示
-    6. 生成的图片中尽量不要出现文字，除非不得不使用，使用时文字与图中其他内容要保持和谐
 
     高质量、细致、艺术化、专业的插图；
     `;
@@ -63,7 +61,7 @@ export function generateChengyuPrompt(content: string) {
       "originalMeaning": null,
       "translation": "英文翻译",
       "translationMeaning": null,
-      "source": "英文撰写（100~180 words），准确严谨地介绍成语的出处、历史典故、来源背景，简洁易懂。如果来源无从考证，则可以说是民间广泛流传的",
+      "source": "英文撰写，准确严谨地介绍成语的出处、历史典故、来源背景，简洁易懂。
       "meaning": "英文撰写，面向英语母语用户，清晰通俗地解释成语的核心寓意、内涵，无文化壁垒",
       "usage": "英文撰写，说明成语的适用场景、使用语境、语气色彩，给海外用户明确的使用指导",
       "imgPositivePrompt": "输出适配文生图的中文正面提示词，具体要求看下面的图片提示词要求",
@@ -76,6 +74,7 @@ export function generateChengyuPrompt(content: string) {
     3. 所有英文内容必须地道、自然
     4. originalMeaning 和 translationMeaning 必须设置为 null（因为成语没有这两部分）
     5. 直接返回 JSON，不要有 markdown 代码块标记
+    6. source 中，如果来源无从考证，则可以说是民间广泛流传的，或民间谚语。不要为了凑字数胡编乱造，也不要使用“This Chinese two-part allegorical saying, known as a xiehouyu”这样的开头套话，直接说成语的来源即可。
     
     ### 图片提示词要求：
     一幅生动形象的中国成语“${content}”插图。

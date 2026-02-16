@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "o": "千里送鹅毛",
+    "t": "Sending a goose feather from a thousand miles away",
+    "om": "礼轻情意重",
+    "tm": "The gift is light but the sentiment is heavy"
+  },
+  {
+    "id": 2,
+    "o": "泼出去的水",
+    "t": "Spilled water",
+    "om": "收不回",
+    "tm": "Irreversible, cannot be taken back"
+  },
+  {
+    "id": 3,
+    "o": "水中捞月",
+    "t": "Fishing for the moon in the water",
+    "om": "一场空",
+    "tm": "All in vain, futile effort"
+  },
+  {
+    "id": 4,
+    "o": "猪八戒照镜子",
+    "t": "Pig Bajie looks in the mirror",
+    "om": "里外不是人",
+    "tm": "Neither inside nor outside a person"
+  },
+  {
+    "id": 5,
+    "o": "鹬蚌相争",
+    "t": "Sandpiper and clam, fisherman gains",
+    "om": "渔翁得利",
+    "tm": "Third party benefits from conflict"
+  },
+  {
+    "id": 6,
+    "o": "铁杵磨成针",
+    "t": "Grinding an iron pestle into a needle",
+    "om": "功到自然成",
+    "tm": "Perseverance leads to success"
+  },
+  {
+    "id": 7,
+    "o": "塞翁失马",
+    "t": "Old man lost his horse",
+    "om": "焉知非福",
+    "tm": "A blessing in disguise"
+  },
+  {
+    "id": 8,
+    "o": "八仙过海",
+    "t": "Eight Immortals cross the sea",
+    "om": "各显神通",
+    "tm": "Each showing their special abilities"
+  },
+  {
+    "id": 9,
+    "o": "虎落平阳",
+    "t": "Tiger in flat land",
+    "om": "被犬欺",
+    "tm": "Powerful in wrong place, bullied by weak"
+  },
+  {
+    "id": 10,
+    "o": "泥菩萨过河",
+    "t": "Clay Buddha crosses the river",
+    "om": "自身难保",
+    "tm": "Cannot save itself"
+  },
+  {
+    "id": 11,
+    "o": "狗拿耗子",
+    "t": "A dog trying to catch mice",
+    "om": "多管闲事",
+    "tm": "Too meddlesome"
+  },
+  {
+    "id": 12,
+    "o": "竹篮打水",
+    "t": "Drawing water with a bamboo basket",
+    "om": "一场空",
+    "tm": "All in vain"
+  },
+  {
+    "id": 13,
+    "o": "肉包子打狗",
+    "t": "Hitting a dog with a meat bun",
+    "om": "有去无回",
+    "tm": "Gone forever"
+  },
+  {
+    "id": 14,
+    "o": "哑巴吃黄连",
+    "t": "A mute eating bitter herbs",
+    "om": "有苦说不出",
+    "tm": "Suffering in silence"
+  },
+  {
+    "id": 15,
+    "o": "画蛇添足",
+    "t": "Drawing feet on a snake",
+    "om": "多此一举",
+    "tm": "Gilding the lily"
+  },
+  {
+    "id": 16,
+    "o": "井底之蛙",
+    "t": "A frog in a well",
+    "om": "目光短浅",
+    "tm": "Short-sighted"
+  },
+  {
+    "id": 17,
+    "o": "杞人忧天",
+    "t": "A person from Qi worrying about the sky",
+    "om": "庸人自扰",
+    "tm": "Unnecessary anxiety"
+  },
+  {
+    "id": 18,
+    "o": "掩耳盗铃",
+    "t": "Covering one's ears to steal a bell",
+    "om": "自欺欺人",
+    "tm": "Deceiving oneself"
+  },
+  {
+    "id": 19,
+    "o": "刻舟求剑",
+    "t": "Carving a mark on a boat to find a sword",
+    "om": "不知变通",
+    "tm": "Rigid thinking"
+  },
+  {
+    "id": 20,
+    "o": "守株待兔",
+    "t": "Waiting by a stump for a rabbit",
+    "om": "墨守成规",
+    "tm": "Relying on luck and inflexibility"
+  },
+  {
+    "id": 21,
+    "o": "班门弄斧",
+    "t": "Showing off one's axe skills at Lu Ban's door",
+    "om": "不自量力",
+    "tm": "Overestimating oneself"
+  },
+  {
+    "id": 22,
+    "o": "对牛弹琴",
+    "t": "Playing lute to a cow",
+    "om": "白费口舌",
+    "tm": "Wasting words on an unappreciative audience"
+  },
+  {
+    "id": 23,
+    "o": "亡羊补牢",
+    "t": "Mending the fence after sheep are lost",
+    "om": "为时未晚",
+    "tm": "Better late than never"
+  },
+  {
+    "id": 24,
+    "o": "三个臭皮匠",
+    "t": "Three cobblers equal one Zhuge Liang",
+    "om": "顶个诸葛亮",
+    "tm": "Two heads are better than one"
+  },
+  {
+    "id": 25,
+    "o": "老马识途",
+    "t": "Old horses know the way",
+    "om": "经验丰富",
+    "tm": "Experience counts"
+  },
+  {
+    "id": 26,
+    "o": "狗咬吕洞宾",
+    "t": "A dog bites Lu Dongbin",
+    "om": "不识好人心",
+    "tm": "Biting the hand that feeds you"
+  },
+  {
+    "id": 27,
+    "o": "雪中送炭",
+    "t": "Sending charcoal in snow",
+    "om": "及时雨",
+    "tm": "Timely help in time of need"
+  },
+  {
+    "id": 28,
+    "o": "锦上添花",
+    "t": "Adding flowers to brocade",
+    "om": "好上加好",
+    "tm": "Making something good even better"
+  },
+  {
+    "id": 29,
+    "o": "隔岸观火",
+    "t": "Watching fire from opposite bank",
+    "om": "袖手旁观",
+    "tm": "Detached observation without getting involved"
+  },
+  {
+    "id": 30,
+    "o": "滥竽充数",
+    "t": "Passing off as a yu player",
+    "om": "冒充内行",
+    "tm": "Pretending to be competent when one is not"
+  },
+  {
+    "id": 31,
+    "o": "拔苗助长",
+    "t": "Pulling up seedlings to help them grow",
+    "om": "欲速则不达",
+    "tm": "Haste makes waste"
+  },
+  {
+    "id": 32,
+    "o": "秀才遇到兵",
+    "t": "Scholar meets soldier",
+    "om": "有理讲不清",
+    "tm": "Cannot reason with unreasonable people"
+  },
+  {
+    "id": 33,
+    "o": "小葱拌豆腐",
+    "t": "Scallion and tofu salad",
+    "om": "一清二白",
+    "tm": "Perfectly clear and white"
+  },
+  {
+    "id": 34,
+    "o": "芝麻开花",
+    "t": "Sesame flowers blooming",
+    "om": "节节高",
+    "tm": "Rising step by step"
+  },
+  {
+    "id": 35,
+    "o": "骑驴看唱本",
+    "t": "Reading a libretto while riding a donkey",
+    "om": "走着瞧",
+    "tm": "Wait and see / Let's see how things turn out"
+  },
+  {
+    "id": 36,
+    "o": "王婆卖瓜",
+    "t": "Wang Po selling melons",
+    "om": "自卖自夸",
+    "tm": "Praising one's own goods"
+  },
+  {
+    "id": 37,
+    "o": "新官上任",
+    "t": "New official takes office",
+    "om": "三把火",
+    "tm": "Three fires of enthusiasm"
+  },
+  {
+    "id": 38,
+    "o": "癞蛤蟆想吃天鹅肉",
+    "t": "A toad lusting after a swan's flesh",
+    "om": "痴心妄想",
+    "tm": "Wishful thinking; an impossible dream"
+  },
+  {
+    "id": 39,
+    "o": "十五个吊桶打水",
+    "t": "Fifteen buckets drawing water from a well",
+    "om": "七上八下",
+    "tm": "Seven up, eight down (in a state of anxiety or unease)"
+  },
+  {
+    "id": 40,
+    "o": "老鼠过街",
+    "t": "A rat running across the street",
+    "om": "人人喊打",
+    "tm": "Everyone shouts, 'Beat it!'"
+  }
+]

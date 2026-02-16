@@ -1,5 +1,5 @@
 import HomeLayout from "@/components/Home";
-import idiomList from "./en_US/xiehouyu/idiomList.json";
+import idiomList from "@/data/en_US/xiehouyu/simple.json";
 import { BaseUrl } from "./layout";
 
 export default function Home() {

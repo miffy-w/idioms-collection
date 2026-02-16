@@ -56,7 +56,7 @@ function IdiomCard({ data }: IdiomCardProps) {
           <div className="relative aspect-4/3 w-full overflow-hidden bg-linear-to-br from-rose-50 via-purple-50 to-blue-50 dark:from-slate-900 dark:via-purple-950 dark:to-slate-900">
             <Image
               src={data.imageUrl}
-              alt={data.original}
+              alt={data.translation}
               fill
               className="object-contain"
               priority={true}

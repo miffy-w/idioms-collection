@@ -1,6 +1,6 @@
 import { METADATA } from "@/shared/metadata";
 import PageLayout, { PageLayoutProps } from "@/components/PageLayout";
-import idiomList from './en_US/xiehouyu/idiomList.json';
+import idiomList from '@/data/en_US/xiehouyu/simple.json';
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
 
