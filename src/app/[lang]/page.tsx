@@ -22,9 +22,9 @@ export default async function Page(props: Props) {
   }
 
   return (
-    <div className="flex gap-8 flex-wrap">
+    <div className="flex gap-8 flex-wrap justify-center">
       {language.idiomTypes.map((type) => (
-        <div key={type.name} className="grow shrink-0 lg:min-w-100 max-w-full">
+        <div key={type.name} className="grow shrink-0 md:max-w-100 max-w-full">
           <HoverImageCard
             key={type.name}
             title={type.title}

@@ -2,6 +2,7 @@ import { LANGUAGE_DATA } from "@/data/language";
 import { IdiomList } from "@/components/IdiomsDrawer";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { notFound } from "next/navigation";
 
 const langs = Object.keys(LANGUAGE_DATA);
 
@@ -30,15 +31,15 @@ interface Props {
 export default async function Page(props: Props) {
   const p = await props.params;
   const language = LANGUAGE_DATA[p.lang as keyof typeof LANGUAGE_DATA];
-  const tp = language.idiomTypes.find((t) => t.name === p.type);
+  const tp = language?.idiomTypes.find((t) => t.name === p.type);
 
   if (!tp) {
-    return 1;
+    notFound();
   }
 
   return (
-    <div>
-      <p className="mb-8 font-sans text-fuchsia-900 dark:text-fuchsia-300 text-[18px] max-w-160">
+    <div className="max-w-160 mx-auto px-1">
+      <p className="mb-8 font-sans text-fuchsia-900 dark:text-fuchsia-300 text-[18px]">
         {tp.description}
       </p>
 
