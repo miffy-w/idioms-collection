@@ -29,7 +29,7 @@ export default function RootLayout({
   params: any;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+      <html lang="en" suppressHydrationWarning>
       <body className="antialiased">
         <PageLayout {...layoutProps}>{children}</PageLayout>
       </body>

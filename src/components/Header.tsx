@@ -1,7 +1,6 @@
-import { BookOpen, Zap } from "lucide-react";
+import { BookOpen } from "lucide-react";
 import ThemeToggle from "@/components/ThemeToggle";
 import SearchBar from "./SearchBar";
-import { SimpleIdiomItem } from "@/types";
 import Link from "next/link";
 
 export interface HeaderProps {
