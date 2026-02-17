@@ -5,18 +5,14 @@ import { SimpleIdiomItem } from "@/types";
 import Link from "next/link";
 
 export interface HeaderProps {
-  baseUrl: string;
   title: string;
   subTitle: string;
-  simpleData?: SimpleIdiomItem[]; // 可选的简化数据列表
 
   searchPlaceholder: string;
   noResultsText: string;
 }
 
 function Header({
-  simpleData,
-  baseUrl,
   title,
   subTitle,
   searchPlaceholder,
@@ -30,7 +26,7 @@ function Header({
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <BookOpen className="h-6 w-6 text-rose-600 dark:text-rose-400" />
-              <Link href={baseUrl}>
+              <Link href="/">
                 <h1 className="text-2xl md:text-3xl font-bold bg-linear-to-r from-rose-600 via-purple-600 to-blue-600 bg-clip-text text-transparent">
                   {title}
                 </h1>
@@ -43,8 +39,6 @@ function Header({
           <div className="flex flex-col md:flex-row items-center gap-3 justify-between">
             <p className="text-sm text-muted-foreground">{subTitle}</p>
             <SearchBar
-              baseUrl={baseUrl}
-              simpleData={simpleData}
               noResultsText={noResultsText}
               placeholder={searchPlaceholder}
             />

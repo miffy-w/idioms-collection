@@ -53,15 +53,13 @@ export async function generateBatchIdiomImages(
   dataList: GeneratedIdiomData[],
   saveDir: string,
 ) {
-  const date = dayjs();
-  const second = date.second();
   const result: GeneratedIdiomData[] = [];
 
   for (let i = 0; i < idioms.length; i++) {
     const idiom = idioms[i];
     const data = dataList[i];
-    const d = dayjs(date.add(second + i, 'second')); // 确保每张图的时间戳不同
-    const filename = d.format("YYYY-MM-DD_HH-mm-ss") + '.webp';
+    const om = idiom.originalMeaning;
+    const filename = `${idiom.original}${om ? '——' + om : ''}.webp`;
 
     const isChengyu = idiom.type === 'chengyu';
     const imgDir = isChengyu ? `${saveDir}/chengyu` : saveDir;

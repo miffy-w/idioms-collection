@@ -135,3 +135,13 @@
 body {
   @apply font-sans;
 }
+
+.hidden-scroll-bar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.hidden-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+

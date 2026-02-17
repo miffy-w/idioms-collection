@@ -1,22 +1,28 @@
 "use client";
 
-import { SimpleIdiomItem } from "@/types";
 import { Search, LoaderCircle } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from 'next/navigation'
+import simpleList from '@/data/simple';
 import { useMemo, useState, useTransition, useRef, useEffect } from "react";
 
 export interface SearchBarProps {
   placeholder?: string;
-  baseUrl: string;
   noResultsText?: string;
-  simpleData?: SimpleIdiomItem[]; // 可选的简化数据列表
+}
+
+interface SearchData {
+  o: string;
+  om?: string;
+  t: string;
+  tm?: string;
+  id: number;
+  l: string;  // 语言
+  c: string;  // 分类
 }
 
 export default function SearchBar({
   placeholder,
-  baseUrl,
-  simpleData,
   noResultsText,
 }: SearchBarProps) {
   const router = useRouter()
@@ -29,19 +35,27 @@ export default function SearchBar({
   const filteredData = useMemo(() => {
     if (!searchQuery.trim()) return [];
 
+    const result: SearchData[] = [];  // 最多12条
     const query = searchQuery.toLowerCase().trim();
-    return (
-      simpleData?.filter((xiehouyu) => {
-        return (
-          xiehouyu.o.toLowerCase().includes(query) ||
-          xiehouyu.om?.toLowerCase().includes(query) ||
-          xiehouyu.id.toString().includes(query) ||
-          xiehouyu.t.toLowerCase().includes(query) ||
-          xiehouyu.tm?.toLowerCase().includes(query)
-        );
-      }) || []
-    );
-  }, [searchQuery, simpleData]);
+
+    for (const item of simpleList) {
+      for (const { o, om, t, tm, id } of item.d) {
+        if (result.length >= 12) return result;
+
+        if (
+          o.toLowerCase().includes(query) ||
+          om?.toLowerCase().includes(query) ||
+          t.toLowerCase().includes(query) ||
+          tm?.toLowerCase().includes(query) ||
+          id.toString().includes(query)
+        ) {
+          result.push({ o, om, t, tm, id, l: item.l, c: om ? 'xiehouyu' : 'chengyu' });
+        }
+      }
+    }
+
+    return result;
+  }, [searchQuery]);
 
   const clearSearch = () => {
     setSearchQuery("");
@@ -75,7 +89,7 @@ export default function SearchBar({
         onKeyDown={(e) => {
           if (e.key === "Enter" && filteredData.length > 0) {
             const item = filteredData[0];
-            router.push(`${baseUrl}/${item.id}`);
+            router.push(`/${item.l}/${item.c}/${item.id}`);
             clearSearch();
           }
         }}
@@ -101,15 +115,15 @@ export default function SearchBar({
         )}
         {filteredData.length > 0 && !isPending && (
           <ul>
-            {filteredData.slice(0, 12).map((item) => (
+            {filteredData.map((item) => (
               <Link
                 key={item.id}
-                href={`${baseUrl}/${item.id}`}
+                href={`/${item.l}/${item.c}/${item.id}`}
                 onClick={clearSearch}
               >
                 <li className="cursor-pointer px-3 py-2 hover:bg-fuchsia-500/30">
-                  <div className="text-sm font-medium truncate">{item.t}</div>
-                  <div className="text-xs text-muted-foreground truncate">{item.o}</div>
+                  <div title={item.t} className="text-sm font-medium truncate">{item.t}</div>
+                  <div title={item.o} className="text-xs text-muted-foreground truncate">{item.o}</div>
                 </li>
               </Link>
             ))}

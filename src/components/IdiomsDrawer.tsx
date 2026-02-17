@@ -6,6 +6,7 @@ import { useMemo, useRef, useState } from "react";
 import { Button } from "./ui/button";
 import { MenuSquare } from "lucide-react";
 import clsx from "clsx";
+import Link from "next/link";
 
 export interface IdiomsDrawerProps {
   baseUrl: string;
@@ -32,9 +33,9 @@ function IdiomsDrawer({ baseUrl, idiomList }: IdiomsDrawerProps) {
       </Button>
       <Drawer onClose={() => setIsDrawerOpen(false)} open={isDrawerOpen}>
         <DrawerContent>
-        <DrawerTitle hidden>Idioms List</DrawerTitle>
+          <DrawerTitle hidden>Idioms List</DrawerTitle>
           <div className="p-4">
-            <VirtualList
+            <IdiomList
               items={idiomSortedList}
               itemHeight={56}
               height={400}
@@ -59,13 +60,19 @@ interface VirtualListProps {
   items: SimpleIdiomItem[];
   itemHeight?: number;
   height?: number;
+  baseUrl?: string;
+  className?: string;
+  virtual?: boolean;
   isSelected?: (item: SimpleIdiomItem) => boolean;
   onClickItem?: (item: SimpleIdiomItem) => void;
 }
 
-export function VirtualList({
+export function IdiomList({
   items,
+  baseUrl,
   isSelected,
+  className,
+  virtual = true,
   itemHeight = 56,
   onClickItem,
   height = 400,
@@ -82,27 +89,35 @@ export function VirtualList({
     items.length - 1,
     startIndex + visibleCount + buffer * 2,
   );
-  const visibleItems = items.slice(startIndex, endIndex + 1);
+  const visibleItems = virtual ? items.slice(startIndex, endIndex + 1) : items;
 
   return (
     <div
       ref={containerRef}
-      style={{ height, overflow: "auto" }}
-      onScroll={(e) => setScrollTop((e.target as HTMLDivElement).scrollTop)}
-      className="w-full"
+      style={virtual ? { height, overflow: "auto" } : {}}
+      onScroll={
+        virtual
+          ? (e) => setScrollTop((e.target as HTMLDivElement).scrollTop)
+          : void 0
+      }
+      className={clsx("w-full", className)}
     >
       <div style={{ height: totalHeight, position: "relative" }}>
         {visibleItems.map((it, idx) => {
           const realIndex = startIndex + idx;
           const selected = isSelected?.(it);
-          return (
+          const dom = (
             <div
               style={{
-                position: "absolute",
-                top: realIndex * itemHeight,
-                left: 0,
-                right: 0,
                 height: itemHeight,
+                ...(virtual
+                  ? {
+                      position: "absolute",
+                      top: realIndex * itemHeight,
+                      left: 0,
+                      right: 0,
+                    }
+                  : {}),
               }}
               key={it.id}
               className={clsx(
@@ -135,6 +150,14 @@ export function VirtualList({
                 {it.o}
               </div>
             </div>
+          );
+
+          return baseUrl ? (
+            <Link key={it.id} href={`${baseUrl}/${it.id}`}>
+              {dom}
+            </Link>
+          ) : (
+            dom
           );
         })}
       </div>

@@ -268,4 +268,4 @@ export class IdiomsManager {
 const manager = new IdiomsManager();
 
 // manager.removeIdiomByName("老鼠过街——人人喊打");
-manager.run("老鼠过街——人人喊打");
+manager.run("鹤立鸡群");

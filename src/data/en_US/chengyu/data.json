@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "original": "鹤立鸡群",
+    "translation": "A crane standing among chickens",
+    "imageUrl": "/chengyu/鹤立鸡群.webp",
+    "source": "This idiom originates from a story about Ji Kang, a famous scholar and musician of the Wei and Jin dynasties. When his son Ji Shao was young, someone praised him to his father, saying he was 'outstanding like a wild crane standing among a flock of chickens.' The phrase later became a fixed idiom to describe someone who stands out prominently from the ordinary crowd.",
+    "meaning": "It describes a person of outstanding talent, virtue, or appearance who stands out conspicuously from the ordinary people around them, just as a tall, elegant crane would among a group of common chickens.",
+    "usage": "Used to praise someone who is exceptionally talented, virtuous, or distinguished compared to their peers. It carries a strongly complimentary and admiring tone. It is commonly used in both formal and informal contexts to describe individuals in academic, professional, or social settings who excel far beyond others.",
+    "imgPositivePrompt": "一幅极简主义中国风水彩画，描绘一只优雅修长的白鹤昂首挺立于一群普通的母鸡和小鸡之中，鹤的姿态高贵从容，与周围鸡群的平凡形成鲜明对比。背景是柔和温暖的水彩渲染，以米白、浅灰和淡赭石色为主，营造和谐宁静的氛围。画面构图简洁平衡，留有大量负空间，整体风格干净、艺术、富有意境，完美诠释“出众”与“卓尔不群”的核心概念。",
+    "imgNegativePrompt": "丑陋，畸形，恐怖，暗黑风格，赛博朋克，科幻元素，现代城市背景，文字浮于画面之上，画面拥挤杂乱，色彩冲突刺眼，写实照片，3D渲染，卡通动漫风格，低质量，模糊，水印，签名。",
+    "originalCountry": "China"
+  }
+]

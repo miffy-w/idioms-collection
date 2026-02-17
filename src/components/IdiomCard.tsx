@@ -1,7 +1,7 @@
 "use client";
 import { IdiomItem, SimpleIdiomItem } from "@/types";
 import Image from "next/image";
-import { createContext, useContext, useState } from "react";
+import { useState } from "react";
 import {
   Loader2,
   AlertCircle,
@@ -16,37 +16,24 @@ import clsx from "clsx";
 
 export interface IdiomCardProps {
   data: IdiomItem;
-}
-
-export interface CardContextType {
-  maxLength?: number;
   baseUrl: string;
   imageErrorText?: string;
   meaningTitle?: string;
-  idiomList: SimpleIdiomItem[];
+  simpleList: SimpleIdiomItem[];
   culturalBackground?: string;
 }
 
-export const CardContext = createContext<CardContextType>({
-  idiomList: [],
-  baseUrl: "/en_US",
-  imageErrorText: "",
-  meaningTitle: "",
-  culturalBackground: "",
-});
-
-function IdiomCard({ data }: IdiomCardProps) {
+function IdiomCard({
+  data,
+  baseUrl,
+  imageErrorText,
+  meaningTitle,
+  simpleList,
+  culturalBackground,
+}: IdiomCardProps) {
   const isMobile = useIsMobile();
   const [imageLoaded, setImageLoaded] = useState(false);
   const [imageError, setImageError] = useState(false);
-  const {
-    baseUrl,
-    idiomList,
-    maxLength = Infinity,
-    imageErrorText = "",
-    meaningTitle = "",
-    culturalBackground = "",
-  } = useContext(CardContext);
 
   return (
     <div className="max-w-7xl mx-auto">
@@ -154,8 +141,8 @@ function IdiomCard({ data }: IdiomCardProps) {
             </button>
           </Link>
         )}
-        <IdiomsDrawer baseUrl={baseUrl} idiomList={idiomList} />
-        {data.id < maxLength && (
+        <IdiomsDrawer baseUrl={baseUrl} idiomList={simpleList} />
+        {data.id < simpleList.length && (
           <Link replace href={`${baseUrl}/${data.id + 1}`}>
             <button className="flex cursor-pointer items-center gap-2 px-6 py-3 rounded-xl bg-linear-to-r from-purple-500 to-blue-500 text-white font-medium hover:from-purple-600 hover:to-blue-600 transition-all shadow-lg hover:shadow-xl hover:scale-105">
               <ArrowRight className="w-5 h-5" />
@@ -168,14 +155,3 @@ function IdiomCard({ data }: IdiomCardProps) {
 }
 
 export default IdiomCard;
-
-export const IdiomContextProvider = (props: {
-  context: CardContextType;
-  children: React.ReactNode;
-}) => {
-  return (
-    <CardContext.Provider value={props.context}>
-      {props.children}
-    </CardContext.Provider>
-  );
-};
