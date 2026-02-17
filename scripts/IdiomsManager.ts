@@ -219,7 +219,7 @@ export class IdiomsManager {
       // 删除图片
       this.removeIdiomImage([deleteIdiom]);
     } else {
-      console.error("❌ 没有找到成语");
+      console.error("❌ 没有找到成语", name);
     }
   }
 
@@ -267,5 +267,5 @@ export class IdiomsManager {
 
 const manager = new IdiomsManager();
 
-// manager.removeIdiomByName("老鼠过街——人人喊打");
-manager.run("鹤立鸡群");
+manager.removeIdiomByName("姜太公钓鱼——愿者上钩");
+manager.run("姜太公钓鱼——愿者上钩");

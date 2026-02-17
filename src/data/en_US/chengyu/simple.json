@@ -1,7 +1,17 @@
 [
   {
     "id": 1,
+    "o": "闻鸡起舞",
+    "t": "Rise at the rooster's crow to practice swordplay"
+  },
+  {
+    "id": 2,
     "o": "鹤立鸡群",
     "t": "A crane standing among chickens"
+  },
+  {
+    "id": 3,
+    "o": "胸有成竹",
+    "t": "to have a well-thought-out plan in mind"
   }
 ]

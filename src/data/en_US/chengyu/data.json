@@ -1,14 +1,38 @@
 [
   {
     "id": 1,
+    "original": "闻鸡起舞",
+    "translation": "Rise at the rooster's crow to practice swordplay",
+    "imageUrl": "/chengyu/闻鸡起舞.webp",
+    "source": "This idiom originates from the 'Book of Jin: Biographies of Zu Ti and Liu Kun'. It tells the story of two Jin Dynasty patriots, Zu Ti and Liu Kun, who were close friends and shared a deep concern for their troubled country. To prepare themselves to serve the nation, they would wake up and start practicing martial arts immediately upon hearing the rooster crow at dawn, demonstrating their determination and discipline.",
+    "meaning": "It describes a person who is highly self-disciplined, diligent, and seizes the early morning hours to work hard towards their ambitions. It emphasizes the virtues of perseverance, making the most of one's time, and maintaining a strong will to achieve one's goals.",
+    "usage": "This idiom is used in a positive and encouraging tone to praise someone's diligence, strong work ethic, and commitment to self-improvement. It is suitable for contexts related to studying, training, personal development, or pursuing long-term aspirations. It can be used as motivation or as a compliment.",
+    "imgPositivePrompt": "中国风，一位古代中国武士在黎明破晓的庭院中闻鸡起舞，练习剑术，姿态勤奋坚定，背景有古朴的房屋和篱笆，远处天空微亮，公鸡站在墙头鸣叫，画面充满宁静、自律与奋发向上的氛围，温暖宜人的色调，水墨画风格，构图简洁平衡，留有负空间，艺术感强，细节精致",
+    "imgNegativePrompt": "文字，丑陋，变形，模糊，混乱，黑暗，恐怖，血腥，现代服装，西方建筑，城市景观，照片写实，3D渲染，低质量，粗糙，水印，签名，边框",
+    "originalCountry": "China"
+  },
+  {
+    "id": 2,
     "original": "鹤立鸡群",
     "translation": "A crane standing among chickens",
     "imageUrl": "/chengyu/鹤立鸡群.webp",
-    "source": "This idiom originates from a story about Ji Kang, a famous scholar and musician of the Wei and Jin dynasties. When his son Ji Shao was young, someone praised him to his father, saying he was 'outstanding like a wild crane standing among a flock of chickens.' The phrase later became a fixed idiom to describe someone who stands out prominently from the ordinary crowd.",
-    "meaning": "It describes a person of outstanding talent, virtue, or appearance who stands out conspicuously from the ordinary people around them, just as a tall, elegant crane would among a group of common chickens.",
-    "usage": "Used to praise someone who is exceptionally talented, virtuous, or distinguished compared to their peers. It carries a strongly complimentary and admiring tone. It is commonly used in both formal and informal contexts to describe individuals in academic, professional, or social settings who excel far beyond others.",
-    "imgPositivePrompt": "一幅极简主义中国风水彩画，描绘一只优雅修长的白鹤昂首挺立于一群普通的母鸡和小鸡之中，鹤的姿态高贵从容，与周围鸡群的平凡形成鲜明对比。背景是柔和温暖的水彩渲染，以米白、浅灰和淡赭石色为主，营造和谐宁静的氛围。画面构图简洁平衡，留有大量负空间，整体风格干净、艺术、富有意境，完美诠释“出众”与“卓尔不群”的核心概念。",
-    "imgNegativePrompt": "丑陋，畸形，恐怖，暗黑风格，赛博朋克，科幻元素，现代城市背景，文字浮于画面之上，画面拥挤杂乱，色彩冲突刺眼，写实照片，3D渲染，卡通动漫风格，低质量，模糊，水印，签名。",
+    "source": "This idiom originates from a story about Ji Kang, a famous scholar and musician from the Wei-Jin period. In 'A New Account of the Tales of the World' (《世说新语》), it is recorded that when people praised his son Ji Shao for being outstanding, Ji Kang humorously replied, 'I didn't realize he stood out so much among ordinary people, like a crane among chickens.' The phrase vividly captures the image of someone or something markedly superior to its surroundings.",
+    "meaning": "It describes a person or thing that is exceptionally outstanding, distinguished, or superior compared to those around them. It highlights a striking contrast in quality, talent, or appearance within a group.",
+    "usage": "Used to praise someone's exceptional abilities, qualities, or achievements that make them stand out positively in a group. It carries a complimentary and admiring tone. It is commonly applied in contexts describing people, works of art, performances, or any entity that is conspicuously better than its peers.",
+    "imgPositivePrompt": "中国风，一只优雅高贵的白鹤昂首挺立在一群普通的鸡中间，形成鲜明对比，白鹤姿态优雅，羽毛细腻，鸡群围绕其下，场景在宁静的田园或庭院中，温暖宜人的色调，和谐色彩，简洁平衡的构图，留有负空间，画面整洁，富有中国文化审美意境，适合卡片版式展示。",
+    "imgNegativePrompt": "丑陋，畸形，恐怖，血腥，暴力，情色，现代城市背景，科幻元素，西方风格建筑，文字浮于画面，构图拥挤，色彩杂乱，低质量，模糊，水印，签名。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 3,
+    "original": "胸有成竹",
+    "translation": "to have a well-thought-out plan in mind",
+    "imageUrl": "/chengyu/胸有成竹.webp",
+    "source": "This idiom originates from a story about the Northern Song Dynasty painter Wen Tong. He was famous for painting bamboo, and before putting brush to paper, he would have a complete, vivid image of the bamboo in his mind. His contemporary, the poet and painter Su Shi, praised him in an essay, saying that Wen Tong succeeded because he already had the perfected bamboo in his heart before painting. This story was recorded in Su Shi's 'Collected Works of Su Dongpo'.",
+    "meaning": "It means to have a well-thought-out plan or a clear idea before taking action. It describes someone who is fully prepared and confident because they have carefully considered all aspects of a situation in advance.",
+    "usage": "Used to describe someone who is confident and prepared when facing a task, challenge, or decision. It has a positive and admiring tone, often applied in contexts like business, exams, presentations, or creative projects. For example, 'She walked into the negotiation room,胸有成竹, having prepared for every possible question.'",
+    "imgPositivePrompt": "中国风，一位古代中国画家在竹林庭院中，闭目凝思，他面前的空中浮现着由半透明水墨线条构成的完美竹子虚影，象征他心中已构思好的画作。画面宁静，充满禅意，温暖柔和的色调，如淡赭石、竹青色和米白色，构图简洁平衡，大量留白，艺术感强，细节精致，适合作为文化卡片插图。",
+    "imgNegativePrompt": "丑陋，变形，比例失调，杂乱背景，现代元素，武器，暴力，恐怖，情色文字，低质量，模糊，水印，签名，边框，突兀的现代文字，西方面孔，混乱的线条。",
     "originalCountry": "China"
   }
 ]

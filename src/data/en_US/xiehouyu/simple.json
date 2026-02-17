@@ -278,5 +278,47 @@
     "t": "A rat running across the street",
     "om": "人人喊打",
     "tm": "Everyone shouts, 'Beat it!'"
+  },
+  {
+    "id": 41,
+    "o": "飞蛾扑火",
+    "t": "A moth flying into the flame",
+    "om": "自取灭亡",
+    "tm": "To court one's own doom"
+  },
+  {
+    "id": 42,
+    "o": "打开天窗",
+    "t": "Open the skylight",
+    "om": "说亮话",
+    "tm": "Speak frankly and directly"
+  },
+  {
+    "id": 43,
+    "o": "猫哭耗子",
+    "t": "The cat weeps for the mouse",
+    "om": "假慈悲",
+    "tm": "False compassion; crocodile tears"
+  },
+  {
+    "id": 44,
+    "o": "大水冲了龙王庙",
+    "t": "The flood waters rush into the Dragon King's temple",
+    "om": "一家人不认得一家人",
+    "tm": "Family members fail to recognize each other"
+  },
+  {
+    "id": 45,
+    "o": "留得青山在",
+    "t": "As long as the green mountain remains",
+    "om": "不怕没柴烧",
+    "tm": "There will be no shortage of firewood to burn"
+  },
+  {
+    "id": 46,
+    "o": "姜太公钓鱼",
+    "t": "Jiang Taigong fishing",
+    "om": "愿者上钩",
+    "tm": "Only the willing take the bait"
   }
 ]
