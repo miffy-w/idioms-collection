@@ -251,7 +251,7 @@ const xiehouyuManager = new IdiomsManager(IDIOM_TYPE.xiehouyu);
 // xiehouyuManager.run("大海捞针——没处寻");
 
 const chengyuManager = new IdiomsManager(IDIOM_TYPE.chengyu);
-// chengyuManager.removeIdioms([4,5,6,7]);
-chengyuManager.run(["螳臂当车"], true);
+// chengyuManager.removeIdioms([21]);
+chengyuManager.run(["巧舌如簧"], true);
 
 const proverbManager = new IdiomsManager(IDIOM_TYPE.proverb);
