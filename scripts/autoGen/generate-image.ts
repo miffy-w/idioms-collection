@@ -37,7 +37,7 @@ export async function generateIdiomImage(
 
     // 图片压缩
     const r = await sharp(imageData).webp({
-      effort: 3,
+      effort: 2,
       quality: 90,
     }).toFile(filename);
     

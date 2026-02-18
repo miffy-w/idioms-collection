@@ -1882,5 +1882,41 @@
     "imgPositivePrompt": "中国传统水墨画风格，描绘狂暴汹涌的惊涛骇浪冲击着海岸或一艘小舟，巨浪滔天，水雾弥漫，天空阴沉，充满力量与危险感，画面简洁有力，大量留白，色调以深蓝、墨黑与灰白为主，营造出古典中国画的意境与张力，适合作为文字卡片背景。",
     "imgNegativePrompt": "低质量，模糊，杂乱，文字突兀，现代城市景观，人物特写，卡通脸，鲜艳刺眼的颜色，平静湖面，阳光明媚，欢乐场景，动漫风格，赛博朋克元素，儿童绘画，抽象扭曲，边框，水印。",
     "originalCountry": "China"
+  },
+  {
+    "id": 158,
+    "original": "鸟语花香",
+    "translation": "Birds sing and flowers give forth their fragrance",
+    "imageUrl": "/chengyu/鸟语花香.webp",
+    "source": "This idiom originates from a line in the poem 'A Spring Day in the Countryside' by the Southern Song Dynasty poet Lu You (陆游). It vividly describes the beautiful and lively scenery of spring, where birds are chirping and flowers are blooming, creating a scene of peace and prosperity.",
+    "meaning": "It describes a scene of beautiful natural scenery, especially in spring, filled with the sounds of birds singing and the fragrance of blooming flowers. It conveys a sense of peace, harmony, vitality, and the joy of life.",
+    "usage": "Used to describe a pleasant, peaceful, and vibrant natural environment, often in spring. It carries a positive and appreciative tone. For example: 1) After the long winter, the park was finally filled with the scene of 'birds singing and flowers giving forth their fragrance'. 2) Her garden is so well-tended that it feels like a place of 'birds singing and flowers giving forth their fragrance' all year round.",
+    "imgPositivePrompt": "中国传统水彩画风格，春日花园景象，多种小鸟在枝头欢快鸣叫，如黄鹂、喜鹊，繁花盛开，如桃花、樱花、牡丹，色彩温暖宜人，和谐明亮，画面简洁平衡，留有诗意负空间，艺术感强，细节精致，适合作为文化卡片背景。",
+    "imgNegativePrompt": "丑陋，畸形，恐怖，黑暗，阴郁，冬季，枯萎，荒凉，城市高楼，现代建筑，人物特写，文字标识，水印，签名，边框，低质量，模糊，像素化，杂乱，构图拥挤。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 159,
+    "original": "云开雾散",
+    "translation": "The clouds disperse and the mist clears",
+    "imageUrl": "/chengyu/云开雾散.webp",
+    "source": "This idiom originates from the natural phenomenon of clouds and mist clearing away to reveal a clear sky. It is widely used in classical Chinese literature, such as in the works of the Tang dynasty poet Wang Wei, to poetically describe the transition from obscurity to clarity.",
+    "meaning": "It metaphorically describes a situation where confusion, difficulties, or misunderstandings are completely resolved, leading to a clear, bright, and hopeful outcome. It signifies the dispelling of doubts and the arrival of clarity and resolution.",
+    "usage": "This idiom is used in a positive and hopeful tone to describe the moment when a complicated problem is finally solved, a tense situation is eased, or the truth is revealed after a period of uncertainty. For example: 'After months of negotiations, the deadlock finally broke, and it felt like the clouds had dispersed and the mist cleared.' Or, 'When she explained her reasons, all my doubts vanished—it was truly a case of the clouds dispersing and the mist clearing.'",
+    "imgPositivePrompt": "中国传统水彩画风格，描绘清晨山巅，厚重云雾逐渐散开，金色阳光穿透云层洒向大地，露出远山和清澈的蓝天，一只仙鹤飞过，象征希望与清晰，画面宁静祥和，色彩温暖柔和，以蓝、金、白为主，构图简洁平衡，留有诗意负空间，适合文字叠加。",
+    "imgNegativePrompt": "低质量，模糊，黑暗阴沉，混乱构图，现代城市景观，人物特写，文字浮于画面，卡通夸张风格，赛博朋克元素，抽象扭曲，血腥暴力，过多细节拥挤。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 160,
+    "original": "天昏地暗",
+    "translation": "The sky is dark and the earth is gloomy",
+    "imageUrl": "/chengyu/天昏地暗.webp",
+    "source": "This idiom originates from ancient Chinese literary descriptions of extreme weather or catastrophic events. It is widely used in classical novels like 'Journey to the West' (西游记) to depict scenes where sandstorms or supernatural forces blot out the sun and plunge the world into darkness, symbolizing chaos and turmoil.",
+    "meaning": "It describes a situation of utter chaos, darkness, and confusion, either literally (like during a severe storm) or metaphorically (such as in times of great social upheaval, disaster, or personal despair). It conveys a sense of being overwhelmed and disoriented.",
+    "usage": "Used to emphasize a state of extreme disorder, darkness, or hopelessness. It can describe literal weather conditions (e.g., 'During the sandstorm, it was 天昏地暗, and you couldn't see a thing ahead.') or metaphorical situations (e.g., 'After the company scandal broke, the office was in 天昏地暗 chaos with everyone panicking.'). The tone is dramatic and vivid.",
+    "imgPositivePrompt": "中国传统水彩画风格，描绘一场猛烈的沙尘暴或暴风雨场景，天空昏暗阴沉，大地被阴影笼罩，飞沙走石，光线晦暗，远处景物模糊不清，整体氛围混乱压抑，画面中央可有一孤独旅人艰难前行，体现迷失与挣扎，构图简洁平衡，大量留白，温暖但灰暗的色调，水墨晕染效果，艺术感强，适合作为文化卡片插图。",
+    "imgNegativePrompt": "现代城市天际线，清晰阳光，人物微笑，鲜艳色彩，卡通可爱风格，赛博朋克霓虹灯，文字标识，过于复杂细节，混乱构图，明亮愉悦氛围，手办模型，儿童简笔画，抽象扭曲，电影海报式排版。",
+    "originalCountry": "China"
   }
 ]
