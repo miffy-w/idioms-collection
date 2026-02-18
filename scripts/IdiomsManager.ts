@@ -252,6 +252,6 @@ const xiehouyuManager = new IdiomsManager(IDIOM_TYPE.xiehouyu);
 
 const chengyuManager = new IdiomsManager(IDIOM_TYPE.chengyu);
 // chengyuManager.removeIdioms([21]);
-chengyuManager.run(["巧舌如簧"], true);
+chengyuManager.run(["国色天香"], true);
 
 const proverbManager = new IdiomsManager(IDIOM_TYPE.proverb);

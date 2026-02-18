@@ -286,5 +286,53 @@
     "imgPositivePrompt": "（中国传统水彩画与平面插画结合），一位身着古风服饰的说客，面带自信微笑，正在优雅地演讲，他的舌头被艺术化地描绘成一组精致、发光的簧片乐器（如口琴或笙），从中飘出五彩的音符和流光。背景是简约的中式书房或庭院一角，有卷轴和香炉，整体构图平衡，大量留白，温暖和谐的色调（赭石、群青、淡黄），线条流畅，画面整洁艺术，适合作为文字卡片背景。",
     "imgNegativePrompt": "丑陋的，畸形的，恐怖，血腥，暴力，现代科技产品（手机电脑），混乱背景，文字水印，低质量，模糊，3D渲染，照片写实，厚涂，黑暗压抑色调，构图拥挤，西方古典建筑，战争场面。",
     "originalCountry": "China"
+  },
+  {
+    "id": 25,
+    "original": "心旷神怡",
+    "translation": "carefree and joyous, relaxed and happy",
+    "imageUrl": "/chengyu/心旷神怡.webp",
+    "source": "This idiom originates from the essay 'On Yueyang Tower' (岳阳楼记) by the Northern Song Dynasty literary figure Fan Zhongyan (范仲淹). In the text, he describes the feeling of being in a beautiful natural setting: 'When the wind is gentle and the waves are calm, the sky and water are a vast, clear blue... then one's heart expands and spirit soars.' (至若春和景明，波澜不惊，上下天光，一碧万顷... 则有心旷神怡，宠辱偕忘). It captures the serene and uplifting mood inspired by splendid scenery.",
+    "meaning": "It describes a state of mind where one feels completely relaxed, happy, and free from worries, often as a result of being in a pleasant, beautiful, or peaceful environment. It conveys a sense of mental openness, physical ease, and spiritual delight.",
+    "usage": "Used to describe the feeling of great relaxation, refreshment, and happiness, typically brought about by experiencing something beautiful, peaceful, or uplifting. It has a positive and poetic tone. For example: 1) 'After hiking to the mountain peak and seeing the sunrise over the clouds, I felt completely carefree and joyous.' 2) 'Listening to that symphony in the park on a spring afternoon was such a relaxing and happy experience.'",
+    "imgPositivePrompt": "一位人物站在高山之巅，张开双臂，面带宁静愉悦的微笑，眺望远方壮丽的云海日出，温暖的金色阳光洒满全身和山川，微风轻拂发丝和衣角，背景是连绵的翠绿山脉与广阔清澈的蓝天，整体画面宁静、开阔、充满希望，采用中国传统水彩画与电影写实风格结合，构图简洁平衡，大量留白，温暖宜人的色调，和谐色彩，高质量、细致、艺术的插图，适合卡片版式。",
+    "imgNegativePrompt": "丑陋的，畸形的，恐怖，阴森，压抑，黑暗，混乱，战争，冲突，悲伤哭泣的人物，拥挤，文字标志，水印，签名，边框，模糊，低质量，粗糙，像素化，解剖结构错误，多余的手指，多余的手臂，多余的头，比例失调，现代城市建筑，室内场景。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 26,
+    "original": "呕心沥血",
+    "translation": "to exert one's utmost effort and dedication, literally 'to vomit one's heart and shed blood'",
+    "imageUrl": "/chengyu/呕心沥血.webp",
+    "source": "This idiom originates from the biography of Li He, a poet from the Tang Dynasty, in the 'New Book of Tang' (新唐书). It describes how Li He would pour his heart and soul into composing poetry, often exhausting himself to the point of physical and mental strain in his relentless pursuit of literary excellence.",
+    "meaning": "It describes an extraordinary level of dedication, hard work, and total commitment to a task or goal, often involving great personal sacrifice and immense effort over a long period.",
+    "usage": "It is used to praise someone's extreme diligence, devotion, and painstaking effort in their work, study, or creative pursuits. The tone is highly commendatory and formal. For example: 1) The scientist worked tirelessly for decades, truly embodying the spirit of 'vomiting heart and shedding blood' to develop the vaccine. 2) Her masterpiece was the result of years of 'vomiting heart and shedding blood', with countless revisions and sleepless nights.",
+    "imgPositivePrompt": "一位古代诗人深夜在烛光下伏案创作，面容憔悴但眼神专注，手捂胸口仿佛呕心沥血，身旁散落着诗稿和毛笔，墨水仿佛化作血滴与心血交融的抽象意象，整体采用中国传统水彩画与水墨画结合的风格，色调温暖以深红、赭石、墨黑为主，构图简洁平衡，留有诗意负空间，画面充满艰辛奉献与执着追求的情感，艺术感强，适合卡片展示。",
+    "imgNegativePrompt": "现代办公室场景，欢乐派对，人物表情轻松，色彩鲜艳卡通，科幻元素，混乱构图，文字浮于画面，恐怖血腥写实，低质量，模糊，变形。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 27,
+    "original": "栩栩如生",
+    "translation": "lifelike; vivid and realistic",
+    "imageUrl": "/chengyu/栩栩如生.webp",
+    "source": "This idiom originates from the 'Zhuangzi: The Great and Venerable Teacher' (庄子·大宗师). It describes the state of a painter who, when creating, becomes so immersed that his brushstrokes seem to breathe life into the artwork, making it appear as if it could come alive.",
+    "meaning": "It describes something, especially an artistic creation like a painting, sculpture, or description, that is so vividly and realistically rendered that it appears to be alive or real.",
+    "usage": "Used to praise the exceptional realism and vividness of an artwork, performance, or description. It carries a strongly positive and admiring tone. For example: 'The details in her portrait were so lifelike, it was as if the subject was right there in the room.' Or: 'The actor's performance was so vivid and convincing, he truly brought the historical figure to life.'",
+    "imgPositivePrompt": "一幅中国传统水彩画风格的精美插图，描绘一位古代画家正全神贯注地为一幅牡丹图落下最后一笔，画布上的牡丹花瓣娇艳欲滴、蝴蝶翩翩起舞，仿佛下一秒就要飞出画布，充满生机与活力。画面构图简洁平衡，留有诗意负空间，整体采用温暖宜人的和谐色调，如水粉、淡赭石和青绿色，艺术感强，细节精致，唤起中国古典审美，适合作为文字卡片背景。",
+    "imgNegativePrompt": "丑陋，畸形，扭曲，恐怖，暗黑风格，血腥，文字水印，签名，边框，相框，模糊，低质量，粗糙，像素化，3D渲染，卡通夸张，现代科技元素，杂乱背景，拥挤构图，色彩冲突刺眼。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 28,
+    "original": "国色天香",
+    "translation": "National beauty and celestial fragrance",
+    "imageUrl": "/chengyu/国色天香.webp",
+    "source": "This idiom originates from a story about Yang Yuhuan (719–756), the beloved consort of Emperor Xuanzong of the Tang Dynasty, who was renowned for her extraordinary beauty. The phrase first appeared in poetic works praising her, with 'national beauty' describing her unparalleled appearance and 'celestial fragrance' evoking her divine, captivating presence. It has since become a classic expression for describing supreme beauty.",
+    "meaning": "It describes a woman of breathtaking, peerless beauty, whose elegance and charm are so exceptional they seem almost divine or otherworldly. The term conveys an ideal of beauty that is both nationally celebrated and ethereally fragrant.",
+    "usage": "Used to praise a woman's exceptional and stunning beauty in a highly complimentary, formal, or literary tone. It is often employed in descriptions of historical figures, in romantic poetry, or in lavish compliments. For example: 'The actress at the gala, in her traditional gown, was truly a vision of national beauty and celestial fragrance.' Or, in a more literary context: 'The poet described the princess in his verses as possessing national beauty and celestial fragrance.'",
+    "imgPositivePrompt": "一位拥有绝世容颜的唐朝宫廷女子，面容精致，气质典雅高贵，身着华丽飘逸的汉服，置身于盛开的牡丹花丛中，牡丹娇艳欲滴，花瓣细腻。画面融合中国传统水彩画的柔和笔触与复古动漫的细腻线条，色彩温暖宜人，以粉色、金色和淡紫色为主色调。构图简洁平衡，背景留有大量负空间，整体氛围梦幻、优雅，富有中国文化审美意境，适合作为文字卡片背景。",
+    "imgNegativePrompt": "丑陋的面容，扭曲的五官，现代服装，西式建筑，科幻元素，武器，战争场景，恐怖氛围，血腥暴力，杂乱背景，文字水印，低质量，模糊，变形，卡通夸张风格，赛博朋克风格，抽象混乱，构图拥挤。",
+    "originalCountry": "China"
   }
 ]
