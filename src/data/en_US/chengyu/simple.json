@@ -691,62 +691,97 @@
   },
   {
     "id": 139,
-    "o": "韬光养晦",
-    "t": "Hide one's capacities and bide one's time"
-  },
-  {
-    "id": 140,
-    "o": "韬光养晦",
-    "t": "Hide one's capabilities and bide one's time"
-  },
-  {
-    "id": 141,
     "o": "骑虎难下",
     "t": "He who rides a tiger finds it hard to dismount"
   },
   {
-    "id": 142,
+    "id": 140,
     "o": "飘飘欲仙",
     "t": "floating as if becoming an immortal"
   },
   {
-    "id": 143,
+    "id": 141,
     "o": "如坐针毡",
     "t": "like sitting on a bed of needles"
   },
   {
-    "id": 144,
+    "id": 142,
     "o": "愤世嫉俗",
     "t": "resenting the world and scorning the vulgar"
   },
   {
-    "id": 145,
+    "id": 143,
     "o": "宁为玉碎，不为瓦全",
     "t": "Rather be a shattered piece of jade than an intact tile."
   },
   {
-    "id": 146,
+    "id": 144,
     "o": "豆蔻年华",
     "t": "The age of cardamom; referring to a young maiden in her early teens"
   },
   {
-    "id": 147,
+    "id": 145,
     "o": "出水芙蓉",
     "t": "A lotus flower rising from the water"
   },
   {
-    "id": 148,
+    "id": 146,
     "o": "红豆相思",
     "t": "Red beans symbolize lovesickness"
   },
   {
-    "id": 149,
+    "id": 147,
     "o": "一见钟情",
     "t": "Love at first sight"
   },
   {
-    "id": 150,
+    "id": 148,
     "o": "天伦之乐",
     "t": "Family Happiness"
+  },
+  {
+    "id": 149,
+    "o": "根深蒂固",
+    "t": "Deeply rooted and firmly established"
+  },
+  {
+    "id": 150,
+    "o": "白头偕老",
+    "t": "To grow old together with white hair"
+  },
+  {
+    "id": 151,
+    "o": "饱经风霜",
+    "t": "having weathered many hardships"
+  },
+  {
+    "id": 152,
+    "o": "秉烛夜游",
+    "t": "Taking a Nighttime Stroll with a Candle in Hand"
+  },
+  {
+    "id": 153,
+    "o": "才子佳人",
+    "t": "talented scholar and beautiful lady"
+  },
+  {
+    "id": 154,
+    "o": "沧海桑田",
+    "t": "Seas change into mulberry fields and mulberry fields into seas"
+  },
+  {
+    "id": 155,
+    "o": "花容月貌",
+    "t": "Flower-like features and moon-like face; a description of a woman of breathtaking beauty"
+  },
+  {
+    "id": 156,
+    "o": "学富五车",
+    "t": "having knowledge that can fill five carts; extremely learned and erudite"
+  },
+  {
+    "id": 157,
+    "o": "惊涛骇浪",
+    "t": "Terrifying waves and frightening billows"
   }
 ]

@@ -1774,5 +1774,113 @@
     "imgPositivePrompt": "温馨家庭场景，祖父母、父母与孩子在传统中式庭院中欢聚，围坐圆桌共享晚餐，面带幸福笑容，彼此亲切互动，灯笼悬挂，月色柔和，中国传统水彩画风格，线条流畅，色彩温暖宜人，以橘色、暖黄色和柔和红色为主色调，构图简洁平衡，留有诗意负空间，画面整洁，充满和谐与爱的氛围，适合卡片版式。",
     "imgNegativePrompt": "现代都市天际线，孤独人物，争吵冲突场景，冷色调，阴郁氛围，科幻元素，武器，战争痕迹，恐怖元素，文字浮标，丑陋畸形，画面杂乱，过度细节，边框，水印，签名，低质量，模糊。",
     "originalCountry": "China"
+  },
+  {
+    "id": 149,
+    "original": "根深蒂固",
+    "translation": "Deeply rooted and firmly established",
+    "imageUrl": "/chengyu/根深蒂固.webp",
+    "source": "This idiom originates from the philosophical text 'Huainanzi' (淮南子), compiled under Liu An, King of Huainan, during the Western Han Dynasty. It uses the metaphor of deep roots and solid foundations to describe things that are unshakable and long-lasting.",
+    "meaning": "It describes ideas, habits, traditions, or influences that are so deeply ingrained and firmly established that they are extremely difficult to change or remove.",
+    "usage": "This idiom is used in formal or semi-formal contexts to describe something entrenched, often with a neutral or slightly negative connotation when referring to stubborn problems. For example: 'Gender stereotypes are deeply rooted in some societies.' or 'His love for classical music is deeply rooted from childhood.'",
+    "imgPositivePrompt": "中国传统水彩画风格，一棵古老苍劲的参天大树，根系极其发达、粗壮、深入地底，盘根错节，牢牢抓住大地，地面稳固坚实。画面构图简洁平衡，主体突出，留有诗意负空间。配色采用温暖和谐的土褐色、墨绿色与淡金色调，营造宁静稳固、源远流长的氛围。高质量、细致、艺术的专业插图，适合作为文化卡片背景。",
+    "imgNegativePrompt": "丑陋，畸形，扭曲，模糊，混乱，杂乱无章，现代城市建筑，人物特写，文字浮于表面，卡通夸张，赛博朋克元素，荧光色，过于鲜艳刺眼的颜色，画面拥挤，缺乏留白。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 150,
+    "original": "白头偕老",
+    "translation": "To grow old together with white hair",
+    "imageUrl": "/chengyu/白头偕老.webp",
+    "source": "This idiom originates from ancient Chinese poetry and folk blessings, reflecting the traditional ideal of marriage. It is famously used in the 'Book of Odes' (诗经), an ancient Chinese poetry collection, in verses that express the wish for a couple to remain devoted and together until their hair turns white with age.",
+    "meaning": "It describes a lifelong, faithful, and loving marriage or partnership, where a couple stays together through all of life's ups and downs until old age. It represents enduring love, commitment, and shared happiness over a lifetime.",
+    "usage": "It is used as a heartfelt blessing for newlyweds or long-term couples, expressing the wish for their love to last a lifetime. It carries a warm, sincere, and formal tone, often seen in wedding speeches, cards, or traditional celebrations. For example: 1) 'We wish the bride and groom a lifetime of happiness and to grow old together with white hair.' 2) 'Their 50th anniversary is a true testament to their promise to grow old together.'",
+    "imgPositivePrompt": "一对年迈的中国夫妇，白发苍苍，手牵手在宁静的公园长椅上微笑对望，身后是秋天的金色银杏树和温暖的夕阳，氛围温馨幸福，采用中国传统水彩画与现代极简主义设计结合的风格，构图简洁平衡，大量留白，温暖和谐的色调，柔和的灯光，细节精致，艺术专业，适合卡片版式",
+    "imgNegativePrompt": "年轻情侣，单独人物，现代城市背景，黑暗阴沉色调，混乱构图，文字浮标，丑陋，变形，模糊，低质量，卡通夸张风格，赛博朋克元素，战争暴力场景",
+    "originalCountry": "China"
+  },
+  {
+    "id": 151,
+    "original": "饱经风霜",
+    "translation": "having weathered many hardships",
+    "imageUrl": "/chengyu/饱经风霜.webp",
+    "source": "This idiom originates from the life experiences of ordinary people in ancient China, vividly describing the appearance of someone who has endured long-term exposure to the elements and various difficulties, much like an old tree or rock shaped by wind and frost over time. It is a widely circulated folk expression.",
+    "meaning": "It describes a person, object, or even a place that has endured and survived numerous hardships, challenges, and the passage of time. The core meaning is resilience and the marks left by a difficult life, implying deep experience, toughness, and a story behind the weathered appearance.",
+    "usage": "Used to describe someone who looks older or more worn due to a hard life, or something that shows signs of age and wear from long use or exposure. It carries a tone of respect for endurance and survival. For example: 1) 'His face was weathered and lined, the face of a man who had weathered many hardships.' 2) 'The old wooden door, having weathered many hardships, still stood strong against the wind.'",
+    "imgPositivePrompt": "一位面容慈祥但布满深刻皱纹、眼神坚毅智慧的中国老渔夫，坐在一艘饱经风吹日晒、油漆斑驳的旧木船船头，背景是黄昏时分波涛汹涌的大海与远山，船身木纹清晰，质感粗糙，整体氛围宁静坚韧，充满故事感，中国传统水墨画风格，笔触有力，墨色浓淡有致，构图简洁平衡，大量留白，温暖怀旧的棕褐色调，专业插画",
+    "imgNegativePrompt": "丑陋，变形，模糊，现代城市背景，卡通夸张表情，鲜艳刺眼的颜色，文字标志，边框，水印，人物特写过大，背景杂乱，塑料质感，科幻元素，完美无瑕的皮肤，干净崭新的物体",
+    "originalCountry": "China"
+  },
+  {
+    "id": 152,
+    "original": "秉烛夜游",
+    "translation": "Taking a Nighttime Stroll with a Candle in Hand",
+    "imageUrl": "/chengyu/秉烛夜游.webp",
+    "source": "This idiom originates from a poem by the Northern Wei Dynasty poet Cao Pi (曹丕), found in his collection 'A Collection of Literature' (典论·论文). In the poem, he laments the fleeting nature of life and the brevity of the day, suggesting that since the day is short and we cannot make it longer, why not hold a candle and continue our enjoyment into the night? It reflects a classical Chinese philosophy of seizing the moment and finding joy in the present.",
+    "meaning": "It means to make the most of one's time, especially by enjoying life's pleasures even at night, symbolizing a carpe diem (seize the day) attitude. It encourages people to cherish the present moment and find happiness despite life's limitations or the passage of time.",
+    "usage": "This idiom is used in a positive, poetic, and slightly philosophical tone to describe savoring life, enjoying leisure activities at night, or making the best use of limited time. It's often applied in contexts of celebration, personal reflection, or encouragement to appreciate the moment. For example: 1) After a long week, they decided to have a '秉烛夜游' moment by having a late-night picnic in the park. 2) His approach to retirement is like '秉烛夜游'—he travels and learns new hobbies, believing it's never too late to enjoy life.",
+    "imgPositivePrompt": "一位古代文人手持点燃的蜡烛，在宁静的月夜花园中悠然漫步，脸上带着微笑，周围有朦胧的月光、盛开的梅花和古典亭台，画面充满诗意和宁静感，采用中国传统水彩画与复古动漫结合的风格，温暖柔和的色调，如淡黄、深蓝和浅粉，构图简洁平衡，留有大量负空间，艺术感强，适合卡片展示。",
+    "imgNegativePrompt": "现代城市夜景、白天场景、人物过多、杂乱背景、阴暗恐怖氛围、文字突兀、过于写实或抽象、风格偏离（如赛博朋克）、色彩刺眼、构图拥挤、低质量、模糊。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 153,
+    "original": "才子佳人",
+    "translation": "talented scholar and beautiful lady",
+    "imageUrl": "/chengyu/才子佳人.webp",
+    "source": "This idiom originates from Chinese classical literature and drama, particularly popular in the Tang and Song Dynasties. It became a standard trope in traditional Chinese operas and novels, such as 'The Romance of the West Chamber' (西厢记), where it describes the ideal romantic pairing of a gifted, learned man and a virtuous, elegant woman.",
+    "meaning": "This idiom refers to a perfect romantic match or couple, where the man is exceptionally talented and learned, and the woman is beautiful and virtuous. It embodies the traditional Chinese ideal of a harmonious and aesthetically pleasing partnership, often associated with love stories, literary elegance, and cultural refinement.",
+    "usage": "It is used to praise a well-matched couple, especially in contexts of romance, literature, or art. It carries a positive, admiring, and sometimes slightly formal or literary tone. For example, you might say, 'They look like a perfect pair of talented scholar and beautiful lady at the poetry reading,' or 'That classic novel features the timeless tale of a talented scholar and beautiful lady.'",
+    "imgPositivePrompt": "（中国传统水彩画与绘本风格结合），一对优雅的年轻情侣，男子身着古代书生服饰，手持书卷或毛笔，神情专注儒雅；女子身着精美汉服，姿态娴静美丽，手持团扇或花朵。两人置身于古典园林的月亮门或开满花的庭院中，背景有柳树、假山和亭台楼阁。画面充满诗意和浪漫氛围，色彩温暖柔和，以淡雅的水彩色调为主，如浅粉、淡蓝、米白。构图简洁平衡，留有适当负空间，整体风格细腻、艺术、专业，适合作为文化卡片插图。",
+    "imgNegativePrompt": "丑陋，畸形，恐怖，血腥，暴力，现代服装，西装，牛仔裤，T恤，高楼大厦，汽车，手机，电脑，科技感，赛博朋克元素，黑暗背景，阴森，模糊，低质量，粗糙，水印，文字标识，边框，构图拥挤，色彩刺眼不和谐，人物表情狰狞，写实照片风格，3D渲染，卡通夸张变形。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 154,
+    "original": "沧海桑田",
+    "translation": "Seas change into mulberry fields and mulberry fields into seas",
+    "imageUrl": "/chengyu/沧海桑田.webp",
+    "source": "This idiom originates from the ancient Chinese mythological text 'Classic of Mountains and Seas' (山海经), and was later popularized in a poem by the Taoist immortal Magu (麻姑) from the Eastern Jin Dynasty, who described witnessing the sea transform into mulberry fields three times, symbolizing the immense and cyclical changes of time.",
+    "meaning": "It describes great, often unimaginable, changes over a vast span of time, emphasizing how the world and circumstances can transform completely.",
+    "usage": "It is used in a neutral to slightly literary tone to describe profound transformations in landscapes, societies, or personal lives over long periods. For example: 1) Looking at the modern skyscrapers, the elderly man sighed, 'It's truly a case of seas changing into mulberry fields.' 2) The rapid technological advancement in the past 50 years makes one feel the meaning of this idiom.",
+    "imgPositivePrompt": "超详细插画，中国传统水彩画风格，描绘巨大时间跨度下的地貌变迁，左侧是古老的汹涌海洋与帆船，右侧逐渐过渡为宁静的桑田与农舍，中间有象征时间的沙漏或仙鹤飞过，整体构图简洁平衡，温暖和谐的青绿色与土黄色调，大量留白，画面宁静而有叙事感，适合作为文化卡片背景，专业艺术品质。",
+    "imgNegativePrompt": "丑陋，变形，文字突兀，现代城市景观，人物特写，战争场景，混乱构图，暗黑风格，血腥暴力，赛博朋克元素，卡通夸张脸，照片写实，边框装饰过多，色彩刺眼，画面拥挤。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 155,
+    "original": "花容月貌",
+    "translation": "Flower-like features and moon-like face; a description of a woman of breathtaking beauty",
+    "imageUrl": "/chengyu/花容月貌.webp",
+    "source": "This idiom originates from the classical Chinese novel 'The Plum in the Golden Vase' (Jin Ping Mei) by Lanling Xiaoxiao Sheng, where it was used to describe the stunning appearance of the female protagonist Pan Jinlian. It has since become a widely used literary expression in Chinese culture to praise feminine beauty.",
+    "meaning": "This idiom vividly describes a woman whose face is as lovely as a flower and as radiant as the moon, emphasizing an exceptionally beautiful and charming appearance that is both delicate and luminous.",
+    "usage": "It is used to praise a woman's extraordinary beauty in a highly poetic and complimentary tone, often in literary, descriptive, or formal contexts. For example, one might say, 'The actress in the historical drama truly has flower-like features and a moon-like face,' or in a more personal compliment, 'Everyone at the party was captivated by her flower-like features and moon-like face.'",
+    "imgPositivePrompt": "一位拥有绝世容颜的东方古典美女，面容如花朵般娇艳，肌肤如月光般皎洁柔美，眼神温柔，面带浅笑，身处盛开的牡丹花丛与柔和的月光之下，整体氛围梦幻、优雅、诗意，采用中国传统水彩画与复古动漫相结合的风格，构图简洁平衡，大量留白，温暖宜人的粉紫与淡金色调，画面精致、艺术、专业，适合作为文字卡片背景。",
+    "imgNegativePrompt": "丑陋的面容，畸形的五官，现代装束，西装，战争场景，恐怖氛围，阴森色调，黑暗背景，文字浮于画面之上，画面拥挤，杂乱无章，低质量，粗糙，变形，水印，签名。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 156,
+    "original": "学富五车",
+    "translation": "having knowledge that can fill five carts; extremely learned and erudite",
+    "imageUrl": "/chengyu/学富五车.webp",
+    "source": "This idiom originates from the Warring States period, recorded in the 'Zhuangzi: Under Heaven' (庄子·天下). It describes the philosopher Hui Shi (惠施), a friend of Zhuangzi, as a man of immense learning whose writings and arguments were so voluminous that they could fill five carts.",
+    "meaning": "It describes a person who possesses an enormous amount of knowledge, is extremely well-read, and has profound scholarship. It emphasizes the breadth and depth of one's learning.",
+    "usage": "This idiom is used in a formal and complimentary tone to praise someone's extensive knowledge and erudition. It is suitable for academic, literary, or professional contexts. For example, 'Professor Chen's lectures are so insightful; he truly has knowledge that can fill five carts.' Or, 'Her new book demonstrates a depth of research that is nothing short of having learning that fills five carts.'",
+    "imgPositivePrompt": "一位睿智的古代中国学者，周围环绕着堆积如山的竹简和古代书籍，这些书籍和卷轴多到几乎要装满五辆古朴的木制马车，马车排列在背景中。学者神情专注，手持一卷展开的竹简。画面采用中国传统水彩画与绘本风格结合，温暖宜人的色调，如赭石、淡黄和墨色，构图简洁平衡，留有大量负空间。整体氛围宁静、博学，充满文化气息，艺术插图风格，细节精致。",
+    "imgNegativePrompt": "丑陋，畸形，现代电子设备，混乱的背景，文字浮在画面上，恐怖，血腥，战争场面，人物肖像特写，照片写实，3D渲染，西方建筑，过于复杂拥挤的构图，冷色调，黑暗，模糊。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 157,
+    "original": "惊涛骇浪",
+    "translation": "Terrifying waves and frightening billows",
+    "imageUrl": "/chengyu/惊涛骇浪.webp",
+    "source": "This idiom originates from ancient Chinese literary descriptions of the formidable and perilous nature of the sea. It is widely used in classical texts to depict scenes of immense danger or turbulent situations, such as in historical records and poems describing treacherous voyages or metaphorical storms in life.",
+    "meaning": "It describes an extremely dangerous, turbulent, or perilous situation, often involving great difficulty, risk, or upheaval. It can refer to literal stormy seas or metaphorically to crises, challenges, or volatile circumstances in life, work, or society.",
+    "usage": "Used to emphasize a situation of extreme danger, difficulty, or turbulence. It carries a serious and dramatic tone. For example: 'The company navigated through the terrifying waves and frightening billows of the economic crisis.' or 'Their relationship survived many terrifying waves and frightening billows over the years.'",
+    "imgPositivePrompt": "中国传统水墨画风格，描绘狂暴汹涌的惊涛骇浪冲击着海岸或一艘小舟，巨浪滔天，水雾弥漫，天空阴沉，充满力量与危险感，画面简洁有力，大量留白，色调以深蓝、墨黑与灰白为主，营造出古典中国画的意境与张力，适合作为文字卡片背景。",
+    "imgNegativePrompt": "低质量，模糊，杂乱，文字突兀，现代城市景观，人物特写，卡通脸，鲜艳刺眼的颜色，平静湖面，阳光明媚，欢乐场景，动漫风格，赛博朋克元素，儿童绘画，抽象扭曲，边框，水印。",
+    "originalCountry": "China"
   }
 ]
