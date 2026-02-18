@@ -1738,5 +1738,41 @@
     "imgPositivePrompt": "中国传统水彩画风格，一朵粉白色莲花从清澈的湖水中优雅绽放，花瓣上挂着晶莹水珠，背景是朦胧的淡绿色湖面和远处若隐若现的古典亭台，整体画面清新淡雅，充满诗意和宁静感，构图简洁平衡，大量留白，温暖宜人的色调，专业细致的插图，适合卡片版式。",
     "imgNegativePrompt": "丑陋，畸形，恐怖，黑暗，阴森，血腥，污秽，模糊，低质量，文字标志，水印，签名，边框，复杂背景，拥挤构图，现代城市建筑，人物特写，浓妆，西方面孔，卡通夸张，赛博朋克元素，荧光色，抽象混乱。",
     "originalCountry": "China"
+  },
+  {
+    "id": 146,
+    "original": "红豆相思",
+    "translation": "Red beans symbolize lovesickness",
+    "imageUrl": "/chengyu/红豆相思.webp",
+    "source": "This idiom originates from a famous poem 'Red Beans' by the Tang dynasty poet Wang Wei. In the poem, red beans, which grow in the southern regions, are used as a symbol of yearning and deep affection for a faraway loved one. The hard, bright red seeds that do not decay easily became a perfect metaphor for enduring, unwavering love and longing.",
+    "meaning": "It describes intense longing and affectionate yearning for someone, especially a lover or a dear friend who is far away. The core idea is using red beans as a tangible symbol for an intangible feeling of deep, persistent love and missing someone.",
+    "usage": "It is used in a romantic or deeply affectionate context to express heartfelt longing and missing someone dearly. The tone is poetic, tender, and slightly melancholic. For example: 1) She kept the bracelet of red beans he gave her, a constant reminder of their 'red beans symbolize lovesickness'. 2) In his letter from abroad, he wrote that seeing the red maple leaves made him feel the 'red beans symbolize lovesickness' for his hometown and family.",
+    "imgPositivePrompt": "中国传统水彩画风格，温暖宜人色调，简洁平衡构图，留有负空间。画面中心是一双细腻的手捧着一捧鲜红饱满的红豆，几颗红豆正从指缝间轻柔滑落。背景是朦胧的远山和南国庭院的一角窗棂，窗外有疏落的竹影。红豆的光泽与柔和的水彩背景形成对比，整体氛围宁静、诗意，充满深情的思念感，艺术感强，细节精致，适合卡片排版。",
+    "imgNegativePrompt": "丑陋，畸形，恐怖，血腥，暴力，情色，现代城市街景，西方人物面孔，复杂混乱的背景，文字浮标，水印，签名，低质量，模糊，像素化，3D渲染，卡通夸张表情，科幻元素，赛博朋克霓虹，黑暗阴沉色调。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 147,
+    "original": "一见钟情",
+    "translation": "Love at first sight",
+    "imageUrl": "/chengyu/一见钟情.webp",
+    "source": "This idiom originates from the Qing dynasty novel 'The Story of the Stone' (also known as 'Dream of the Red Chamber') by Cao Xueqin. It describes the instant and deep romantic attraction felt by the character Jia Baoyu when he first meets his cousin Lin Daiyu.",
+    "meaning": "It describes the experience of falling deeply in love with someone the very first time you see them, implying an immediate and powerful emotional connection that feels destined.",
+    "usage": "It is used to describe a sudden and intense romantic attraction upon first meeting someone. The tone is positive and poetic, often used in storytelling or personal anecdotes. For example: 'When he walked into the cafe, it was love at first sight.' or 'The movie tells a classic story of love at first sight between the two main characters.'",
+    "imgPositivePrompt": "（中国传统水彩画与现代极简主义设计结合），一对年轻男女在古代庭院拱门下初次相遇的瞬间，眼神交汇，周围有飘落的粉色花瓣和柔和的光晕，画面中心突出两人充满爱意的对视，背景是简约的月亮门和竹林虚影，整体构图简洁平衡，大量留白，温暖和谐的粉金色调，专业细致的插画，艺术感强，适合卡片排版。",
+    "imgNegativePrompt": "丑陋，变形，比例失调，杂乱背景，文字浮标，现代服装，多人场景，恐怖阴森，黑暗色调，暴力，战争，科幻元素，机器人，模糊，低质量，水印，签名，边框，相框。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 148,
+    "original": "天伦之乐",
+    "translation": "Family Happiness",
+    "imageUrl": "/chengyu/天伦之乐.webp",
+    "source": "This idiom originates from the Tang Dynasty poet Li Bai's poem 'Spring Feast at My Cousin's Villa', where the line 'Hui tao tian lun zhi le shi' expresses the joy of family gatherings. It reflects the deep-rooted Confucian value in Chinese culture that places family harmony and the natural bonds between parents, children, and siblings as the greatest source of happiness and a fundamental social ideal.",
+    "meaning": "It describes the profound happiness and contentment derived from harmonious family relationships, especially the natural love and joy shared among parents, children, and siblings. It represents the ideal state of family life, free from worldly worries, filled with warmth, care, and mutual support.",
+    "usage": "This idiom is used in a positive and warm tone to describe scenes of family togetherness, reunion, and shared joy. It is suitable for occasions like family gatherings, holidays, or when expressing gratitude for family bonds. For example: 'Seeing three generations laughing together at the dinner table truly embodies family happiness.' or 'After years abroad, returning home for the holidays filled her with a sense of family happiness.'",
+    "imgPositivePrompt": "温馨家庭场景，祖父母、父母与孩子在传统中式庭院中欢聚，围坐圆桌共享晚餐，面带幸福笑容，彼此亲切互动，灯笼悬挂，月色柔和，中国传统水彩画风格，线条流畅，色彩温暖宜人，以橘色、暖黄色和柔和红色为主色调，构图简洁平衡，留有诗意负空间，画面整洁，充满和谐与爱的氛围，适合卡片版式。",
+    "imgNegativePrompt": "现代都市天际线，孤独人物，争吵冲突场景，冷色调，阴郁氛围，科幻元素，武器，战争痕迹，恐怖元素，文字浮标，丑陋畸形，画面杂乱，过度细节，边框，水印，签名，低质量，模糊。",
+    "originalCountry": "China"
   }
 ]

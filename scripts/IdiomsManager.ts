@@ -252,6 +252,6 @@ const xiehouyuManager = new IdiomsManager(IDIOM_TYPE.xiehouyu);
 
 const chengyuManager = new IdiomsManager(IDIOM_TYPE.chengyu);
 // chengyuManager.removeIdioms([129]);
-chengyuManager.run(["出水芙蓉"], true);
+chengyuManager.run(["天伦之乐"], true);
 
 const proverbManager = new IdiomsManager(IDIOM_TYPE.proverb);
