@@ -36,7 +36,10 @@ export async function generateIdiomImage(
     }).then(r => r.data);
 
     // 图片压缩
-    const r = await sharp(imageData).webp().toFile(filename);
+    const r = await sharp(imageData).webp({
+      effort: 3,
+      quality: 90,
+    }).toFile(filename);
     
     return r;
   } catch (error) {

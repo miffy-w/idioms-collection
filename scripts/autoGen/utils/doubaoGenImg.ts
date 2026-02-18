@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export type Modal = "doubao-seedream-4-5-251128";
+export type Modal = "doubao-seedream-4-5-251128" | "doubao-seedream-4-0-250828";
 
 export interface Options {
   model?: Modal;
@@ -33,7 +33,7 @@ export interface ResponseData {
 export function doubaoGenImg({
   prompt,
   apiKey,
-  model = "doubao-seedream-4-5-251128",
+  model = "doubao-seedream-4-0-250828",
 }: Options): Promise<ResponseData> {
   return axios.post<OriginalResponseData>(
     "https://ark.cn-beijing.volces.com/api/v3/images/generations",

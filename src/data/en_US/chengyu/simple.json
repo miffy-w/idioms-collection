@@ -138,5 +138,250 @@
     "id": 28,
     "o": "国色天香",
     "t": "National beauty and celestial fragrance"
+  },
+  {
+    "id": 29,
+    "o": "不到黄河心不死",
+    "t": "Not stopping until one reaches the Yellow River; not giving up until the last hope is gone"
+  },
+  {
+    "id": 30,
+    "o": "不见棺材不落泪",
+    "t": "Not shed a tear until one sees the coffin; Refusing to accept reality until faced with undeniable proof."
+  },
+  {
+    "id": 31,
+    "o": "回光返照",
+    "t": "The last radiance of the setting sun; a final flicker of life before death"
+  },
+  {
+    "id": 32,
+    "o": "起死回生",
+    "t": "to bring the dead back to life"
+  },
+  {
+    "id": 33,
+    "o": "日新月异",
+    "t": "Change with each passing day"
+  },
+  {
+    "id": 34,
+    "o": "妙手回春",
+    "t": "miraculous hands bring back spring"
+  },
+  {
+    "id": 35,
+    "o": "面面相觑",
+    "t": "Looking at each other in dismay"
+  },
+  {
+    "id": 36,
+    "o": "文质彬彬",
+    "t": "Elegant and refined, where substance matches style"
+  },
+  {
+    "id": 37,
+    "o": "五彩缤纷",
+    "t": "A riot of color; Multicolored and dazzling"
+  },
+  {
+    "id": 38,
+    "o": "亭亭玉立",
+    "t": "slender and graceful like a jade statue"
+  },
+  {
+    "id": 39,
+    "o": "行云流水",
+    "t": "Flowing clouds and running water"
+  },
+  {
+    "id": 40,
+    "o": "画龙点睛",
+    "t": "Adding the finishing touch that brings a work to life"
+  },
+  {
+    "id": 41,
+    "o": "婀娜多姿",
+    "t": "Graceful and charming in many ways"
+  },
+  {
+    "id": 42,
+    "o": "多愁善感",
+    "t": "sentimental and melancholic"
+  },
+  {
+    "id": 43,
+    "o": "太平盛世",
+    "t": "An Age of Great Peace and Prosperity"
+  },
+  {
+    "id": 44,
+    "o": "悬崖勒马",
+    "t": "to rein in the horse at the edge of the cliff"
+  },
+  {
+    "id": 45,
+    "o": "惟妙惟肖",
+    "t": "vivid and lifelike; strikingly true to life"
+  },
+  {
+    "id": 46,
+    "o": "盲人摸象",
+    "t": "The Blind Men and the Elephant"
+  },
+  {
+    "id": 47,
+    "o": "侃侃而谈",
+    "t": "speak with fervor and assurance"
+  },
+  {
+    "id": 48,
+    "o": "生灵涂炭",
+    "t": "The people are in misery and the land is scorched."
+  },
+  {
+    "id": 49,
+    "o": "一筹莫展",
+    "t": "to be at a complete loss; to be at one's wit's end"
+  },
+  {
+    "id": 50,
+    "o": "盛气凌人",
+    "t": "domineering; arrogant and overbearing"
+  },
+  {
+    "id": 51,
+    "o": "五谷丰登",
+    "t": "A Bumper Harvest of All Grains"
+  },
+  {
+    "id": 52,
+    "o": "仪态万方",
+    "t": "possessing a myriad of graceful and dignified postures"
+  },
+  {
+    "id": 53,
+    "o": "怒发冲冠",
+    "t": "so angry that one's hair stands up and lifts one's hat"
+  },
+  {
+    "id": 54,
+    "o": "烟消云散",
+    "t": "vanish like smoke and disperse like clouds"
+  },
+  {
+    "id": 55,
+    "o": "生机勃勃",
+    "t": "Full of vitality; brimming with life"
+  },
+  {
+    "id": 56,
+    "o": "狐朋狗友",
+    "t": "fox friends and dog companions"
+  },
+  {
+    "id": 57,
+    "o": "赏心悦目",
+    "t": "pleasing to both the eye and the mind"
+  },
+  {
+    "id": 58,
+    "o": "断壁残垣",
+    "t": "broken walls and crumbling ruins"
+  },
+  {
+    "id": 59,
+    "o": "夫唱妇随",
+    "t": "The husband sings and the wife follows"
+  },
+  {
+    "id": 60,
+    "o": "不毛之地",
+    "t": "Barren land; land where nothing grows"
+  },
+  {
+    "id": 61,
+    "o": "踌躇满志",
+    "t": "full of confidence and self-satisfaction"
+  },
+  {
+    "id": 62,
+    "o": "一日千里",
+    "t": "A thousand miles in a single day"
+  },
+  {
+    "id": 63,
+    "o": "鹏程万里",
+    "t": "A roc's journey of ten thousand miles"
+  },
+  {
+    "id": 64,
+    "o": "窃窃私语",
+    "t": "Whispering in hushed tones"
+  },
+  {
+    "id": 65,
+    "o": "邯郸学步",
+    "t": "Learning to Walk in Handan"
+  },
+  {
+    "id": 66,
+    "o": "小巫见大巫",
+    "t": "A minor witch in the presence of a great sorcerer"
+  },
+  {
+    "id": 67,
+    "o": "长袖善舞",
+    "t": "Long sleeves are good for dancing"
+  },
+  {
+    "id": 68,
+    "o": "唯唯诺诺",
+    "t": "to be obsequiously submissive; to say 'yes, yes' to everything"
+  },
+  {
+    "id": 69,
+    "o": "气势磅礴",
+    "t": "Majestic and Grand"
+  },
+  {
+    "id": 70,
+    "o": "莫逆之交",
+    "t": "friendship between two people who understand each other perfectly and never have any disagreement"
+  },
+  {
+    "id": 71,
+    "o": "浮生若梦",
+    "t": "Floating life is like a dream"
+  },
+  {
+    "id": 72,
+    "o": "朝三暮四",
+    "t": "Three in the morning and four in the evening"
+  },
+  {
+    "id": 73,
+    "o": "捉襟见肘",
+    "t": "Pulling on one's lapel reveals the elbow; to be in dire straits or financially stretched thin"
+  },
+  {
+    "id": 74,
+    "o": "相濡以沫",
+    "t": "Mutually moistening with spit (to help each other in times of hardship)"
+  },
+  {
+    "id": 75,
+    "o": "千里之行，始于足下",
+    "t": "A journey of a thousand miles begins with a single step."
+  },
+  {
+    "id": 76,
+    "o": "受宠若惊",
+    "t": "To feel overwhelmed by an unexpected favor or honor"
+  },
+  {
+    "id": 77,
+    "o": "大器晚成",
+    "t": "Great talent takes time to mature"
   }
 ]
