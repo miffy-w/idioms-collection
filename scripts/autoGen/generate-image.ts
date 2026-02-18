@@ -4,10 +4,10 @@
  */
 import axios from "axios";
 import path from "path";
-import dayjs from "dayjs";
 import sharp from "sharp";
 import { genImg } from './utils/genImg';
 import { CONFIG, IdiomInput, GeneratedIdiomData } from "./config";
+import { IDIOM_TYPE } from "@/types";
 
 /**
  * 生成单个图片
@@ -17,8 +17,8 @@ export async function generateIdiomImage(
   data: GeneratedIdiomData,
   filename: string,
 ) {
-  const typeLabel = idiom.type === "chengyu" ? "成语" : "歇后语";
-  console.log(`\n🎨 生成图片 [${typeLabel}]: ${idiom.original} ${idiom.originalMeaning}`);
+  const typeLabel = CONFIG.getChineseIdiomType(idiom.type);
+  console.log(`\n🎨 生成图片 [${typeLabel}]: ${idiom.original} ${idiom.originalMeaning ?? ''}`);
 
   const prompt = CONFIG.imagePromptTemplate(idiom, data);
 
@@ -61,13 +61,14 @@ export async function generateBatchIdiomImages(
     const om = idiom.originalMeaning;
     const filename = `${idiom.original}${om ? '——' + om : ''}.webp`;
 
-    const isChengyu = idiom.type === 'chengyu';
-    const imgDir = isChengyu ? `${saveDir}/chengyu` : saveDir;
+    const isXiehouyu = idiom.type === IDIOM_TYPE.xiehouyu;
+    const imgDir = !isXiehouyu ? `${saveDir}/${idiom.type}` : saveDir;
     const outputPath = path.join(imgDir, filename);
 
     try {
       await generateIdiomImage(idiom, data, outputPath);
-      data.imageUrl =  isChengyu ? `/chengyu/${filename}` : `/${filename}`; // 更新数据中的图片路径
+      // 更新数据中的图片路径
+      data.imageUrl = !isXiehouyu ? `/${idiom.type}/${filename}` : `/${filename}`;
 
       result.push(data);    // 只有生成图片成功的才录入
 

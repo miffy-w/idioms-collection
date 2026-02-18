@@ -320,5 +320,40 @@
     "t": "Jiang Taigong fishing",
     "om": "愿者上钩",
     "tm": "Only the willing take the bait"
+  },
+  {
+    "id": 47,
+    "o": "司马昭之心",
+    "t": "Sima Zhao's heart",
+    "om": "路人皆知",
+    "tm": "is known to every man on the street"
+  },
+  {
+    "id": 48,
+    "o": "铁打的公鸡",
+    "t": "An iron rooster",
+    "om": "一毛不拔",
+    "tm": "Not a feather can be plucked"
+  },
+  {
+    "id": 49,
+    "o": "大姑娘坐轿",
+    "t": "A young maiden riding in a bridal sedan chair",
+    "om": "头一回",
+    "tm": "The very first time"
+  },
+  {
+    "id": 50,
+    "o": "菜板上的肉",
+    "t": "Meat on the chopping board",
+    "om": "任人宰割",
+    "tm": "At the mercy of others; completely vulnerable and defenseless"
+  },
+  {
+    "id": 51,
+    "o": "箭在弦上",
+    "t": "An arrow on the bowstring",
+    "om": "不得不发",
+    "tm": "Must be released"
   }
 ]

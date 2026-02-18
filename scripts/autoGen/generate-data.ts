@@ -2,9 +2,9 @@
  * 数据生成模块
  * 调用 LLM 生成歇后语的结构化数据
  */
-import fs from 'node:fs';
 import { createDeepSeek } from '@ai-sdk/deepseek';
 import { generateText } from 'ai';
+import { IDIOM_TYPE } from '@/types';
 import { CONFIG, IdiomInput, GeneratedIdiomData } from "./config";
 
 const deepseek = createDeepSeek({
@@ -20,8 +20,8 @@ export async function generateIdiomData(
   idiom: IdiomInput,
   id: number,
 ): Promise<GeneratedIdiomData> {
-  const typeLabel = idiom.type === 'chengyu' ? '成语' : '歇后语';
-  const display = idiom.type === 'chengyu'
+  const typeLabel = CONFIG.getChineseIdiomType(idiom.type);
+  const display = idiom.type !== IDIOM_TYPE.xiehouyu
     ? `${idiom.original}`
     : `${idiom.original} — ${idiom.originalMeaning}`;
 
@@ -63,16 +63,16 @@ export async function generateIdiomData(
     }
 
     // 对于歇后语，必须有 chineseMeaning 和 englishMeaning
-    if (idiom.type === 'xiehouyu') {
+    if (idiom.type === IDIOM_TYPE.xiehouyu) {
       if (!jsonData.translationMeaning || !jsonData.originalMeaning) {
         console.error("❌ 歇后语缺少必要字段:", jsonData);
         throw new Error("Missing required fields for xiehouyu type");
       }
     }
 
-    // 对于成语，chineseMeaning 和 englishMeaning 必须为 null
-    if (idiom.type === 'chengyu') {
-      if (jsonData.translationMeaning !== null || jsonData.originalMeaning !== null) {
+    // 对于成语和谚语，chineseMeaning 和 englishMeaning 必须为 null
+    if (idiom.type !== IDIOM_TYPE.xiehouyu) {
+      if (jsonData.translationMeaning || jsonData.originalMeaning) {
         console.warn("⚠️  成语字段不为 null，将设置为 null");
         jsonData.translationMeaning = undefined;
         jsonData.originalMeaning = undefined;

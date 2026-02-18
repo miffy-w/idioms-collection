@@ -34,5 +34,17 @@
     "imgPositivePrompt": "中国风，一位古代中国画家在竹林庭院中，闭目凝思，他面前的空中浮现着由半透明水墨线条构成的完美竹子虚影，象征他心中已构思好的画作。画面宁静，充满禅意，温暖柔和的色调，如淡赭石、竹青色和米白色，构图简洁平衡，大量留白，艺术感强，细节精致，适合作为文化卡片插图。",
     "imgNegativePrompt": "丑陋，变形，比例失调，杂乱背景，现代元素，武器，暴力，恐怖，情色文字，低质量，模糊，水印，签名，边框，突兀的现代文字，西方面孔，混乱的线条。",
     "originalCountry": "China"
+  },
+  {
+    "id": 4,
+    "original": "螳臂当车",
+    "translation": "A mantis trying to stop a chariot",
+    "imageUrl": "/chengyu/螳臂当车.webp",
+    "source": "This idiom originates from the ancient Chinese text 'Zhuangzi: The Human World' (庄子·人间世). It tells the story of a charioteer named Ju Boyu (遽伯玉) who advised the ruler of the state of Wei. He used the metaphor of a mantis angrily raising its forelegs to block an oncoming chariot, unaware of its own inability to accomplish such a feat, to warn against overestimating one's own strength and rashly confronting a far more powerful opponent.",
+    "meaning": "It describes someone who overestimates their own abilities and foolishly attempts to resist a force or opponent that is overwhelmingly stronger, leading to inevitable failure. It warns against reckless defiance and highlights the importance of self-awareness and recognizing one's limitations.",
+    "usage": "This idiom is used in a cautionary or slightly mocking tone to criticize unrealistic overconfidence and reckless actions against overwhelming odds. It is often applied in contexts like politics, business, sports, or personal conflicts. For example: 1) 'Trying to sue that giant corporation with your tiny startup is like a mantis trying to stop a chariot.' 2) 'His plan to challenge the reigning champion with just a month of training was nothing short of a mantis trying to stop a chariot.'",
+    "imgPositivePrompt": "一只螳螂愤怒地举起前臂，试图阻挡一辆巨大的、滚滚向前的古代战车，螳螂与战车形成极其悬殊的体型与力量对比，背景是尘土飞扬的古道，风格采用中国传统水彩画与版画结合，画面简洁平衡，主体突出，大量留白，色调温暖和谐，带有古朴的质感，艺术感强，适合作为卡片插图。",
+    "imgNegativePrompt": "丑陋，畸形，恐怖，血腥，现代城市，科幻元素，西方盔甲，文字标识，水印，签名，边框，杂乱背景，色彩冲突，低质量，模糊，3D渲染，照片写实，卡通化过度。",
+    "originalCountry": "China"
   }
 ]

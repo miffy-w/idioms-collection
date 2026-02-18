@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import dotenv from "dotenv";
 import path from "node:path";
-import { SimpleIdiomItem } from "@/types";
+import { IdiomType, IDIOM_TYPE, SimpleIdiomItem } from "@/types";
 import { IdiomInput, GeneratedIdiomData } from "./autoGen/config";
 import { generateBatchIdiomData } from "./autoGen/generate-data";
 import { generateBatchIdiomImages } from "./autoGen/generate-image";
@@ -13,41 +13,35 @@ dotenv.config({
 type IdiomData = GeneratedIdiomData | SimpleIdiomItem;
 
 export class IdiomsManager {
-  taskPath: string;
   imagePath: string;
-  xiehouyuPath: string;
-  chengyuPath: string;
+  idiomPath: string;
   detailListFilename = "data.json";
   simpleListFilename = "simple.json";
-  constructor(protected lang = "en_US") {
-    this.taskPath = path.resolve(__dirname, `../src/data/task.txt`);
+  constructor(protected idiomType: IdiomType, protected lang = "en_US") {
     this.imagePath = path.resolve(__dirname, "../public");
-    this.xiehouyuPath = path.resolve(__dirname, `../src/data/${lang}/xiehouyu`);
-    this.chengyuPath = path.resolve(__dirname, `../src/data/${lang}/chengyu`);
+    this.idiomPath = path.resolve(__dirname, `../src/data/${lang}/${idiomType}`);
   }
 
-  getDataPath(type: "xiehouyu" | "chengyu", isSimpleFile: boolean) {
+  getDataPath(isSimpleFile: boolean) {
     const filename = isSimpleFile
       ? this.simpleListFilename
       : this.detailListFilename;
 
-    if (type === "chengyu") {
-      return path.resolve(this.chengyuPath, filename);
-    } else {
-      return path.resolve(this.xiehouyuPath, filename);
-    }
+    return path.resolve(this.idiomPath, filename);
   }
 
-  async run(originalIdioms?: string[] | string) {
-    let idioms: IdiomInput[] = [];
+  async run(originalIdioms: string[] | string, removeFormer = false) {
+    const idioms = this.getIdiomInput(originalIdioms);
 
-    if (originalIdioms) {
-      idioms = this.getIdiomInput(
-        Array.isArray(originalIdioms) ? originalIdioms : originalIdioms.split("\n"),
-      );
-    } else {
-      // 读取任务列表
-      idioms = await this.readTasks();
+    // 删除之前的
+    if (removeFormer) {
+      idioms.forEach(i => {
+        if (i.type === IDIOM_TYPE.xiehouyu) {
+          this.removeIdiomByName(`${i.original}——${i.originalMeaning}`);
+        } else {
+          this.removeIdiomByName(i.original);
+        }
+      });
     }
 
     // 根据任务列表调用大模型，生成数据
@@ -66,21 +60,12 @@ export class IdiomsManager {
   }
 
   saveData(data: GeneratedIdiomData[]) {
-    const chengyuData = data.filter((item) => !item.originalMeaning);
-    const xiehouyuData = data.filter((item) => !!item.originalMeaning);
+    const idiomDetailPath = this.getDataPath(false);
+    const idiomSimplePath = this.getDataPath(true);
+    const idiomSimpleList = this.createSimpleIdiomList(data);
 
-    const chengyuDetailPath = this.getDataPath("chengyu", false);
-    const chengyuSimplePath = this.getDataPath("chengyu", true);
-    const xiehouyuDetailPath = this.getDataPath("xiehouyu", false);
-    const xiehouyuSimplePath = this.getDataPath("xiehouyu", true);
-
-    const chengyuSimpleList = this.createSimpleIdiomList(chengyuData);
-    const xiehouyuSimpleList = this.createSimpleIdiomList(xiehouyuData);
-
-    this.saveDataFile(chengyuData, chengyuDetailPath);
-    this.saveDataFile(chengyuSimpleList, chengyuSimplePath);
-    this.saveDataFile(xiehouyuData, xiehouyuDetailPath);
-    this.saveDataFile(xiehouyuSimpleList, xiehouyuSimplePath);
+    this.saveDataFile(data, idiomDetailPath);
+    this.saveDataFile(idiomSimpleList, idiomSimplePath);
   }
 
   saveDataFile(data: IdiomData[], filePath: string, replace = false) {
@@ -106,40 +91,39 @@ export class IdiomsManager {
     });
   }
 
-  async readTasks(): Promise<IdiomInput[]> {
-    if (!fs.existsSync(this.taskPath)) {
-      console.error(`❌ 任务文件不存在: ${this.taskPath}`);
-      return [];
-    }
-
-    const data = fs.readFileSync(this.taskPath, "utf-8");
-
-    const parsedData = data.split("\n").filter((line) => line.trim() !== "");
-
-    return this.getIdiomInput(parsedData);
-  }
-
-  getIdiomInput(idioms: string[]) {
+  getIdiomInput(idiom: string[] | string) {
     const result: IdiomInput[] = [];
-    idioms.forEach((line) => {
-      const [firstPart, secondPart] = line.split("——");
 
-      const firstPartTrimed = firstPart.trim();
-      const secondPartTrimed = secondPart?.trim();
+    const idiomList = Array.isArray(idiom) ? idiom : [idiom];
 
-      if (secondPartTrimed) {
+    if (this.idiomType === IDIOM_TYPE.xiehouyu) {
+      for (const line of idiomList) {
+        const item = line.trim();
+        if (!item) continue;
+
+        const [firstPart, secondPart] = item.split("——");
+        const firstPartTrimed = firstPart.trim();
+        const secondPartTrimed = secondPart?.trim();
+
+        if (secondPartTrimed) {
+          result.push({
+            type: this.idiomType,
+            original: firstPartTrimed,
+            originalMeaning: secondPartTrimed,
+          });
+        }
+      }
+    } else {
+      for (const line of idiomList) {
+        const item = line.trim();
+        if (!item) continue;
+
         result.push({
-          original: firstPartTrimed,
-          originalMeaning: secondPartTrimed,
-          type: "xiehouyu" as const,
-        });
-      } else {
-        result.push({
-          original: firstPartTrimed,
-          type: "chengyu" as const,
+          original: item,
+          type: this.idiomType,
         });
       }
-    });
+    }
 
     return result;
   }
@@ -171,9 +155,9 @@ export class IdiomsManager {
     });
   }
 
-  removeIdioms(idList: number[], type: "chengyu" | "xiehouyu") {
-    const detailDataPath = this.getDataPath(type, false);
-    const simpleDataPath = this.getDataPath(type, true);
+  removeIdioms(idList: number[]) {
+    const detailDataPath = this.getDataPath(false);
+    const simpleDataPath = this.getDataPath(true);
 
     const simpleData = require(simpleDataPath) as SimpleIdiomItem[];
     const detailData = require(detailDataPath) as GeneratedIdiomData[];
@@ -181,6 +165,9 @@ export class IdiomsManager {
     const idSet = new Set(idList);
 
     const deletedDetailData = detailData.filter((item) => idSet.has(item.id));
+
+    if (!deletedDetailData.length) return;
+    // 删除数据
     const filteredDetailData = detailData.filter((item) => !idSet.has(item.id));
     const filteredSimpleData = simpleData.filter((item) => !idSet.has(item.id));
 
@@ -194,7 +181,7 @@ export class IdiomsManager {
   /** 根据名称删除 */
   removeIdiomByName(name: string) {
     const { detailData, isXiehouyu, simpleDataPath, detailDataPath } =
-      this.parseString(name);
+      this.parse();
 
     const deleteIdiomIdx = detailData.findIndex((item) => {
       if (isXiehouyu) {
@@ -224,16 +211,10 @@ export class IdiomsManager {
   }
 
   /** 根据名称解析 */
-  parseString(name: string) {
-    const isXiehouyu = name.includes("——");
-    const detailDataPath = this.getDataPath(
-      isXiehouyu ? "xiehouyu" : "chengyu",
-      false,
-    );
-    const simpleDataPath = this.getDataPath(
-      isXiehouyu ? "xiehouyu" : "chengyu",
-      true,
-    );
+  parse() {
+    const isXiehouyu = this.idiomType === IDIOM_TYPE.xiehouyu;
+    const detailDataPath = this.getDataPath(false);
+    const simpleDataPath = this.getDataPath(true);
     const detailData = require(detailDataPath) as GeneratedIdiomData[];
     return {
       isXiehouyu,
@@ -243,14 +224,14 @@ export class IdiomsManager {
     };
   }
 
-  queryIdiomById(id: number, type: "chengyu" | "xiehouyu") {
-    const detailDataPath = this.getDataPath(type, false);
+  queryIdiomById(id: number) {
+    const detailDataPath = this.getDataPath(false);
     const detailData = require(detailDataPath) as GeneratedIdiomData[];
     return detailData.find((item) => item.id === id);
   }
 
   queryIdiomByName(name: string) {
-    const { isXiehouyu, detailData } = this.parseString(name);
+    const { isXiehouyu, detailData } = this.parse();
 
     if (isXiehouyu) {
       const [firstPart, secondPart] = name.split("——");
@@ -265,7 +246,12 @@ export class IdiomsManager {
   }
 }
 
-const manager = new IdiomsManager();
+const xiehouyuManager = new IdiomsManager(IDIOM_TYPE.xiehouyu);
+// xiehouyuManager.removeIdioms([52]);
+// xiehouyuManager.run("大海捞针——没处寻");
 
-manager.removeIdiomByName("姜太公钓鱼——愿者上钩");
-manager.run("姜太公钓鱼——愿者上钩");
+const chengyuManager = new IdiomsManager(IDIOM_TYPE.chengyu);
+// chengyuManager.removeIdioms([4,5,6,7]);
+chengyuManager.run(["螳臂当车"], true);
+
+const proverbManager = new IdiomsManager(IDIOM_TYPE.proverb);

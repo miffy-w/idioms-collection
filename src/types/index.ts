@@ -1,3 +1,11 @@
+export const IDIOM_TYPE = {
+  chengyu: 'chengyu',
+  xiehouyu: 'xiehouyu',
+  proverb: 'proverb',
+} as const;
+
+export type IdiomType = typeof IDIOM_TYPE[keyof typeof IDIOM_TYPE];
+
 export interface IdiomItem {
   id: number;
   /** 原始 */
