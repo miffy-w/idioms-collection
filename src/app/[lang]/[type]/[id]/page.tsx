@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import IdiomCard from "@/components/IdiomCard";
 import { LANGUAGE_DATA } from "@/data/language";
+import ScrollProgressBar from "@/components/ScrollProgressBar";
 
 type Params = {
   lang: string;

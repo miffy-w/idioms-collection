@@ -132,7 +132,7 @@ export function IdiomList({
             >
               <div
                 className={clsx(
-                  "w-11 text-sm",
+                  "w-10 text-sm",
                   !!selected ? "text-fuchsia-400" : "text-muted-foreground",
                 )}
               >

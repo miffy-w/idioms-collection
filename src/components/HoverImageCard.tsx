@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
@@ -25,6 +25,7 @@ export default function HoverImageCard({
   imageAlt = title,
   actionButtonText = "Learn more",
 }: HoverImageCardProps) {
+  const containerRef = useRef<HTMLDivElement>(null);
   const [showDescription, setShowDescription] = useState(false);
   const isMobile = useIsMobile();
 
@@ -48,7 +49,7 @@ export default function HoverImageCard({
           onMouseLeave={() => !isMobile && setShowDescription(false)}
           onClick={() => {
             if (isMobile) {
-                setShowDescription(p => !p);
+              setShowDescription((p) => !p);
             }
           }}
         >
@@ -69,10 +70,7 @@ export default function HoverImageCard({
         </h3>
 
         <Link href={href}>
-          <Button
-            variant="secondary"
-            className="cursor-pointer"
-          >
+          <Button variant="secondary" className="cursor-pointer">
             {actionButtonText}
             <ArrowRight className="w-4 h-4" />
           </Button>
