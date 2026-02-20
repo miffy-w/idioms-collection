@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import dotenv from 'dotenv';
 import { doubaoChat } from './autoGen/utils/doubaoChat';
+import { sleep } from '@/lib/utils';
 
 dotenv.config({
   path: "../.env.local",
@@ -10,36 +11,47 @@ dotenv.config({
 
 class Examination {
     path: string;
-    constructor (path: string) {
+    constructor (path: string, protected step = 2) {
         this.path = path;
     }
 
 
-    async examine () {
+    async examine (startIndex = 0, endIndex?: number) {
         if (!fs.existsSync(this.path)) {
             return console.error('路径不存在');
         }
 
         const json: IdiomItem[] = require(this.path);
-        let startIdx = 0;
-        let step = 4;
-
-        const result: IdiomItem[] = [];
+        let startIdx = startIndex;
+        const step = this.step;
 
         while (true) {
             if (!json[startIdx]) break;
 
-            const slicedArr = json.slice(startIdx, startIdx + step);
+            if (endIndex && startIdx > endIndex) break;
+
+            const slicedArr = json.slice(startIdx, Math.min(startIdx + step, endIndex ?? Infinity));
             const res = await doubaoChat(JSON.stringify(slicedArr));
 
             if (res) {
-                result.push(...res);
+                const newList = this.updateJson(json, res, startIdx);
+                this.writeFile(newList);
             }
 
+            for (let i = 0; i < step; i++) {
+                console.log(`已检查到${json[startIdx + i].original}条成语`);
+            }
             startIdx += step;
+            await sleep(1500);
+        }
+    }
+
+    updateJson(totalList: IdiomItem[], result: IdiomItem[], startIdx: number) {
+        for (let i = 0; i < result.length; i++) {
+            totalList[startIdx + i] = result[i];
         }
 
-        this.writeFile(result);
+        return totalList;
     }
 
     writeFile(idiomList: IdiomItem[]) {
@@ -52,4 +64,4 @@ const chengyuDataPath = path.resolve(__dirname, '../src/data/en_US/chengyu/data.
 
 const examination = new Examination(chengyuDataPath);
 
-examination.examine();  
+examination.examine(1);
