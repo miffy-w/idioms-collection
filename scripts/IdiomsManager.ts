@@ -252,6 +252,6 @@ const xiehouyuManager = new IdiomsManager(IDIOM_TYPE.xiehouyu);
 
 const chengyuManager = new IdiomsManager(IDIOM_TYPE.chengyu);
 // chengyuManager.removeIdioms([180]);
-chengyuManager.run(["阳春白雪"], true);
+chengyuManager.run([], true);
 
 const proverbManager = new IdiomsManager(IDIOM_TYPE.proverb);
