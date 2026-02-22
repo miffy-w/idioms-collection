@@ -251,7 +251,7 @@ const xiehouyuManager = new IdiomsManager(IDIOM_TYPE.xiehouyu);
 // xiehouyuManager.run("大海捞针——没处寻");
 
 const chengyuManager = new IdiomsManager(IDIOM_TYPE.chengyu);
-// chengyuManager.removeIdioms([159]);
-chengyuManager.run(["天昏地暗"], true);
+// chengyuManager.removeIdioms([180]);
+chengyuManager.run(["阳春白雪"], true);
 
 const proverbManager = new IdiomsManager(IDIOM_TYPE.proverb);

@@ -12,7 +12,7 @@
   {
     "id": 3,
     "o": "胸有成竹",
-    "t": "to have a well-thought-out plan in mind"
+    "t": "to have a well - thought - out plan in mind"
   },
   {
     "id": 4,
@@ -102,7 +102,7 @@
   {
     "id": 21,
     "o": "鼠目寸光",
-    "t": "A mouse can only see an inch ahead; short-sighted"
+    "t": "A mouse can only see an inch ahead; short - sighted"
   },
   {
     "id": 22,
@@ -302,7 +302,7 @@
   {
     "id": 61,
     "o": "踌躇满志",
-    "t": "full of confidence and self-satisfaction"
+    "t": "full of confidence and self - satisfaction"
   },
   {
     "id": 62,
@@ -392,7 +392,7 @@
   {
     "id": 79,
     "o": "张皇失措",
-    "t": "Panic-stricken and at a loss what to do"
+    "t": "Panic - stricken and at a loss what to do"
   },
   {
     "id": 80,
@@ -482,7 +482,7 @@
   {
     "id": 97,
     "o": "牛鬼蛇神",
-    "t": "Ox-headed demons and snake-bodied spirits; a motley crew of evil or unsavory characters"
+    "t": "Ox - headed demons and snake - bodied spirits; a motley crew of evil or unsavory characters"
   },
   {
     "id": 98,
@@ -527,7 +527,7 @@
   {
     "id": 106,
     "o": "气象万千",
-    "t": "A scene of myriad changes; a spectacular and ever-changing view"
+    "t": "A scene of myriad changes; a spectacular and ever - changing view"
   },
   {
     "id": 107,
@@ -542,7 +542,7 @@
   {
     "id": 109,
     "o": "抱头鼠窜",
-    "t": "to flee helter-skelter like a scared rat"
+    "t": "to flee helter - skelter like a scared rat"
   },
   {
     "id": 110,
@@ -632,7 +632,7 @@
   {
     "id": 127,
     "o": "白面书生",
-    "t": "A pale-faced scholar"
+    "t": "A pale - faced scholar"
   },
   {
     "id": 128,
@@ -798,5 +798,105 @@
     "id": 160,
     "o": "天昏地暗",
     "t": "The sky is dark and the earth is gloomy"
+  },
+  {
+    "id": 161,
+    "o": "叶公好龙",
+    "t": "Lord Ye's Love of Dragons"
+  },
+  {
+    "id": 162,
+    "o": "不入虎穴，焉得虎子",
+    "t": "How can you catch tiger cubs without entering the tiger's lair?"
+  },
+  {
+    "id": 163,
+    "o": "明察秋毫",
+    "t": "To see the tiniest details with utmost clarity"
+  },
+  {
+    "id": 164,
+    "o": "千里之堤，溃于蚁穴",
+    "t": "A thousand-mile dike can collapse because of an ant hole."
+  },
+  {
+    "id": 165,
+    "o": "树欲静而风不止",
+    "t": "The tree desires stillness but the wind will not cease."
+  },
+  {
+    "id": 166,
+    "o": "山雨欲来风满楼",
+    "t": "The wind fills the tower before the mountain rain arrives"
+  },
+  {
+    "id": 167,
+    "o": "有钱能使鬼推磨",
+    "t": "Money can make the devil turn the millstone."
+  },
+  {
+    "id": 168,
+    "o": "巧妇难为无米之炊",
+    "t": "Even the cleverest housewife cannot cook a meal without rice."
+  },
+  {
+    "id": 169,
+    "o": "疾风知劲草",
+    "t": "The strong grass withstands the fierce wind."
+  },
+  {
+    "id": 170,
+    "o": "鬼斧神工",
+    "t": "Supernatural craftsmanship, as if done by the gods"
+  },
+  {
+    "id": 171,
+    "o": "情人眼里出西施",
+    "t": "In the eyes of a lover, one's beloved is as beautiful as Xi Shi (a legendary beauty of ancient China)."
+  },
+  {
+    "id": 172,
+    "o": "桃李不言，下自成蹊",
+    "t": "Peaches and plums do not speak, yet a path is worn beneath them."
+  },
+  {
+    "id": 173,
+    "o": "项庄舞剑，意在沛公",
+    "t": "Xiang Zhuang performs the sword dance, but his real target is Lord Pei (Liu Bang)."
+  },
+  {
+    "id": 174,
+    "o": "三天打鱼，两天晒网",
+    "t": "Spend three days fishing and two days drying the nets"
+  },
+  {
+    "id": 175,
+    "o": "死无葬身之地",
+    "t": "To die without a place for burial"
+  },
+  {
+    "id": 176,
+    "o": "垂涎欲滴",
+    "t": "mouth watering"
+  },
+  {
+    "id": 177,
+    "o": "八面玲珑",
+    "t": "be smooth and slick in social situations; be all things to all people"
+  },
+  {
+    "id": 178,
+    "o": "趁热打铁",
+    "t": "Strike while the iron is hot"
+  },
+  {
+    "id": 179,
+    "o": "狼狈为奸",
+    "t": "colluding in evil schemes like the wolf and the badger"
+  },
+  {
+    "id": 180,
+    "o": "阳春白雪",
+    "t": "Highbrow art and literature; something too refined for the general public"
   }
 ]
