@@ -2170,5 +2170,29 @@
     "imgPositivePrompt": "高质量专业插图，极简主义设计融合中国传统水墨画风格，画面中心一扇古朴的中式木门缓缓打开，门外直接呈现一座雄伟清晰、云雾缭绕的青山，构图简洁平衡，大量留白，温暖和谐的青绿色与赭石色调，视觉上直接传达“直截了当、一目了然”的核心寓意，艺术感强，细节精致。",
     "imgNegativePrompt": "模糊，杂乱，拥挤构图，黑暗阴沉色调，现代都市背景，人物特写，复杂装饰，文字浮于画面，卡通夸张，恐怖元素，赛博朋克风格，偏离主题的象征物。",
     "originalCountry": "China"
+  },
+  {
+    "id": 182,
+    "original": "梨花带雨",
+    "translation": "Pear blossoms bathed in rain",
+    "imageUrl": "/chengyu/梨花带雨.webp",
+    "source": "This idiom originates from the poem 'Song of Everlasting Regret' (长恨歌) by the Tang dynasty poet Bai Juyi (白居易). It was used to describe the sorrowful and delicate beauty of Yang Yuhuan (杨玉环), the beloved consort of Emperor Xuanzong of Tang (唐玄宗), when she was weeping.",
+    "meaning": "It describes a woman's beautiful and pitiable appearance when she is crying, evoking a sense of delicate, fresh, and touching beauty mixed with sorrow.",
+    "usage": "Used to describe a woman's moving and beautiful appearance when she is in tears, often in a context of pity, tenderness, or admiration. It carries a poetic and slightly formal tone. For example: 1) Seeing her 'pear blossoms bathed in rain' after the sad movie, he felt a strong urge to comfort her. 2) The actress's performance, with her 'pear blossoms bathed in rain' expression, deeply moved the audience.",
+    "imgPositivePrompt": "一位美丽的中国古典女子在梨花树下轻声哭泣，晶莹的泪珠如雨滴般滑落，面容精致，神情哀婉动人，背景是盛开的洁白梨花被细雨打湿，花瓣上挂着水珠，整体氛围凄美、诗意、空灵，采用中国传统水彩画与复古动漫相结合的风格，构图简洁平衡，大量留白，色调柔和温暖，以浅粉、洁白和淡绿为主，画面高清，细节精致，富有艺术感。",
+    "imgNegativePrompt": "丑陋的面容，恐怖，血腥，暴力，现代服装，城市背景，人群，文字标识，边框，画框，签名，水印，低质量，模糊，变形，扭曲，多余的手指，多余的手臂，结构错误，黑暗阴沉色调，过于鲜艳刺眼的颜色，卡通夸张表情。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 183,
+    "original": "愚公移山",
+    "translation": "The Foolish Old Man Who Removed the Mountains",
+    "imageUrl": "/chengyu/愚公移山.webp",
+    "source": "This idiom originates from a fable in the Daoist classic 'Liezi: Tang Wen' (列子·汤问). It tells the story of an old man named Yu Gong (literally 'Foolish Old Man'), who was determined to remove two great mountains blocking his family's path. Despite being mocked for his seemingly impossible task, he insisted that his descendants would continue the work generation after generation. His perseverance moved the gods, who sent celestial beings to carry the mountains away.",
+    "meaning": "It conveys the core message that with unwavering determination, perseverance, and collective effort sustained over time, even the most daunting obstacles can be overcome. It emphasizes the power of a resolute spirit over seemingly insurmountable difficulties.",
+    "usage": "This idiom is used to praise persistent effort and steadfast resolve in the face of great challenges. It carries a positive, encouraging, and inspirational tone. For example: 1) 'Completing that massive research project felt like The Foolish Old Man Removing the Mountains, but our team's dedication made it possible.' 2) 'His commitment to learning the language from scratch was a true Yu Gong Moves the Mountains effort.'",
+    "imgPositivePrompt": "一位白发苍苍的中国古代老人（愚公）带领家人用简陋工具挖掘大山，背景是连绵的巍峨山脉，天空中有隐约的仙神光影，风格为现代极简主义设计与中国传统水彩画结合，构图简洁平衡，大面积留白，温暖和谐的土色与天青色色调，画面宁静而充满决心，专业插画，高质量，细致",
+    "imgNegativePrompt": "丑陋，畸变，多余肢体，模糊，杂乱背景，文字水印，签名，恐怖，血腥，暴力，现代机械，起重机，卡车，照片写实，过于复杂，暗黑色调，拥挤构图",
+    "originalCountry": "China"
   }
 ]

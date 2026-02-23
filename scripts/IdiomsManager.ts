@@ -252,6 +252,6 @@ const xiehouyuManager = new IdiomsManager(IDIOM_TYPE.xiehouyu);
 
 const chengyuManager = new IdiomsManager(IDIOM_TYPE.chengyu);
 // chengyuManager.removeIdioms([180]);
-chengyuManager.run([], true);
+chengyuManager.run(["愚公移山"], true);
 
 const proverbManager = new IdiomsManager(IDIOM_TYPE.proverb);
