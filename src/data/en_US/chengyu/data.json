@@ -2194,5 +2194,17 @@
     "imgPositivePrompt": "一位白发苍苍的中国古代老人（愚公）带领家人用简陋工具挖掘大山，背景是连绵的巍峨山脉，天空中有隐约的仙神光影，风格为现代极简主义设计与中国传统水彩画结合，构图简洁平衡，大面积留白，温暖和谐的土色与天青色色调，画面宁静而充满决心，专业插画，高质量，细致",
     "imgNegativePrompt": "丑陋，畸变，多余肢体，模糊，杂乱背景，文字水印，签名，恐怖，血腥，暴力，现代机械，起重机，卡车，照片写实，过于复杂，暗黑色调，拥挤构图",
     "originalCountry": "China"
+  },
+  {
+    "id": 184,
+    "original": "开天辟地",
+    "translation": "to create heaven and earth; to do something monumental and unprecedented",
+    "imageUrl": "/chengyu/开天辟地.webp",
+    "source": "This idiom originates from ancient Chinese mythology. It describes the legendary act of the giant deity Pangu (盘古), who, according to the 'Three Five Historic Records' (三五历纪), emerged from a cosmic egg and separated the chaotic, formless universe into heaven (the clear, light yang) and earth (the turbid, heavy yin), thus creating the world. This foundational myth symbolizes the beginning of all things.",
+    "meaning": "It describes an act of monumental creation, pioneering something entirely new, or initiating an epoch-making event. It emphasizes the groundbreaking, unprecedented, and world-changing nature of an endeavor.",
+    "usage": "It is used in a highly positive and awe-inspiring tone to describe events, achievements, or innovations that are foundational, revolutionary, and mark a completely new beginning. For example: 1) The invention of the internet was a '开天辟地' moment in human communication. 2) For their small company, securing that major international contract was a '开天辟地' achievement that transformed their future.",
+    "imgPositivePrompt": "史诗级场景，神话巨人盘古顶天立地，奋力将混沌的云雾与厚重的大地分离，清阳上升为天，浊阴下沉为地，光芒从裂缝中迸发，象征创世之初，宇宙诞生，画面充满力量感与希望，宏大叙事，采用中国传统水彩画与油画结合的风格，笔触富有张力，色彩温暖和谐，以金色、亮蓝色和大地色系为主，构图简洁平衡，留有诗意负空间，高质量、细致、艺术、专业。",
+    "imgNegativePrompt": "丑陋，畸形，模糊，混乱，文字标志，水印，现代城市，科技产品，人物肖像特写，战争场面，黑暗压抑，恐怖，卡通简化，低质量，粗糙，结构错误，比例失调。",
+    "originalCountry": "China"
   }
 ]
