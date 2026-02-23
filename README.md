@@ -3,7 +3,7 @@
 # Chinese Idioms Collection
 ## 中国成语与歇后语英文译解
 
-**[English](#english-version)** | **[中文](#chinese-version)**
+**[中文](./README_CN.md)**
 
 A beautiful bilingual website showcasing classic Chinese idioms (成语) and two-part allegorical sayings (歇后语) with detailed English translations, explanations, and artistic illustrations.
 
