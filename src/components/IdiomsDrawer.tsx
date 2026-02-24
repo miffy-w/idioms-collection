@@ -2,7 +2,7 @@
 import { SimpleIdiomItem } from "@/types";
 import { useRouter, usePathname } from "next/navigation";
 import { Drawer, DrawerContent, DrawerTitle } from "./ui/drawer";
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Button } from "./ui/button";
 import { MenuSquare } from "lucide-react";
 import clsx from "clsx";
@@ -22,6 +22,11 @@ function IdiomsDrawer({ baseUrl, idiomList }: IdiomsDrawerProps) {
     return idiomList.toSorted((a, b) => a.id - b.id);
   }, [idiomList]);
 
+  const selectedIndex = useMemo(() => {
+    const id = pathname.replace(`${baseUrl}/`, "");
+    return idiomSortedList.findIndex((item) => item.id === Number(id));
+  }, [idiomSortedList, pathname, baseUrl]);
+
   return (
     <>
       <Button
@@ -39,6 +44,7 @@ function IdiomsDrawer({ baseUrl, idiomList }: IdiomsDrawerProps) {
               items={idiomSortedList}
               itemHeight={56}
               height={400}
+              selectedIndex={selectedIndex}
               onClickItem={(it) => {
                 router.push(`${baseUrl}/${it.id}`);
                 setIsDrawerOpen(false);
@@ -65,6 +71,7 @@ interface VirtualListProps {
   virtual?: boolean;
   isSelected?: (item: SimpleIdiomItem) => boolean;
   onClickItem?: (item: SimpleIdiomItem) => void;
+  selectedIndex?: number;
 }
 
 export function IdiomList({
@@ -76,9 +83,20 @@ export function IdiomList({
   itemHeight = 56,
   onClickItem,
   height = 400,
+  selectedIndex,
 }: VirtualListProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const [scrollTop, setScrollTop] = useState(0);
+
+  useEffect(() => {
+    if (selectedIndex !== undefined && selectedIndex >= 0 && containerRef.current) {
+      const targetTop = selectedIndex * itemHeight;
+      const containerHeight = height;
+      const scrollPosition = targetTop - containerHeight / 2 + itemHeight / 2;
+      containerRef.current.scrollTop = Math.max(0, scrollPosition);
+      setScrollTop(Math.max(0, scrollPosition));
+    }
+  }, [selectedIndex, itemHeight, height]);
 
   const totalHeight = items.length * itemHeight;
   const visibleCount = Math.ceil(height / itemHeight);

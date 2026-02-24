@@ -39,11 +39,13 @@ class Examination {
             }
 
             for (let i = 0; i < step; i++) {
-                console.log(`已检查到${json[startIdx + i].original}条成语`);
+                console.log(`已检查完：${json[startIdx + i].original}`);
             }
             startIdx += step;
             await sleep(1500);
         }
+
+        console.log("已完成检查！")
     }
 
     updateJson(totalList: IdiomItem[], result: IdiomItem[], startIdx: number) {
@@ -64,4 +66,6 @@ const chengyuDataPath = path.resolve(__dirname, '../src/data/en_US/chengyu/data.
 
 const examination = new Examination(chengyuDataPath);
 
-examination.examine(1);
+/** 根据参数拿到 */
+
+examination.examine(161);

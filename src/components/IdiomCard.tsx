@@ -135,7 +135,7 @@ function IdiomCard({
       {/* Navigation Buttons */}
       <div className="mt-8 flex items-center justify-center gap-6">
         {data.id > 0 && (
-          <Link replace href={`${baseUrl}/${data.id === 1 ? "" : data.id - 1}`}>
+          <Link href={`${baseUrl}/${data.id === 1 ? "" : data.id - 1}`}>
             <button className="flex cursor-pointer items-center gap-2 px-6 py-3 rounded-xl bg-linear-to-r from-rose-500 to-purple-500 text-white font-medium hover:from-rose-600 hover:to-purple-600 transition-all shadow-lg hover:shadow-xl hover:scale-105">
               <ArrowLeft className="w-5 h-5" />
             </button>
@@ -143,7 +143,7 @@ function IdiomCard({
         )}
         <IdiomsDrawer baseUrl={baseUrl} idiomList={simpleList} />
         {data.id < simpleList.length && (
-          <Link replace href={`${baseUrl}/${data.id + 1}`}>
+          <Link href={`${baseUrl}/${data.id + 1}`}>
             <button className="flex cursor-pointer items-center gap-2 px-6 py-3 rounded-xl bg-linear-to-r from-purple-500 to-blue-500 text-white font-medium hover:from-purple-600 hover:to-blue-600 transition-all shadow-lg hover:shadow-xl hover:scale-105">
               <ArrowRight className="w-5 h-5" />
             </button>

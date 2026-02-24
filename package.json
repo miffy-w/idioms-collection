@@ -6,7 +6,8 @@
     "dev": "next",
     "build": "next build",
     "start": "serve out",
-    "gen": "bun ./scripts/IdiomsManager.ts"
+    "gen": "bun ./scripts/IdiomsManager.ts",
+    "check": "bun ./scripts/examine.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
