@@ -2218,5 +2218,89 @@
     "imgPositivePrompt": "一位身着古风服饰的男子，神情严厉，手指向前方，步步紧逼，对面的人身体后仰，面露难色与压迫感，营造出紧张、压迫的对抗氛围，场景在古典书房或庭院，采用中国传统水彩画风格，线条流畅，色彩以暖黄、赭石、墨色为主，和谐雅致，画面构图简洁，留有适当负空间，整体呈现专业、细致的艺术插图质感。",
     "imgNegativePrompt": "现代办公室，卡通风格，恐怖元素，血腥暴力，模糊不清，低质量，丑陋，文字水印，签名，边框，过于复杂拥挤的构图，冷色调为主，科幻场景，战争场面，欢乐轻松的氛围。",
     "originalCountry": "China"
+  },
+  {
+    "id": 186,
+    "original": "精卫填海",
+    "translation": "Jingwei Filling the Sea",
+    "imageUrl": "/chengyu/精卫填海.webp",
+    "source": "This idiom originates from the ancient Chinese mythology collection 'Classic of Mountains and Seas' (山海经). It tells the story of Nü Wa (女娃), the youngest daughter of the legendary Emperor Yan (炎帝). After drowning in the Eastern Sea, her spirit transformed into a mythical bird named Jingwei. Determined to prevent others from suffering the same fate, Jingwei tirelessly carries twigs and pebbles from the Western Mountains in her beak to fill up the vast sea.",
+    "meaning": "It describes an unwavering determination and relentless perseverance in pursuing a seemingly impossible or extremely difficult goal. It embodies the spirit of defying overwhelming odds through persistent effort, no matter how small each individual action may seem.",
+    "usage": "This idiom is used to praise someone's dogged persistence and indomitable spirit in the face of a daunting challenge. It carries a tone of admiration and inspiration, though it can sometimes imply a touch of futility if the task is truly impossible. For example: 1) 'His decades-long research on a cure for that disease is like Jingwei filling the sea—a testament to incredible dedication.' 2) 'The community's efforts to clean the polluted river, bit by bit, truly embody the spirit of Jingwei filling the sea.'",
+    "imgPositivePrompt": "一只神话风格的精卫鸟，口衔小树枝，飞翔在波涛汹涌的蔚蓝大海上空，背景是连绵的远山，阳光穿透云层，画面充满决心与希望，风格为中国传统水彩画与现代极简主义设计结合，构图简洁平衡，大量留白，温暖和谐的色调，专业细致的插图",
+    "imgNegativePrompt": "文字标识，丑陋，畸变，模糊，混乱，暗黑压抑色调，血腥暴力，现代城市景观，写实人物肖像，照片写实，3D渲染，卡通低龄化，过于复杂拥挤的构图",
+    "originalCountry": "China"
+  },
+  {
+    "id": 187,
+    "original": "夸父逐日",
+    "translation": "Kua Fu Chases the Sun",
+    "imageUrl": "/chengyu/夸父逐日.webp",
+    "source": "This idiom originates from the ancient Chinese mythological text 'Classic of Mountains and Seas' (山海经). It tells the story of Kua Fu, a giant from the north who, in a display of ambition and determination, decided to chase and catch the sun. He pursued it across the land until, overcome by extreme thirst, he drank up the Yellow River and the Wei River. Still thirsty, he headed north for a great lake but died of exhaustion before reaching it. His walking stick transformed into a vast forest.",
+    "meaning": "It describes a person who is exceptionally determined and courageous, willing to undertake an extremely difficult or seemingly impossible task. While it often carries a sense of admirable ambition and perseverance, it also implies a degree of overreaching or pursuing a goal that is ultimately unrealistic, leading to failure or exhaustion.",
+    "usage": "This idiom is used to describe someone who shows immense bravery and persistence in the face of a daunting challenge. It can be used in both admiring and cautionary tones. For example, you might use it admiringly to describe a scientist tirelessly working on a cure for a disease. Conversely, you might use it more critically to describe an entrepreneur who pours all resources into an impractical business idea, warning against overambition. The context determines whether the emphasis is on the admirable effort or the futile outcome.",
+    "imgPositivePrompt": "一位巨人（夸父）在广袤的、被金色夕阳染红的荒原上，向着巨大的、炽热的太阳奔跑，姿态充满力量与决心，身后留下长长的足迹。画面远处有干涸的河床，暗示他的旅程。风格为【史诗油画】与【现代极简主义设计】结合，构图简洁平衡，主体突出，留有负空间。配色采用温暖宜人的橙红、赭石、土黄色调，搭配深蓝与紫色的阴影，营造出悲壮而富有神话感的氛围。画面具有电影写实的质感和古典油画的笔触，光线戏剧化，突出巨人与太阳的对比。",
+    "imgNegativePrompt": "丑陋的，畸形的，恐怖，恶心，现代城市背景，科技感，武器，战斗，血腥，暴力，文字标识，水印，签名，低质量，模糊，失焦，构图杂乱，色彩浑浊，卡通脸，动漫大眼睛，3D渲染风格，照片写实主义，像素化，文本，边框。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 188,
+    "original": "愁眉苦脸",
+    "translation": "Worried brows and a bitter face",
+    "imageUrl": "/chengyu/愁眉苦脸.webp",
+    "source": "This idiom originates from the literary works of the Ming and Qing dynasties, such as the novel 'The Scholars' (儒林外史) by Wu Jingzi (吴敬梓), where it vividly describes a person's distressed and sorrowful appearance.",
+    "meaning": "It describes someone who is visibly worried, anxious, or unhappy, showing a facial expression full of distress and sorrow.",
+    "usage": "Used to describe a person's facial expression when they are deeply troubled, anxious, or facing difficulties. It carries a tone of sympathy or observation. For example: 'He has been wearing a worried brows and bitter face ever since he lost his job.' or 'Seeing her child sick, the mother couldn't help but look worried brows and bitter face.'",
+    "imgPositivePrompt": "一位古代书生坐在书桌前，手托下巴，眉头紧锁，嘴角下垂，表情忧愁苦闷，桌上散落着书籍和纸张，窗外是朦胧的月色，中国传统水彩画风格，柔和温暖的色调，如淡赭石、浅灰蓝和米白，画面构图简洁平衡，留有适当的负空间，整体氛围宁静而略带伤感，艺术感强，细节精致。",
+    "imgNegativePrompt": "现代元素，欢乐笑脸，明亮刺眼的色彩，杂乱背景，文字浮标，卡通夸张表情，赛博朋克风格，恐怖阴森，人物众多，构图拥挤，线条粗糙。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 189,
+    "original": "图穷匕见",
+    "translation": "When the map is unrolled, the dagger is revealed.",
+    "imageUrl": "/chengyu/图穷匕见.webp",
+    "source": "This idiom originates from the assassination attempt on King Ying Zheng of Qin (later Qin Shi Huang, the First Emperor of Qin) in 227 BC, as recorded in 'Records of the Grand Historian: Biographies of Assassins' (史记·刺客列传). The assassin, Jing Ke, was sent by the Prince of Yan. He presented a map of the Dukang region to the king as a gesture of submission. A dagger was concealed within the rolled-up map. When Jing Ke fully unrolled the map before the king, the dagger was exposed ('图穷匕见'), and he immediately grabbed it to attack, though the attempt ultimately failed.",
+    "meaning": "It describes a situation where a hidden plot, true intention, or malicious scheme is finally exposed when the final stage or last resort is reached. The core idea is the ultimate revelation of a concealed truth or danger.",
+    "usage": "This idiom is used in formal or narrative contexts to describe a moment of sudden, dramatic exposure of a secret plan, hostile intent, or underlying threat, often after a period of deception or preparation. It carries a serious, dramatic, and sometimes ominous tone. For example: 1) The company's friendly takeover bid was just a facade; when the final contract was reviewed, their hostile intentions became clear—it was a classic case of 'when the map is unrolled, the dagger is revealed.' 2) After months of negotiations, his true motive for the partnership finally emerged during the last meeting, much like the dagger appearing at the end of the map.",
+    "imgPositivePrompt": "中国传统水彩画风格，描绘一位古代使者（荆轲）在宫殿内向秦王（嬴政）缓缓展开一幅卷轴地图，地图尽头露出一把锋利的匕首，瞬间紧张对峙的场景。画面焦点在地图与匕首的揭示瞬间，人物表情惊愕决绝。运用温暖古朴的色调，如赭石、朱砂与淡墨，背景简洁留有大量负空间，营造戏剧性与历史感。线条流畅富有动感，体现中国画韵味，整体构图平衡，突出“图穷匕见”的核心隐喻。",
+    "imgNegativePrompt": "现代元素，西方人物面孔，杂乱背景，多余文字标识，低质量，模糊，变形，恐怖血腥，卡通夸张，赛博朋克光效，荧光色，儿童涂鸦，抽象扭曲，电影海报风格，照片写实，莫奈或马蒂斯笔触，幽默搞笑，手办模型，风景为主。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 190,
+    "original": "冠冕堂皇",
+    "translation": "high-sounding, highfalutin, or ostentatiously dignified",
+    "imageUrl": "/chengyu/冠冕堂皇.webp",
+    "source": "The idiom '冠冕堂皇' (guān miǎn táng huáng) originates from ancient China, where '冠冕' refers to the official hats and ceremonial attire worn by high-ranking officials and nobles, symbolizing authority and formality, while '堂皇' describes something grand and imposing. It was used to describe the dignified and solemn appearance of officials in court or during ceremonies. Over time, its meaning evolved to describe speech or actions that appear impressive and righteous on the surface but may lack sincerity or substance.",
+    "meaning": "This idiom describes something that appears dignified, impressive, or morally lofty on the surface, but is often used to imply that it is actually hypocritical, pretentious, or lacking in genuine substance. It criticizes actions or words that are overly formal, self-important, or used to cover up true intentions with a facade of righteousness.",
+    "usage": "It is used in a slightly negative or critical tone to describe situations where someone's words, actions, or justifications sound grand and proper but are actually insincere, exaggerated, or meant to deceive. For example, you might say a politician's '冠冕堂皇' speech was full of empty promises, or that a company's '冠冕堂皇' mission statement hides its unethical practices.",
+    "imgPositivePrompt": "一位身着华丽古代中国官服和冠冕的人物，站在宏伟宫殿的大殿中央，表情庄重但略显虚伪，背景是金色雕梁画栋，光线从高处洒下形成神圣感，整体画面采用中国传统水彩画与古典油画结合的风格，色彩温暖和谐，以金色、红色和深蓝色为主，构图平衡留白，细节精致，艺术地表现表面庄严与内在空洞的对比。",
+    "imgNegativePrompt": "丑陋的面容，恐怖，扭曲，现代服装，西方建筑，黑暗阴森，血腥暴力，文字浮于画面，构图拥挤，色彩杂乱刺眼，低质量，模糊，3D渲染，照片写实，卡通简化过度。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 191,
+    "original": "郁郁葱葱",
+    "translation": "Lush and luxuriant",
+    "imageUrl": "/chengyu/郁郁葱葱.webp",
+    "source": "This idiom originates from the ancient Chinese text 'The Book of Songs' (诗经), specifically from the poem 'The Odes of Lu: Pan Water' (鲁颂·泮水), which describes the flourishing and dense growth of plants and trees, symbolizing vitality and prosperity.",
+    "meaning": "It describes vegetation that is thick, green, and thriving, often used metaphorically to represent vigorous growth, prosperity, or a scene full of life and vitality.",
+    "usage": "Used to depict scenes of dense, healthy greenery, such as forests, gardens, or landscapes. It carries a positive and admiring tone. For example: 'After the spring rains, the hills behind the village became lush and luxuriant.' or 'The company's new branch is growing in a lush and luxuriant manner, with many new projects.'",
+    "imgPositivePrompt": "中国传统水彩画风格，描绘一片茂密繁荣、生机勃勃的森林，树木高大，枝叶繁茂，绿意盎然，阳光透过树叶洒下斑驳光影，林间有清澈小溪流淌，整体构图简洁平衡，留有负空间，温暖宜人的绿色调和和谐色彩，展现自然生命力与文化审美，高质量细致艺术插图",
+    "imgNegativePrompt": "枯萎的树木，稀疏的植被，荒凉的场景，阴冷灰暗的色调，现代城市建筑，人物特写，文字标识，杂乱构图，过度细节，卡通夸张风格，赛博朋克元素，抽象扭曲",
+    "originalCountry": "China"
+  },
+  {
+    "id": 192,
+    "original": "琳琅满目",
+    "translation": "a dazzling array of beautiful things; an eye-feast of exquisite items",
+    "imageUrl": "/chengyu/琳琅满目.jpeg",
+    "source": "The idiom 'Lin Lang Man Mu' originates from the Southern Dynasties period of China, specifically from a line in the work of the literary scholar Liu Yiqing (刘义庆) in his book 'A New Account of the Tales of the World' (世说新语). It was used to describe a collection of precious jade and gems, symbolizing an abundance of fine and beautiful objects.",
+    "meaning": "This phrase vividly describes a scene filled with a vast and splendid assortment of beautiful, precious, or excellent items, creating a visually stunning and overwhelming impression of richness and quality.",
+    "usage": "It is used to praise a place, display, or collection that is full of many beautiful and valuable things, often in contexts like museums, art exhibitions, markets, or stores. The tone is admiring and positive. For example: 'The antique shop was a feast for the eyes, with Lin Lang Man Mu—porcelain, jewelry, and paintings from different dynasties.' Or, 'Walking through the night market, the stalls offered a Lin Lang Man Mu of street food, from steaming dumplings to colorful desserts.'",
+    "imgPositivePrompt": "琳琅满目的视觉盛宴，一个充满各种精美艺术品、瓷器、珠宝和古籍的古典中式多宝阁或藏宝室，物品丰富多样，色彩温暖和谐，细节精致，光线柔和突出质感，融合中国传统水彩画与现代极简主义设计风格，构图简洁平衡，留有负空间，整体氛围高雅、丰富、令人赞叹。",
+    "imgNegativePrompt": "丑陋，畸形，恐怖，血腥，恶心，单调，空旷，单一物品，现代科技产品，混乱构图，文字水印，低质量，模糊，噪点，崩坏的脸，手部畸形，多余肢体，文字突兀。",
+    "originalCountry": "China"
   }
 ]

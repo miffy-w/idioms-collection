@@ -8,6 +8,7 @@ import sharp from "sharp";
 import { genImg } from './utils/genImg';
 import { CONFIG, IdiomInput, GeneratedIdiomData } from "./config";
 import { IDIOM_TYPE } from "@/types";
+import { sleep } from "@/lib/utils";
 
 /**
  * 生成单个图片
@@ -30,10 +31,20 @@ export async function generateIdiomImage(
     });
 
     // 下载图片
+    await sleep(2000);
+
     const imageData = await axios.get(image.url, {
       responseType: "arraybuffer",
       timeout: 30000,
-    }).then(r => r.data);
+    }).then(r => {
+      console.log(`✅ 图片下载成功: ${image.url}`);
+      return r.data;
+    });
+
+    /** 如果图片小于800kb，则直接保存文件，不再压缩 */
+    if (imageData.length < 800 * 1024) {
+      return await sharp(imageData).toFile(filename);
+    }
 
     // 图片压缩
     const r = await sharp(imageData).webp({

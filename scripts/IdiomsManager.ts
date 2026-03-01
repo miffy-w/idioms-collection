@@ -30,11 +30,24 @@ export class IdiomsManager {
     return path.resolve(this.idiomPath, filename);
   }
 
+  async createIdiom(idiom: string, imgUrl: string) {
+    // 根据任务列表调用大模型，生成数据
+    const idioms = this.getIdiomInput(idiom);
+    const generatedData = await generateBatchIdiomData(idioms);
+
+    if (generatedData[0]) {
+      generatedData[0].imageUrl = imgUrl;
+    }
+
+    this.saveData(generatedData);
+  }
+
   async run(originalIdioms: string[] | string, removeFormer = false) {
     const idioms = this.getIdiomInput(originalIdioms);
 
     // 删除之前的
     if (removeFormer) {
+      console.log('正在删除之前的数据...');
       idioms.forEach(i => {
         if (i.type === IDIOM_TYPE.xiehouyu) {
           this.removeIdiomByName(`${i.original}——${i.originalMeaning}`);
@@ -166,7 +179,7 @@ export class IdiomsManager {
 
     const deletedDetailData = detailData.filter((item) => idSet.has(item.id));
 
-    if (!deletedDetailData.length) return;
+    if (!deletedDetailData.length) return console.log("没有找到需要删除的数据");
     // 删除数据
     const filteredDetailData = detailData.filter((item) => !idSet.has(item.id));
     const filteredSimpleData = simpleData.filter((item) => !idSet.has(item.id));
@@ -176,6 +189,7 @@ export class IdiomsManager {
 
     // 删除图片
     this.removeIdiomImage(deletedDetailData);
+    console.log(`✅ 删除完成，共删除 ${deletedDetailData.length} 条数据`);
   }
 
   /** 根据名称删除 */
@@ -251,7 +265,8 @@ const xiehouyuManager = new IdiomsManager(IDIOM_TYPE.xiehouyu);
 // xiehouyuManager.run("大海捞针——没处寻");
 
 const chengyuManager = new IdiomsManager(IDIOM_TYPE.chengyu);
-// chengyuManager.removeIdioms([180]);
-chengyuManager.run(["咄咄逼人"], true);
+// chengyuManager.removeIdioms([190]);
+chengyuManager.run(["光明正大"], true);
+// chengyuManager.createIdiom('琳琅满目', '/chengyu/琳琅满目.jpeg');
 
 const proverbManager = new IdiomsManager(IDIOM_TYPE.proverb);

@@ -1,6 +1,7 @@
 import axios from "axios";
 
 export type Modal =
+  | "doubao-seedream-5-0-260128"
   | "doubao-seedream-4-5-251128"
   | "doubao-seedream-4-0-250828"
   | "doubao-seedream-3-0-t2i-250415";
@@ -38,18 +39,24 @@ export function doubaoGenImg({
   apiKey,
   model = "doubao-seedream-3-0-t2i-250415",
 }: Options): Promise<ResponseData> {
+  const payload: Record<string, string | number | boolean> = {
+    model,
+    prompt,
+    size: "2K",
+    watermark: false,
+    response_format: "url",
+  };
+
+  if (model === 'doubao-seedream-3-0-t2i-250415') {
+    payload.size = '1024x1024';
+    payload.guidance_scale = 2.5;
+    payload.seed = Math.floor(Math.random() * 100000);
+  }
+
   return axios
     .post<OriginalResponseData>(
       "https://ark.cn-beijing.volces.com/api/v3/images/generations",
-      {
-        model,
-        prompt,
-        seed: Math.floor(Math.random() * 100000),
-        guidance_scale: 2.5,
-        response_format: "url",
-        size: "1024x1024",
-        watermark: false,
-      },
+      payload,
       {
         headers: {
           "Content-Type": "application/json",
@@ -59,6 +66,7 @@ export function doubaoGenImg({
     )
     .then((res) => {
       const imageData = res.data.data.find((i) => i.url);
+      console.log("🚀 ~ doubaoGenImg ~ imageData:", imageData);
 
       if (imageData) {
         const [width, height] = imageData.size.split("x").map(Number);

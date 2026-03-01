@@ -42,9 +42,10 @@ function IdiomCard({
         <div className="relative overflow-hidden rounded-2xl border bg-card text-card-foreground shadow-lg">
           <div className="relative aspect-4/3 w-full overflow-hidden bg-linear-to-br from-rose-50 via-purple-50 to-blue-50 dark:from-slate-900 dark:via-purple-950 dark:to-slate-900">
             <Image
+              fill
+              rel="preload"
               src={data.imageUrl}
               alt={data.translation}
-              fill
               className="object-contain"
               priority={true}
               onLoad={() => setImageLoaded(true)}

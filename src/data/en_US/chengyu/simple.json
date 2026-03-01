@@ -817,7 +817,7 @@
   {
     "id": 164,
     "o": "千里之堤，溃于蚁穴",
-    "t": "A thousand-mile dike can collapse because of an ant hole."
+    "t": "A thousand - mile dike can collapse because of an ant hole."
   },
   {
     "id": 165,
@@ -923,5 +923,40 @@
     "id": 185,
     "o": "咄咄逼人",
     "t": "Overbearing and aggressive"
+  },
+  {
+    "id": 186,
+    "o": "精卫填海",
+    "t": "Jingwei Filling the Sea"
+  },
+  {
+    "id": 187,
+    "o": "夸父逐日",
+    "t": "Kua Fu Chases the Sun"
+  },
+  {
+    "id": 188,
+    "o": "愁眉苦脸",
+    "t": "Worried brows and a bitter face"
+  },
+  {
+    "id": 189,
+    "o": "图穷匕见",
+    "t": "When the map is unrolled, the dagger is revealed."
+  },
+  {
+    "id": 190,
+    "o": "冠冕堂皇",
+    "t": "high-sounding, highfalutin, or ostentatiously dignified"
+  },
+  {
+    "id": 191,
+    "o": "郁郁葱葱",
+    "t": "Lush and luxuriant"
+  },
+  {
+    "id": 192,
+    "o": "琳琅满目",
+    "t": "a dazzling array of beautiful things; an eye-feast of exquisite items"
   }
 ]
