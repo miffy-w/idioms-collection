@@ -265,8 +265,8 @@ const xiehouyuManager = new IdiomsManager(IDIOM_TYPE.xiehouyu);
 // xiehouyuManager.run("大海捞针——没处寻");
 
 const chengyuManager = new IdiomsManager(IDIOM_TYPE.chengyu);
-// chengyuManager.removeIdioms([190]);
-chengyuManager.run(["光明正大"], true);
+// chengyuManager.removeIdioms([197]);
+chengyuManager.run(["暗藏玄机"], true);
 // chengyuManager.createIdiom('琳琅满目', '/chengyu/琳琅满目.jpeg');
 
 const proverbManager = new IdiomsManager(IDIOM_TYPE.proverb);

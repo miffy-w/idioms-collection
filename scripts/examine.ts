@@ -39,7 +39,10 @@ class Examination {
             }
 
             for (let i = 0; i < step; i++) {
-                console.log(`已检查完：${json[startIdx + i].original}`);
+                const item = json[startIdx + i];
+                if (item) {
+                    console.log(`已检查完：${item.original}`);
+                }
             }
             startIdx += step;
             await sleep(1500);
@@ -68,4 +71,4 @@ const examination = new Examination(chengyuDataPath);
 
 /** 根据参数拿到 */
 
-examination.examine(161);
+examination.examine(205, 206);
