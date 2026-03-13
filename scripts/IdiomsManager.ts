@@ -266,7 +266,7 @@ const xiehouyuManager = new IdiomsManager(IDIOM_TYPE.xiehouyu);
 
 const chengyuManager = new IdiomsManager(IDIOM_TYPE.chengyu);
 // chengyuManager.removeIdioms([197]);
-chengyuManager.run(["暗藏玄机"], true);
-// chengyuManager.createIdiom('琳琅满目', '/chengyu/琳琅满目.jpeg');
+chengyuManager.run(["如雷贯耳"], true);
+// chengyuManager.createIdiom('痛哭流涕', '/chengyu/痛哭流涕.jpeg');
 
 const proverbManager = new IdiomsManager(IDIOM_TYPE.proverb);

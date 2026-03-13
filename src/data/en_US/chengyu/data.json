@@ -2494,5 +2494,89 @@
     "imgPositivePrompt": "中国传统水彩画风格，描绘一个古朴雅致的木匣子放在桌上，表面雕刻着简单的花纹，但匣子微微打开一道缝隙，从中透出神秘的金色光芒和隐约可见的复杂齿轮结构，象征内在的玄妙机关。背景是温暖色调的书房，有毛笔和卷轴，营造宁静氛围但突出匣子的核心。画面构图简洁平衡，大量留白，色彩和谐温暖，细节精致，艺术感强，体现中国文化审美。",
     "imgNegativePrompt": "丑陋，变形，恐怖，血腥，现代科技产品，明显文字标识，杂乱背景，色彩冲突，低质量，模糊，卡通脸，西方奇幻元素，过于直白展示危险，黑暗压抑色调。",
     "originalCountry": "China"
+  },
+  {
+    "id": 209,
+    "original": "痛哭流涕",
+    "translation": "to cry one's heart out; to weep bitterly",
+    "imageUrl": "/chengyu/痛哭流涕.jpeg",
+    "source": "This idiom originates from the historical text 'Book of Han: Biography of Jia Yi' (《汉书·贾谊传》). In the text, Jia Yi, a statesman and writer in the Western Han Dynasty, expressed his deep concern and grief about the social situation in a memorial to the emperor with a very emotional and earnest manner.",
+    "meaning": "It describes a state of extreme sorrow or remorse, where someone cries loudly with tears streaming down. It emphasizes the intensity and authenticity of one's emotional outburst, usually caused by great sadness, regret, or sincere repentance.",
+    "usage": "Used to depict someone crying uncontrollably due to overwhelming grief, profound regret, or sincere apology. It conveys strong emotions and is commonly used in formal or literary contexts. For example: 1. She wept bitterly at her grandfather's funeral. 2. The criminal cried his heart out in court, showing his remorse for the crime.",
+    "imgPositivePrompt": "一位身着汉服的中国古代文人，在书案前掩面痛哭，泪水与鼻涕清晰可见，表情极度悲伤与悔恨，背景是简雅的古代书房，竹简散落。采用中国传统水彩画风格，笔触细腻，色彩以暖灰、淡赭石和墨色为主，营造出哀伤、内省的氛围。构图简洁，留有大量负空间，画面焦点集中在人物的情感表达上，整体具有中国古典美学意境，高质量、细致、艺术。",
+    "imgNegativePrompt": "低质量，丑陋，畸变，多余肢体，多余手指，文字，水印，logo，现代服装，现代家具，欢乐场景，色彩鲜艳刺眼，画面拥挤，细节模糊，恐怖，暴力，卡通风格，3D渲染，照片写实。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 210,
+    "original": "疑神疑鬼",
+    "translation": "suspicious of every sound and shadow; overly suspicious; paranoid",
+    "imageUrl": "/chengyu/疑神疑鬼.webp",
+    "source": "This idiom first appeared in the poem 'Jiao Zhi Ge' by Yuan Mei in the Qing Dynasty. It reflects the psychological state of being overly suspicious and always on guard.",
+    "meaning": "This idiom describes a state of being extremely suspicious and having unfounded fears. People with this state often imagine non - existent threats or dangers, showing irrational fear and distrust that hinder their normal judgment.",
+    "usage": "It is used to criticize someone for being unreasonably suspicious or paranoid, often in a slightly sarcastic or impatient tone. For example, you can use it to describe a friend who always double - checks the door lock or a colleague who thinks every office chat is about them.",
+    "imgPositivePrompt": "中国传统水彩画风格，描绘一个古代书生在昏暗书房内，对墙上摇曳的树影和烛光投下的影子露出惊恐、怀疑的表情，画面营造出紧张、猜疑的氛围，温暖而略带不安的色调，简洁构图，大量留白，艺术感强，细节精致。",
+    "imgNegativePrompt": "文字，丑陋，变形，模糊，混乱，恐怖，血腥，现代元素，清晰人脸，过多细节，拥挤构图，冷色调，黑暗。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 211,
+    "original": "波澜壮阔",
+    "translation": "vast and magnificent; grand and spectacular",
+    "imageUrl": "/chengyu/波澜壮阔.webp",
+    "source": "This idiom comes from the poem \"Song of the South Wind\" (《南风歌》) written by Bao Zhao in the Southern Dynasties. In the poem, he used this phrase to describe the grand and imposing momentum of the Yangtze River. Later, it became widely used in classical poetry and prose to depict grand natural landscapes or momentous historical events.",
+    "meaning": "It describes something that is grand in scale, magnificent in momentum, and awe - inspiring in its vastness. It can refer to majestic natural scenery like oceans or mountains, or to great and profound historical events, social movements, or artistic works.",
+    "usage": "It is used in a formal and admiring tone to praise something of great scale, power, or significance. It is often applied to landscapes, history, careers, or artistic creations. For example: 1) 'The documentary captured the vast and magnificent history of the nation's development.' 2) 'Standing at the cliff, we were amazed by the vast and magnificent view of the canyon below.'",
+    "imgPositivePrompt": "史诗级场景，壮丽辽阔的海洋，巨大的波浪拍打岩石，气势磅礴，天空中有飞翔的海鸟，远处有帆船，整体构图宏大，采用中国传统水彩画与电影写实风格结合，温暖和谐的色调，以蓝色、金色和白色为主，画面充满动感与力量，留白得当，具有东方美学意境，高质量，细致，专业插画",
+    "imgNegativePrompt": "模糊，低质量，丑陋，扭曲，畸形，文字标志，水印，签名，边框，相框，人物特写，肖像，拥挤，杂乱，黑暗阴沉，恐怖，血腥，暴力，现代城市建筑，科幻元素，卡通角色，简单线条画",
+    "originalCountry": "China"
+  },
+  {
+    "id": 212,
+    "original": "九霄云外",
+    "translation": "Beyond the highest heavens; far, far away",
+    "imageUrl": "/chengyu/九霄云外.webp",
+    "source": "This idiom has its roots in ancient Chinese mythology and cosmology. In traditional Chinese beliefs, 'nine heavens' (九霄) represents the highest and most distant part of the sky. It has been frequently used in classical literature. For instance, in the works of the Tang - dynasty poet Li Bai, it was used to describe something being extremely remote or lofty.",
+    "meaning": "It describes something that is extremely far away, completely out of reach, or utterly forgotten. It emphasizes a state of being so distant or removed that it's beyond consideration or recollection.",
+    "usage": "It is used to emphasize that something is completely gone, forgotten, or irrelevant. It often carries a tone of dismissal or exaggeration. For example: 'After hearing the good news, all my worries were thrown beyond the highest heavens.' Or, 'He was so focused on his new project that he put his old promises beyond the highest heavens.'",
+    "imgPositivePrompt": "一位古代诗人仰望天空，目光投向极高极远的九重云霄之外，表情超然，云海翻腾，天空深邃无限，远处有若隐若现的仙山楼阁，采用中国传统水彩画风格，笔触飘逸，色彩以淡蓝、淡紫、暖白为主，温暖宜人，构图简洁平衡，大量留白，营造空灵悠远的意境，高质量、细致、艺术。",
+    "imgNegativePrompt": "丑陋，畸形，现代城市建筑，拥挤的人群，文字标识，边框，低质量，模糊，噪点，黑暗阴沉，具体人物肖像，写实面部，复杂混乱的背景。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 213,
+    "original": "孜孜不倦",
+    "translation": "Diligent and untiring",
+    "imageUrl": "/chengyu/孜孜不倦.webp",
+    "source": "This idiom comes from 'Analects of Confucius' (《论语》). In the book, Confucius said, 'I am never tired of learning and never weary of teaching others', which shows a kind of unremitting and diligent attitude.",
+    "meaning": "It describes a state of being extremely diligent, hardworking, and persistent, never growing weary or slackening one's efforts in the pursuit of a goal, study, or work.",
+    "usage": "This idiom is used in a formal and highly commendatory tone to praise someone's enduring diligence and perseverance. It applies to contexts like academic research, skill mastery, or long - term projects. For example: 1) 'She studied the ancient manuscripts with untiring diligence for decades.' 2) 'The scientist's diligent and untiring research finally led to a breakthrough.'",
+    "imgPositivePrompt": "一位学者在古代书桌前孜孜不倦地研读竹简和书籍，身旁堆满书卷，烛光映照出专注的神情，窗外明月高悬，象征日夜不息。风格采用中国传统水彩画与现代极简主义设计结合，画面简洁平衡，大量留白，色调温暖和谐，以赭石、藤黄与淡墨为主，营造宁静专注的学术氛围，艺术感强，细节精致。",
+    "imgNegativePrompt": "模糊，混乱，扭曲的脸，多余的人物，现代电子设备，杂乱背景，阴暗压抑的色调，暴力元素，文字浮于画面之上，卡通夸张表情，低质量，粗糙线条。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 214,
+    "original": "海市蜃楼",
+    "translation": "mirage",
+    "imageUrl": "/chengyu/海市蜃楼.webp",
+    "source": "The idiom '海市蜃楼' has its origin in ancient Chinese literature. In 'Liezi - Tang Wen' (《列子·汤问》), there are descriptions related to such illusory phenomena. It was gradually used to represent something illusory and unattainable.",
+    "meaning": "It describes something that appears real, promising, or magnificent but is actually an illusion, unattainable, and destined to vanish. It refers to false hopes, deceptive appearances, or unrealistic dreams that have no substance in reality.",
+    "usage": "This idiom is used in a slightly formal or literary tone to criticize unrealistic plans, warn against being deceived by appearances, or describe the fleeting nature of false hopes. For example: 1) 'His plan to get rich overnight was just a mirage.' 2) 'The politician's promises of a perfect society turned out to be a mirage, leaving the people disillusioned.'",
+    "imgPositivePrompt": "海市蜃楼，沙漠地平线上浮现出宏伟但虚幻的古代城市幻影，城市轮廓精致却透明缥缈，与下方真实的荒芜沙漠形成对比，一位古代旅人驻足凝望，表情混合着渴望与醒悟，风格为现代极简主义设计与中国传统水彩画结合，画面简洁平衡，大面积留白，温暖和谐的日落色调，淡金色、沙色与淡紫色，专业插画，细腻笔触，富有意境",
+    "imgNegativePrompt": "丑陋，畸形，恐怖，血腥，恶心，现代都市真实建筑，拥挤人群，文字标识突兀，黑暗阴沉色调，杂乱构图，照片写实，3D渲染，卡通夸张，具体人物肖像，边框，水印，签名",
+    "originalCountry": "China"
+  },
+  {
+    "id": 215,
+    "original": "如雷贯耳",
+    "translation": "like thunder piercing the ear",
+    "imageUrl": "/chengyu/如雷贯耳.webp",
+    "source": "This idiom originates from the novel 'Water Margin' (水浒传). In the book, when Li Kui (李逵) first hears about the name of Song Jiang (宋江), he says that Song's name is 'like thunder piercing the ear', indicating that it is extremely well - known and widely spread.",
+    "meaning": "It describes a person's fame or reputation that is extremely great and well - known, just as loud thunder is impossible to ignore. It emphasizes that someone or something is widely recognized and has a strong impact.",
+    "usage": "This idiom is used in a formal or semi - formal context to praise someone's high reputation or the wide - spread fame of something. It conveys a strong sense of admiration. For example: 1) When introducing a well - respected scholar at a seminar, you can say, 'Your name in the academic field is like thunder piercing the ear.' 2) When talking about a famous brand: 'The brand's reputation in the fashion industry is like thunder piercing the ear.'",
+    "imgPositivePrompt": "（杰作，最佳质量），中国风水墨画风格，描绘一位古代智者（诸葛亮）在茅庐中，其智慧与声望化为金色的声波或光环，如雷霆般从茅庐向外扩散，穿透观者（刘备）的耳朵，背景是简约的山水与留白，温暖的金色与水墨黑色为主色调，画面平衡，富有意境，专业插画",
+    "imgNegativePrompt": "低质量，丑陋，变形，比例失调，文字标志，水印，混乱背景，恐怖，血腥，现代服装，写实照片，过于复杂，拥挤，黑暗压抑，卡通化，3D渲染，西方油画风格",
+    "originalCountry": "China"
   }
 ]

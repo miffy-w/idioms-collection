@@ -71,4 +71,4 @@ const examination = new Examination(chengyuDataPath);
 
 /** 根据参数拿到 */
 
-examination.examine(205, 206);
+examination.examine(208);

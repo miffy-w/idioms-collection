@@ -36,6 +36,7 @@ export async function generateIdiomImage(
     const imageData = await axios.get(image.url, {
       responseType: "arraybuffer",
       timeout: 30000,
+      // proxy: false,
     }).then(r => {
       console.log(`✅ 图片下载成功: ${image.url}`);
       return r.data;

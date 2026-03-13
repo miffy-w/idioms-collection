@@ -957,7 +957,7 @@
   {
     "id": 192,
     "o": "琳琅满目",
-    "t": "a dazzling array of beautiful things; an eye-feast of exquisite items"
+    "t": "a dazzling array of beautiful things; an eye - feast of exquisite items"
   },
   {
     "id": 193,
@@ -1038,5 +1038,40 @@
     "id": 208,
     "o": "暗藏玄机",
     "t": "Hidden Profoundness"
+  },
+  {
+    "id": 209,
+    "o": "痛哭流涕",
+    "t": "to cry one's heart out; to weep bitterly"
+  },
+  {
+    "id": 210,
+    "o": "疑神疑鬼",
+    "t": "suspicious of every sound and shadow; overly suspicious; paranoid"
+  },
+  {
+    "id": 211,
+    "o": "波澜壮阔",
+    "t": "vast and magnificent; grand and spectacular"
+  },
+  {
+    "id": 212,
+    "o": "九霄云外",
+    "t": "Beyond the highest heavens; far, far away"
+  },
+  {
+    "id": 213,
+    "o": "孜孜不倦",
+    "t": "Diligent and untiring"
+  },
+  {
+    "id": 214,
+    "o": "海市蜃楼",
+    "t": "mirage"
+  },
+  {
+    "id": 215,
+    "o": "如雷贯耳",
+    "t": "like thunder piercing the ear"
   }
 ]
