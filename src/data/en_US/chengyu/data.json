@@ -2578,5 +2578,41 @@
     "imgPositivePrompt": "（杰作，最佳质量），中国风水墨画风格，描绘一位古代智者（诸葛亮）在茅庐中，其智慧与声望化为金色的声波或光环，如雷霆般从茅庐向外扩散，穿透观者（刘备）的耳朵，背景是简约的山水与留白，温暖的金色与水墨黑色为主色调，画面平衡，富有意境，专业插画",
     "imgNegativePrompt": "低质量，丑陋，变形，比例失调，文字标志，水印，混乱背景，恐怖，血腥，现代服装，写实照片，过于复杂，拥挤，黑暗压抑，卡通化，3D渲染，西方油画风格",
     "originalCountry": "China"
+  },
+  {
+    "id": 216,
+    "original": "口蜜腹剑",
+    "translation": "Honey in the mouth, a dagger in the heart.",
+    "imageUrl": "/chengyu/口蜜腹剑.webp",
+    "source": "This idiom originates from the 'Old Book of Tang: The Biography of Li Linfu' (旧唐书·李林甫传). It describes Li Linfu, a powerful and treacherous chancellor during the reign of Emperor Xuanzong of the Tang Dynasty. He was known for his sweet, flattering words on the surface but harbored malicious intentions and plotted against others in secret.",
+    "meaning": "This idiom describes a person who is outwardly kind, friendly, and flattering, but inwardly harbors malice, deceit, and harmful intentions. It warns against people who are two-faced and hypocritical.",
+    "usage": "It is used to describe a deceitful and hypocritical person, often in contexts of betrayal, politics, business, or personal relationships. The tone is critical and cautionary. For example: 1) Be careful of that colleague who praises you constantly; he might be 'honey in the mouth, a dagger in the heart' and is after your promotion. 2) The politician's friendly promises were just a facade; his actions revealed a classic case of 'honey in the mouth, a dagger in the heart.'",
+    "imgPositivePrompt": "中国传统水彩画风格，描绘一位身着唐朝官服、面带虚伪微笑的古代官员，一手优雅地递出盛有蜂蜜的精致瓷碗，另一只手在宽大袖袍中隐藏着一把锋利的短剑。背景是朦胧的宫廷庭院，有古典屏风与竹林。画面构图简洁平衡，大量留白，色彩温暖和谐，以赭石、朱红与淡墨色为主，突出虚伪友善与隐藏危险的核心对比，艺术化呈现成语寓意。",
+    "imgNegativePrompt": "丑陋的面容，恐怖狰狞，现代装束，西式建筑，混乱构图，色彩刺眼冲突，文字标签，水印，低质量，模糊，变形，多余的人物，血腥暴力，过于直白的匕首刺入画面。",
+    "originalCountry": "China"
+  },
+  {
+    "id": 217,
+    "original": "山高人为峰",
+    "translation": "Man is the summit of the highest mountain.",
+    "imageUrl": "/chengyu/山高人为峰.webp",
+    "source": "This phrase is widely circulated in modern Chinese society and is often attributed to the Red Bull energy drink's advertising slogan in China. It draws inspiration from the spirit of mountaineering and the human desire to conquer challenges, reflecting a contemporary motivational attitude rather than having a specific ancient literary or historical origin.",
+    "meaning": "The core meaning of this phrase is that human ambition, willpower, and achievement represent the ultimate peak, surpassing even the greatest natural obstacles. It emphasizes that through determination and effort, people can overcome seemingly insurmountable challenges and reach the highest point of success.",
+    "usage": "This phrase is used in motivational and inspirational contexts to encourage perseverance, ambition, and striving for excellence. It carries a positive, uplifting, and empowering tone. For example, it can be used to encourage a team facing a difficult project: 'Remember, the mountain is high, but man is the summit. We can overcome this challenge.' It can also describe an individual's remarkable achievement: 'Her groundbreaking research proves that in her field, she truly is the summit of the highest mountain.'",
+    "imgPositivePrompt": "杰作，最佳质量，一个微小但坚定的人影站在雄伟险峻的山峰之巅，高举双臂做出胜利姿态，俯瞰下方翻滚的云海和连绵的群山，金色的日出光芒穿透云层照亮人物，营造出征服与成就的史诗感，风格融合现代极简主义设计与电影写实，构图简洁平衡，大量负空间突出人物与山峰的对比，温暖宜人的色调，和谐色彩，专业插画，细致，艺术感",
+    "imgNegativePrompt": "低质量，模糊，畸变，多余的手指，多余肢体，文字水印，丑陋，结构混乱，画面拥挤，黑暗压抑，冷色调，卡通夸张风格，多个焦点，人物过大或过小失去对比感，没有山峰或云海",
+    "originalCountry": "China"
+  },
+  {
+    "id": 218,
+    "original": "五湖四海",
+    "translation": "all corners of the land; from far and wide",
+    "imageUrl": "/chengyu/五湖四海.webp",
+    "source": "This idiom originates from ancient Chinese geographical concepts. 'Five Lakes' (五湖) traditionally refers to several major lakes in China, such as Taihu Lake and Dongting Lake, while 'Four Seas' (四海) symbolizes the vast seas surrounding the ancient Chinese territory. It was used in historical texts like 'Book of Rites: Royal Regulations' (礼记·王制) to describe the extensive reach of the sovereign's influence, and later evolved into a common saying to represent the vastness of the land and the gathering of people from everywhere.",
+    "meaning": "It describes people coming from or things spreading to every part of a vast country or region. It emphasizes inclusivity, vastness, and the idea of unity from diversity, referring to a wide geographical scope or a broad gathering of individuals.",
+    "usage": "It is used in a neutral to positive tone to describe a wide geographical origin, a broad gathering of people, or the extensive reach of something. It's common in speeches, writing, and daily conversation. For example: 1) 'The employees of this company come from all corners of the land (五湖四海).' 2) 'His friends are scattered to the four corners of the earth (五湖四海), but they keep in touch online.'",
+    "imgPositivePrompt": "专业插图，描绘来自世界各地、不同种族和背景的人们和谐地聚集在一个广阔、开放、阳光明媚的现代城市广场或公园里，背景中隐约可见代表不同地域的柔和景观轮廓（如远山、现代建筑、淡淡的水体）。人们面带微笑，友好交流，有的穿着略有不同风格的现代休闲装。整体采用温暖和谐的色调，如柔和的橙色、蓝色和绿色，风格为现代极简主义设计与温馨的平面插画结合，构图简洁平衡，大量留白，氛围包容、团结、充满希望，高质量，细致，艺术。",
+    "imgNegativePrompt": "文字或字母，单一特定地点标志（如埃菲尔铁塔），冲突或对抗场景，人群拥挤混乱，阴郁黑暗的色调，血腥暴力，具体公司或品牌标志，古代服饰或单一文化服饰占主导，写实肖像特写，画面杂乱，低质量，模糊，变形。",
+    "originalCountry": "China"
   }
 ]

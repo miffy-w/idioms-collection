@@ -265,8 +265,8 @@ const xiehouyuManager = new IdiomsManager(IDIOM_TYPE.xiehouyu);
 // xiehouyuManager.run("大海捞针——没处寻");
 
 const chengyuManager = new IdiomsManager(IDIOM_TYPE.chengyu);
-// chengyuManager.removeIdioms([197]);
-chengyuManager.run(["如雷贯耳"], true);
+// chengyuManager.removeIdioms([218]);
+chengyuManager.run(["五湖四海"], true);
 // chengyuManager.createIdiom('痛哭流涕', '/chengyu/痛哭流涕.jpeg');
 
 const proverbManager = new IdiomsManager(IDIOM_TYPE.proverb);
