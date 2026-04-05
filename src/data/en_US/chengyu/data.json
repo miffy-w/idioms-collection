@@ -2614,5 +2614,29 @@
     "imgPositivePrompt": "专业插图，描绘来自世界各地、不同种族和背景的人们和谐地聚集在一个广阔、开放、阳光明媚的现代城市广场或公园里，背景中隐约可见代表不同地域的柔和景观轮廓（如远山、现代建筑、淡淡的水体）。人们面带微笑，友好交流，有的穿着略有不同风格的现代休闲装。整体采用温暖和谐的色调，如柔和的橙色、蓝色和绿色，风格为现代极简主义设计与温馨的平面插画结合，构图简洁平衡，大量留白，氛围包容、团结、充满希望，高质量，细致，艺术。",
     "imgNegativePrompt": "文字或字母，单一特定地点标志（如埃菲尔铁塔），冲突或对抗场景，人群拥挤混乱，阴郁黑暗的色调，血腥暴力，具体公司或品牌标志，古代服饰或单一文化服饰占主导，写实肖像特写，画面杂乱，低质量，模糊，变形。",
     "originalCountry": "China"
+  },
+  {
+    "id": 219,
+    "original": "御驾亲征",
+    "translation": "The emperor personally leads an expedition",
+    "imageUrl": "/chengyu/御驾亲征.webp",
+    "source": "This idiom originates from historical accounts of Chinese emperors who personally commanded military campaigns to demonstrate the utmost importance of the matter and to boost the morale of their troops. It is most famously associated with emperors like Emperor Taizong of Tang (Tang Taizong) during the Tang Dynasty, who led campaigns to consolidate the empire, and later figures in Chinese history.",
+    "meaning": "It metaphorically describes a leader or person in the highest position taking personal charge of a critical task or project, emphasizing direct involvement, supreme responsibility, and the significance of the undertaking.",
+    "usage": "It is used in formal or semi-formal contexts to commend a leader's hands-on approach to a vital endeavor. It carries a tone of respect and gravity. For example: 1) The CEO's '御驾亲征' in negotiating the merger deal showed its strategic importance. 2) It's like the professor '御驾亲征' to oversee the final phase of the groundbreaking research experiment.",
+    "imgPositivePrompt": "一位威严的中国古代皇帝，身穿华丽龙袍和铠甲，骑在雄壮的战马上，亲自率领庞大的军队前进，背景是连绵的山脉和飘扬的旌旗，画面充满决心与权威感，温暖的金色与红色色调，采用中国传统水彩画与古典油画结合的细腻风格，构图简洁平衡，留有负空间，艺术感强，细节精致",
+    "imgNegativePrompt": "模糊，混乱，丑陋，扭曲，畸形，现代城市背景，西装，休闲服，文字标志，水印，签名，边框，卡通夸张脸，恐怖元素，科幻机甲，像素化，低质量，粗糙线条",
+    "originalCountry": "China"
+  },
+  {
+    "id": 220,
+    "original": "口是心非",
+    "translation": "The mouth says yes, but the heart says no",
+    "imageUrl": "/chengyu/口是心非.webp",
+    "source": "This idiom originates from the Wei and Jin period (220-420 AD) and is recorded in the 'Book of Jin: Biographies of Fu Xuan' (晋书·傅玄传). It describes a person whose words and thoughts are contradictory, a concept widely discussed in ancient Chinese philosophical and literary texts concerning human nature and social conduct.",
+    "meaning": "It describes hypocrisy or duplicity, meaning to say one thing but think or mean another. It refers to a person whose outward words do not match their inner true feelings or intentions.",
+    "usage": "Used to criticize someone for being insincere, dishonest, or two-faced. It carries a negative tone. For example: 1) 'He praised her cooking to her face but complained about it later—that's being two-faced.' 2) 'Politicians who make promises they never intend to keep are often accused of this kind of duplicity.'",
+    "imgPositivePrompt": "一位身着魏晋风格服饰的古代人物，面部表情温和微笑，但胸口处半透明地显现出一颗皱眉、不悦的心形光影，形成鲜明对比，背景是简约的竹简书房，采用中国传统水彩画与现代极简主义设计结合的风格，温暖和谐的淡雅色调，大量留白，构图平衡，画面整洁富有艺术感，高质量专业插图",
+    "imgNegativePrompt": "丑陋的面容，恐怖惊悚，现代服装，西式建筑，混乱构图，色彩刺眼冲突，文字标签，水印，签名，边框，低质量，模糊，变形",
+    "originalCountry": "China"
   }
 ]
